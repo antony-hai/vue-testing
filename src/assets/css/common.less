@@ -1,0 +1,64 @@
+// c 表示 color
+@cprimary: #1458d5;
+@cborder: #dedede;
+@cfont: #666;
+@cwhite: #fff;
+@cerror: #f00;
+
+@fontEN: -apple-system-font, "Helvetica Neue";
+@fontCN: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei";
+@fontSans: sans-serif;
+@fontDefault: @fontCN, @fontEN, @fontSans;
+
+.text(@lineHeight){
+  text-align: center;
+  line-height: @lineHeight;
+}
+
+:global {
+  body, div, p, h1, h2, h3, h4, h5, span, section, aside, header, 
+  main, footer, nav, details, summary, caption, table, address, cite, code, 
+  dl, dd, dt, form, fieldset, legend, input, textarea, blockquote, th, td, hr, button,
+  article, figure, figcaption, ul, ol, li,
+  {
+    margin: 0;
+    padding: 0;
+    font-family: @fontDefault;
+  }
+
+  a, div, span, label, button {
+    &, &:hover, &:active {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+  }
+  html, body, #app {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  html, body {
+    height: 100%;
+    background: #ffffff;
+    -webkit-user-select: none;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  ul, ol { list-style: none;}
+  li { list-style-type: none; }
+  button, input, select {
+    &, &:focus, &:visited, &:hover, &:active {
+      outline: none;
+    }
+  }
+
+  .hide {
+    display: none !important;
+  }
+  .show {
+    display: block !important;
+  }
+
+
+}
