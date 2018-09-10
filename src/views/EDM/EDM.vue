@@ -36,7 +36,7 @@
             <sup>®</sup>产品”），英特尔将实行以下积分奖励：</td>
         </StanceTable>
 
-        <DataTable :dataSource="dataSource2" :column="column1"></DataTable>
+        <DataTable :dataSource="dataSource2" :column="column1" :headStyle="tableHeadStyle"></DataTable>
 
         <StanceTable hasTop hasBottom>
           <td style="text-align: left;font-family: 微软雅黑;">在此次促销活动中，购买符合条件的英特尔产品的积分赚取日期为购买英特尔产品的发票开具日期。英特尔将在促销结束后60（六十）天内，根据规则，向符合条件且遵守各项规则的合作伙伴发放在本次促销活动中奖励的积分。</td>

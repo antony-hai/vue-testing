@@ -30,7 +30,7 @@ export default new Router({
           children: [{
               path: 'option1',
               component: () =>
-                import('@/views/Gan/Gan1.vue'),
+                import('@/views/EDM/EDM.vue'),
               name: 'option1-1'
             },
             {
@@ -55,7 +55,7 @@ export default new Router({
       path: '/menu2',
       name: 'menu2',
       component: () =>
-        import('@/views/EDM/EDM.vue')
+        import('@/views/EDM/Day1.vue')
     },
     {
       path: '/menu3',
