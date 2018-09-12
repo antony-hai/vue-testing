@@ -1,5 +1,5 @@
 <template>
-  <table :style="finallyStyle" cellspacing="0">
+  <table :style="finallyStyle" cellspacing="0" cellpadding="0" border="0" :width="width" :bgcolor="bgcolor">
     <tr v-if="hasTop" style="height: 10px;"></tr>
     <slot></slot>
     <tr v-if="hasBottom" style="height: 10px;"></tr>
@@ -9,28 +9,36 @@
 <script>
 const defaultStyles = {
   margin: '0 auto',
-  width: '634px',
+  'border-collapse': 'collapse',
   'text-align': 'left',
   lineheight: '20px',
-  'font-size0': '12px',
+  'font-size': '13px',
   'font-family': '微软雅黑',
-  
 }
 export default {
+  data() {
+    const finallyStyle = Object.assign(defaultStyles, this.ostyle)
+    return {
+      finallyStyle,
+    }
+  },
   props: {
     hasTop: Boolean,
     hasBottom: Boolean,
-    specialStyle: {
+    width: {
+      type: String,
+      default: "634",
+    },
+    bgcolor: {
+      type: String,
+      default: ''
+    },
+    ostyle: {
       type: Object,
       default: function () {
         return {}
       }
     }
   },
-  computed: {
-    finallyStyle () {
-      return Object.assign(defaultStyles, this.specialStyle)
-    }
-  }
 };
 </script>
