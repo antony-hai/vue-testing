@@ -139,14 +139,30 @@ const event = {
     fns.forEach((fn) => {
       fn(arguments)
     })
+  },
+  remove(key, fn) {
+    const fns = this.clientList[key]
+    if (!fns) { return } // 消息并没有被订阅过一次
+    if (!fn) {
+      fns && (fns.length = 0) // 没有具体取消哪一过，取消全部
+    } else {
+      for ( let l = fns.length - 1; l > 0; l --) { // 反向遍历
+        if (fn === fns[l]) {
+          fns.splice(l, 1)
+        }
+      }
+    }
   }
 }
 
 // 定义一个installEvent , 动态的给所有的对象安装发布-订阅工程
 const installEvent = (obj) => {
-  for (let i in event) {
-    obj[i] = event[i]
-  }
+  // for (let i in event) {
+  //   obj[i] = event[i]
+  // }
+  Object.keys(event).forEach(key => {
+    obj[key] = event[key] 
+  })
 }
 
 // ------------------------------------------一下
@@ -161,3 +177,5 @@ salesOffices.listen('squareMeter100', price => window.console.log(`价格：${pr
 
 salesOffices.trigger('squareMeter88', 2000000)
 salesOffices.trigger('squareMeter100', 3000000)
+
+// 应用实例   用户登录后   多个模块的功能更新、劲量解除耦合就用到这个东西

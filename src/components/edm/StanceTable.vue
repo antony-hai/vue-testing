@@ -14,6 +14,7 @@ const defaultStyles = {
   lineheight: '20px',
   'font-size': '13px',
   'font-family': '微软雅黑',
+  // color: '#e4e4e4'
 }
 export default {
   data() {

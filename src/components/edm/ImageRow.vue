@@ -9,7 +9,10 @@
 <script>
 export default {
   props: {
-    imgUrl: String,
+    imgUrl: {
+      type: String,
+      default: '@/assets/images/3.png'
+    },
     width: {
       type: String,
       default: '634'

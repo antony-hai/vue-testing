@@ -10,6 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
     Array.from(textBoxes).forEach((box, i) => {
       const spanArrays = Array.from(box.querySelectorAll('span'))
       singleData[`text${i + 1}`] = spanArrays.reduce((total, text) => `${total}${text.textContent.replace(/®/, '<sup>®</sup>')}`, '')
+      const superLink = box.querySelector('a')
+      if (superLink) {
+        singleData.link = superLink.href
+      }
     })
     return singleData
   })
