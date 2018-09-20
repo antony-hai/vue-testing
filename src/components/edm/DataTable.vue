@@ -1,14 +1,14 @@
 <template>
-  <table border="1" style="border-collapse:collapse; font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width: 634px;text-align: center;line-height: 20px;border-spacing: 2px;">
+  <table border="1" :width="width" style="border-collapse:collapse; font-size: 12px;;font-family: 微软雅黑;margin: 0 auto; text-align: center;line-height: 20px;border-spacing: 2px;">
     <tr :style="finallHeadStyle">
       <td v-for="(item, index) in column" :key="index" :width="item.width" :style="finallHeadStyle">{{ item.title }}</td>
     </tr>
     <tr v-for="(data, index) in dataSource" :key="index">
       <td v-for="(item, num) in column" :key="num" style="text-align: center;font-family: 微软雅黑; font-size: 12px; line-height: 20px;">
-        <p v-if="data.link && num === 0">
+        <p v-if="data.link && num === 0" style="margin: 0; padding: 0">
           <a :href="data.link" v-html="data[item.dataIndex]" style="color: #071C5; text-decoration: underline" target="_blank"></a> 
         </p>
-        <p v-else v-html="data[item.dataIndex]"></p>
+        <p v-else v-html="data[item.dataIndex]" style="margin: 0; padding: 0"></p>
       </td>
     </tr>
   </table>
@@ -38,6 +38,10 @@ export default {
       default: function() {
         return {};
       }
+    },
+    width: {
+      type: String,
+      default: '634',
     }
   },
   methods: {

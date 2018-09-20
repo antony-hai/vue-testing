@@ -1,5 +1,5 @@
 <template>
-  <table style="margin: 0 auto;width: 638px;font-size: 12px;;font-family: 微软雅黑;" cellpadding="0" cellspacing="0" border="0">
+  <table :width="width" style="margin: 0 auto; font-size: 12px;;font-family: 微软雅黑; border-collapse: collapse;" cellpadding="0" cellspacing="0" border="0">
     <td>
       <img :src="imgUrl" :width="width" style="vertical-align:middle; border: 0;" border="0" alt="">
     </td>

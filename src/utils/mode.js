@@ -137,7 +137,7 @@ const event = {
       return false
     }
     fns.forEach((fn) => {
-      fn(arguments)
+      fn(...arguments)
     })
   },
   remove(key, fn) {
@@ -179,3 +179,7 @@ salesOffices.trigger('squareMeter88', 2000000)
 salesOffices.trigger('squareMeter100', 3000000)
 
 // 应用实例   用户登录后   多个模块的功能更新、劲量解除耦合就用到这个东西
+
+
+
+

@@ -1,5 +1,5 @@
 <template>
-  <table style="margin: 0 auto;width: 638px;font-size: 12px;font-family: 微软雅黑;">
+  <table  :width="width" style="margin: 0 auto; font-size: 12px;font-family: 微软雅黑;">
     <tr>
       <td style="width:100px;text-align: left;">
       </td>
@@ -14,3 +14,15 @@
     </tr>
   </table>
 </template>
+
+<script>
+export default {
+  props: {
+    width: {
+      type: String,
+      default: '638'
+    }
+  }
+}
+</script>
+

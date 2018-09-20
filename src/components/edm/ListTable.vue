@@ -1,15 +1,34 @@
 <template>
-  <table style="margin: 0 auto;border-collapse:collapse;width: 634px;text-align: left;line-height: 20px;font-size: 13px;font-family: 微软雅黑;">
+  <table :width="width" style="margin: 0 auto;border-collapse:collapse; text-align: left;line-height: 20px;font-size: 14px;font-family: 微软雅黑;">
     <tr v-for="(item, index) in dataSource" :key="index">
-      <td style="width: 10px;"></td>
-      <td style="text-align: left; line-height: 20px; font-family: 微软雅黑; width: 20px; vertical-align: top"> {{listType || `${index + 1}.`}}</td>
-      <td style="text-align: left; line-height: 20px; font-family: 微软雅黑;">{{ item.text }}</td>
+      <td v-if="hasSpace" style="width: 20px;"></td>
+      <td :style="textStyle" width="20"> {{listType || `${index + 1}.`}}</td>
+      <td :style="textStyle">{{ item.text }}</td>
+    </tr>
+    <tr>
+      <td>
+        <slot></slot>
+      </td>
     </tr>
   </table>
 </template>
 
 <script>
+const defaultStyle = {
+  'text-align': 'left',
+  'line-height': '24px',
+  'font-family': '微软雅黑',
+  'font-size': '12px',
+  'vertical-align': 'top',
+}
+
 export default {
+  data() {
+    const textStyle = Object.assign(defaultStyle, this.tStyle)
+    return {
+      textStyle,
+    }
+  },
   props: {
     dataSource: {
       type: Array,
@@ -17,7 +36,21 @@ export default {
         return []
       },
     },
-    listType: String
+    tStyle: {
+      type: Object,
+      default() {
+        return {}
+      }
+    },
+    listType: String,
+    hasSpace: {
+      type: Boolean,
+      default: false
+    },
+    width: {
+      type: String,
+      default: '634'
+    }
   }
 };
 </script>
