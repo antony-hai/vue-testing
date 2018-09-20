@@ -54,7 +54,7 @@
                   <Sup></Sup>酷睿™处理器的指定机型笔记本。
                 </IconText>
                 <IconText title="活动要求">
-                   参与本次促销销售奖励的渠道需具有参与本季度常规积分奖励计划的资格，且在2018年12月31日完成进货，并于2019年1月10日前提交渠道销售报告；
+                  参与本次促销销售奖励的渠道需具有参与本季度常规积分奖励计划的资格，且在2018年12月31日完成进货，并于2019年1月10日前提交渠道销售报告；
                 </IconText>
                 <IconText title="活动原则">
                   英特尔将以OEM厂商报告为准进行积分核算;
@@ -180,7 +180,6 @@ const dataSource3 = [
   }
 ];
 
-
 const column = [
   {
     title: "本促销活动合格英特尔产品",
@@ -193,14 +192,14 @@ const column = [
   {
     title: "积分上限 （分）",
     dataIndex: "text3",
-    withRowSpan: true
+    rowspan: 12,
   }
 ];
 const tableData = [
   {
     text1: "Intel<sup>®</sup>CoreTMi3-7100H Processor-Laptop",
     text2: "20",
-    text3: "至尊：10,000菁英：  2,000"
+    text3: "至尊：10,000<br>菁英: 2,000"
   },
   { text1: 'Intel<sup>®</sup>Core""i5-7300HQ Processor-Laptop', text2: "20" },
   { text1: 'Intel<sup>®</sup>Core""i5-7440HQ Processor-Laptop', text2: "20" },
