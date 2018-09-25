@@ -6,15 +6,14 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 尊敬的英特尔
-              <Sup></Sup>服务器技术合作伙伴</td>
+            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 尊敬的英特尔<Sup></Sup>服务器技术合作伙伴</td>
           </tr>
           <tr height='10'></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 在新的季度里，为了继续帮助大家实现英特尔
-              <Sup></Sup>服务器产品的业务持续快速增长，英特尔推出了“2018年第四季度英特尔
-              <Sup></Sup>服务器常规积分奖励计划”。通过该计划，您在参加英特尔
-              <Sup></Sup>服务器相关业务培训的基础上，通过销售指定型号的服务器可获取丰厚的积分奖励，赶快行动吧！ </td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              在新的季度里，为了继续帮助大家实现英特尔<Sup></Sup>服务器产品的业务持续快速增长，
+              英特尔推出了“2018年第四季度英特尔<Sup></Sup>服务器常规积分奖励计划”。通过该计划，您在参加英特尔<Sup></Sup>服务器相关业务培训的基础上，
+              通过销售指定型号的服务器可获取丰厚的积分奖励，赶快行动吧！ </td>
           </tr>
         </StanceTable>
 
@@ -87,29 +86,87 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600;">六、温馨提示</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600;">六、温馨提示</td>
           </tr>
         </StanceTable>
 
+        <StanceTable>
+          <tr>
+            <td width="20" style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">1.</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">
+              如下状况您的英特尔<Sup></Sup>技术合作伙伴(简称ITP)账户将会自动失效：
+            </td>
+          </tr>
+          <tr>
+            <td width="20"></td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">
+              <StanceTable width="598">
+                <tr>
+                  <td width="20" style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px; vertical-align: top">a.</td>
+                  <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
+                    新会员自获得GID号之日起，超过45天从未登录英特尔<Sup></Sup>技术合作伙伴网站 
+                    <a href="https://www.intel.com/technologyprovider" target="_blank" rel="noopener noreferrer">(https://www.intel.com/technologyprovider)</a> 或者英特尔<Sup></Sup>渠道积分网站 
+                    <a href="https://prc-points.inteltechnologyprovider.com" target="_blank" rel="noopener noreferrer">(https://prc-points.inteltechnologyprovider.com/)</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="20" style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px; vertical-align: top">b.</td>
+                  <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
+                    非新会员超过18个月从未登录英特尔<Sup></Sup>技术合作伙伴网站 
+                    <a href="https://www.intel.com/technologyprovider" target="_blank" rel="noopener noreferrer">(https://www.intel.com/technologyprovider)</a> 或者英特尔<Sup></Sup>渠道积分网站 
+                    <a href="https://prc-points.inteltechnologyprovider.com" target="_blank" rel="noopener noreferrer">(https://prc-points.inteltechnologyprovider.com/)</a>
+                  </td>
+
+                </tr>
+
+              </StanceTable>
+            </td>
+          </tr>
+        </StanceTable>
+
+        <StanceTable>
+          <tr>
+            <td width="20" style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; vertical-align: top">2.</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">
+              当您的ITP账户失效时，您将不能享受英特尔为您量身定制的ITP会员权益，同时您将失去访问英特尔<Sup></Sup>渠道积分网站的资格，影响您在该网站账户中的积分。如您希望再次成为ITP会员，请联系英特尔客户支持寻求帮助：
+            </td>
+          </tr>
+          <tr>
+            <td width="20" style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;"></td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">
+              服务电话：400-920-2200 （座机和手机皆可拨打）；800-820-1100 （支持座机拨打）
+            </td>
+          </tr>
+          <tr>
+            <td width="20" style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;"></td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">
+              联系邮箱：<a href="mailto:programs@intel.com">programs@intel.com</a>  
+            </td>
+          </tr>
+          <tr>
+            <td width="20" style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;"></td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000;">
+              服务时间：周一至周五，上午9:00 – 下午17:00（节假日除外）
+            </td>
+          </tr>
+
+        </StanceTable>
 
         <ListTable :dataSource="dataSource5"></ListTable>
 
 
-        <StanceTable hasBottom>
+        <StanceTable hasTop hasBottom>
+          <tr>
+            <td style="font-size:15px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 温馨提示：请确保您的账户信息安全。</td>
+          </tr>
+          <tr height='10'></tr>
+          <tr>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              依照英特尔的网站使用条款 <a href="https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html" target="_blank">（https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html）</a>，凡以您的账户在英特尔网站上进行的操作，均视为您的操作并由您负责；如果您的账户、密码等信息有误或发生泄露，导致您的权益受损，请理解英特尔将不承担任何责任。 </td>
+          </tr>
           <tr height="20"></tr>
-          <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎您加入“2018年第四季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
-          </tr>
-          <tr height="10"></tr>
-          <tr>
-            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">英特尔中国区域销售运营与战略项目部</td>
-          </tr>
-
-          <tr>
-            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2018年9月</td>
-          </tr>
         </StanceTable>
-        <Footer></Footer>
+
       </td>
     </tr>
   </table>
@@ -153,18 +210,31 @@ const tableData = [
 ]
 
 const dataSource5 = [
-  { text: "1．如下状况您的英特尔®技术合作伙伴(简称ITP)账户将会自动失效：" },
+  { text: "3．本季度积分将在<b>本季度</b>核算，并上传至您的<a href='https://prc-points.inteltechnologyprovider.com' target='_blank'>英特尔<sup>®</sup>渠道积分</a>账户，积分有效期为一年；" },
   {
     text:
-      "1．如下状况您的英特尔®技术合作伙伴(简称ITP)账户将会自动失效："
+      "4．您可以登录<a href='https://prc-points.inteltechnologyprovider.com'\
+       target='_blank'>英特尔<sup>®</sup>渠道积分</a>查询积分并进行礼品兑换，可兑换的礼品有多种面值的亚马逊电子礼品卡\
+       Intel产品等多种礼品；为了确保礼品能准确及时的发送给您，请尽快登录<a href='http://www.intel.com/technologyprovider'\
+       target='_blank'>英特尔<sup>®</sup>技术合作伙伴网站</a> 或 <a href='https://prc-points.inteltechnologyprovider.com' target='_blank'>英特尔<sup>®</sup>渠道积分网站</a>核实并更新您的联系信息；"
   },
   {
-    text: "对于经确切证据证明的条码涂改、拆盒等行为，视为违反促销规则销售行为。"
+    text: "5．在您成功兑换礼品后，我们将尽快安排礼品发送（如兑换亚马逊电子礼品卡，则由亚马逊通过电子邮件的方式发送充值密码）；如您在1个月内未收到礼品，请立即联系英特尔客户支持。由于订单量较大，我们无法保证能够查询到超过2个月的订单递送情况，若有任何不便之处请谅解；"
   },
-  { text: "中国盒实际决算数量，以英特尔扫描客户端体现的有效数字为主要依据；" },
+  { text: "凡参加本活动规则所描述活动，或兑换本活动规则所列积分，即表明您同意受本活动规则中各项条款的调整和约束，并遵守英特尔<sup>®</sup>技术合作伙伴（“ITP”）项目的条款和条件，包括附录A与积分补充条款和条件（“ITP项目条款”）。该ITP项目条款为本活动规则的一部分，其详情可在此网址查询：\
+        <a href='https://www.intel.cn/content/www/cn/zh/technology-provider/legal/program-terms-and-conditions.html?_ga=2.161268861.1386006631.1522205920-1782132059.1444618124&elq_cid=1498511&erpm_id=2886134；' target='_blank'>https://www.intel.cn/content/www/cn/zh/technology-provider/legal/program-terms-and-conditions.html?_ga=2.161268861.1386006631.1522205920-1782132059.1444618124&elq_cid=1498511&erpm_id=2886134； </a>"
+  },
   {
     text:
-      "对于违反促销规则的渠道取消被发现季度相应的促销奖励，降级为注册级，并重新考核是否具备中小企业渠道资格。"
+      "7．英特尔可以根据本活动规则以及ITP项目条款的内容，对您的级别状态进行定期评估，并按照本活动规则以及ITP项目条款进行相应的升级、降级操作。若本活动规则中的任何内容，与ITP项目条款存在冲突，应以本活动规则为准。任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本活动规则中涉及上述协议内容的条款。除非英特尔授权代表以书面形式与您另有约定，英特尔的标准销售条款和条件将适用于任何英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议；"
+  },
+  {
+    text:
+      "8．在适用法律所允许的范围内，本活动规则的最终解释权归英特尔所有；"
+  },
+  {
+    text:
+      "9．英特尔保留进一步调整、修改本活动规则的权利。"
   }
 ];
 

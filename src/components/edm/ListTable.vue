@@ -1,5 +1,5 @@
 <template>
-  <table :width="width" style="margin: 0 auto;border-collapse:collapse; text-align: left;line-height: 20px;font-size: 14px;font-family: 微软雅黑;">
+  <table :width="width" style="margin: 0 auto;border-collapse:collapse; text-align: left;line-height: 20px;font-size: 12px;font-family: 微软雅黑;">
     <tr v-for="(item, index) in dataSource" :key="index">
       <td v-if="hasSpace" style="width: 20px;"></td>
       <td :style="textStyle" width="20">{{listType || `${index + 1}.`}}</td>
