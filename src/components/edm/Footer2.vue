@@ -1,5 +1,5 @@
 <template>
-  <table cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;width: 634px;font-size: 14px;font-family: 微软雅黑;table-layout: fixed;" 
+  <table cellspacing="0" cellpadding="0" border="0" style="margin: 0 auto;width: 634px;font-size: 14px;font-family: 微软雅黑;table-layout: fixed;">
     <tbody>
       <tr>
         <td width="312" style="text-align: left;font-family: 微软雅黑;background-color: #00427F;width:312px;">

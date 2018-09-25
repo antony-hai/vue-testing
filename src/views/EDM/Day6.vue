@@ -46,7 +46,7 @@
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
               <StanceTable width="599">
                 <IconText title="活动日期">
-                  活动日期: 本促销活动有效期为2018年10月1日至2018年12月31日（“促销活动期间”）。
+                  活动日期: 本促销活动有效期为2018年10月1日至2018年12月31日（“促销活动期间”）。
                 </IconText>
                 <IconText title="促销产品">
                   基于八代或七代Core™ i3，Core™ i5 以及Core™i7处理器的内含Optane Memory产品的台式机机型及笔记本机型 。

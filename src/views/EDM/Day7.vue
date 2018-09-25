@@ -340,16 +340,6 @@ const column = [
 ];
 const tableData = [
   {
-    text1: "型号",
-    text2: "积分/颗",
-    text3: "型号",
-    text4: "积分/颗",
-    text5: "型号",
-    text6: "积分/颗",
-    text7: "型号",
-    text8: "积分/颗"
-  },
-  {
     text1: "G3900",
     text2: "5",
     text3: "i5-7400",
