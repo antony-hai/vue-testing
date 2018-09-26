@@ -24,7 +24,7 @@ export const column1 = [
 
 export const dataSource3 = [
   {
-    text: '在本次促销活动中最多可赚取100,000积分'
+    text: '在本次促销活动中最多可赚取200,600积分'
   },
   {
     text: '可同时参与本次活动和其他积分活动；'
