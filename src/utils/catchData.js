@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const table = document.querySelectorAll('.MsoNormalTable')[0]
   const trs = table.querySelectorAll('tr')
   const trArray = Array.from(trs)
-  const textData = trArray.map(item => {
+  const textData = trArray.map((item) => {
     const textBoxes = item.querySelectorAll('.MsoNormal')
     const singleData = {}
     Array.from(textBoxes).forEach((box, i) => {

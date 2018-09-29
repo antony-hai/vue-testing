@@ -1,4 +1,4 @@
-import Cell from './Cell.vue'
+import TCell from './TCell.vue'
 import DataTable from './DataTable.vue'
 import DisorderTable from './DisorderTable.vue'
 import Footer1 from './Footer1.vue'
@@ -13,7 +13,7 @@ import Sup from './Sup.vue'
 
 
 export {
-  Cell,
+  TCell,
   DataTable,
   DisorderTable,
   Footer1,

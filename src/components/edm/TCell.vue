@@ -13,8 +13,7 @@ const dstyle = {
 };
 export default {
   data() {
-
-    const finallyStyle = Object.assign(dstyle, this.ostyle);
+    const finallyStyle = Object.assign({}, dstyle, this.ostyle);
     return {
       finallyStyle
     };

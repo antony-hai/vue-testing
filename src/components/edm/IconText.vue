@@ -3,7 +3,7 @@
     <td style="text-align: center; vertical-align: top; padding-right: 8px; line-height: 24px;">
       <img :width="imgWidth" style="vertical-align: middle" border="0" :src="imgUrl" alt="">
     </td>
-    <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
+    <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
       <b v-if="title">{{ title }}：</b>
       <slot></slot>
     </td>

@@ -122,16 +122,19 @@ export default [
         name: 'Item1',
         children: [
           { 
-            name: 'option1',
+            name: 'option1-1',
             title: '标题一',
+            url: '/menu3/item1/option1'
           },
           { 
-            name: 'option2',
+            name: 'option1-2',
             title: '标题二',
+            url: '/menu3/item1/option2'
           },
           { 
-            name: 'option2',
-            title: '标题一',
+            name: 'option1-3',
+            title: '标题三',
+            url: '/menu3/item1/option3'
           },
         ],
       },

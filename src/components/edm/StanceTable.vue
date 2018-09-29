@@ -11,7 +11,7 @@ const defaultStyles = {
   margin: '0 auto',
   'border-collapse': 'collapse',
   'text-align': 'left',
-  lineheight: '24px',
+  lineheight: '22px',
   'font-size': '13px',
   'font-family': '微软雅黑',
   // color: '#e4e4e4'

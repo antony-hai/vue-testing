@@ -1,5 +1,5 @@
 <template>
-  <table border="1" :width="width" style="border-collapse:collapse; font-size: 12px;;font-family: 微软雅黑;margin: 0 auto; text-align: center;line-height: 20px;border-spacing: 2px;">
+  <table border="1" :width="width" style="border-collapse:collapse; font-size: 12px;;font-family: 微软雅黑;margin: 0 auto; text-align: center;line-height: 20px;border-spacing: 2px; table-layout: fixed">
     <tr :style="finallHeadStyle">
       <td v-for="(item, index) in column" :key="index" :width="item.width" :style="finallHeadStyle" v-html="item.title"></td>
     </tr>
@@ -48,6 +48,11 @@ export default {
   methods: {
     hasRow(value) {
       return typeof value !== 'undefined'
+    },
+    getRowSpan(data, col) {
+      if (col.rowspan) {
+        return col.rowspan
+      }
     }
   }
 };

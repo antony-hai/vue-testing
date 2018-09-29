@@ -36,13 +36,13 @@ export default new Router({
             {
               path: 'option2',
               component: () =>
-                import('@/views/Gan/Gan2.vue'),
+                import('@/views/EDM/Day8.vue'),
               name: 'option1-2'
             },
             {
               path: 'option3',
               component: () =>
-                import('@/views/Gan/Gan3.vue'),
+                import('@/views/EDM/Day5.vue'),
               name: 'option1-3'
             },
           ],
@@ -55,31 +55,42 @@ export default new Router({
       path: '/menu2',
       name: 'menu2',
       component: () =>
-        import('@/views/EDM/Day9.vue')
+        import('@/views/EDM/Day11.vue')
     },
     {
       path: '/menu3',
       name: 'menu3',
+      redirect: '/menu3/item1',
+
       component: () =>
-        import('@/views/Gan'),
-      children: [{
-          path: '',
+        import( /* webpackChunkName: "about" */ './views/About'),
+        // import('@/views/Gan'),
+        children: [{
+          path: 'item1',
           component: () =>
-            import('@/views/Gan/Gan1.vue'),
-          name: 'menu3_item1'
+            import('@/components/RouterView.vue'),
+          redirect: '/menu3/item1/option1',
+          children: [{
+              path: 'option1',
+              component: () =>
+                import('@/views/EDM/Day2.vue'),
+              name: 'option1-1'
+            },
+            {
+              path: 'option2',
+              component: () =>
+                import('@/views/EDM/Day8.vue'),
+              name: 'option1-2'
+            },
+            {
+              path: 'option3',
+              component: () =>
+                import('@/views/EDM/Day5.vue'),
+              name: 'option1-3'
+            },
+          ],
         },
-        {
-          path: 'option1',
-          component: () =>
-            import('@/views/Gan/Gan1.vue'),
-          name: 'menu3_item1'
-        },
-        {
-          path: 'option2',
-          component: () =>
-            import('@/views/Gan/Gan2.vue'),
-          name: 'menu3_item1'
-        },
+
       ]
     },
   ]
