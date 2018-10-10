@@ -12,7 +12,7 @@ const defaultStyles = {
   'border-collapse': 'collapse',
   'text-align': 'left',
   lineheight: '22px',
-  'font-size': '13px',
+  'font-size': '12px',
   'font-family': '微软雅黑',
   // color: '#e4e4e4'
 }

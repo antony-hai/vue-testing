@@ -5,11 +5,7 @@
       <td :style="textStyle" width="20">{{listType || `${index + 1}.`}}</td>
       <td :style="textStyle" v-html="item.text"></td>
     </tr>
-    <tr>
-      <td>
-        <slot></slot>
-      </td>
-    </tr>
+    <slot></slot>
   </table>
 </template>
 
@@ -18,7 +14,7 @@ const defaultStyle = {
   "text-align": "left",
   "line-height": "22px",
   "font-family": "微软雅黑",
-  "font-size": "13px",
+  "font-size": "12px",
   "vertical-align": "top"
 };
 

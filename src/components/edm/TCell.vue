@@ -6,7 +6,7 @@
 
 <script>
 const dstyle = {
-  "font-size": "13px",
+  "font-size": "12px",
   "text-align": "left",
   "font-family": "微软雅黑",
   "line-height": "22px"

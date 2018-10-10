@@ -55,7 +55,7 @@ export default new Router({
       path: '/menu2',
       name: 'menu2',
       component: () =>
-        import('@/views/EDM/Day11.vue')
+        import('@/views/EDM/Day12.vue')
     },
     {
       path: '/menu3',
