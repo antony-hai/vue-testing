@@ -17,12 +17,11 @@
 
 <script>
 const defaultHeadStyle = {
-  height: "36px",
+  height: "30px",
   "text-align": "center",
   "font-weight": "700",
   "font-family": "微软雅黑",
   "line-height": "30px",
-  color: "#ffffff"
 };
 export default {
   data() {

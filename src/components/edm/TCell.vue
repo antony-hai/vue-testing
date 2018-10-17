@@ -9,7 +9,8 @@ const dstyle = {
   "font-size": "12px",
   "text-align": "left",
   "font-family": "微软雅黑",
-  "line-height": "22px"
+  "line-height": "22px",
+  "vertical-align": 'top',
 };
 export default {
   data() {

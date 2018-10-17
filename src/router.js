@@ -36,14 +36,44 @@ export default new Router({
             {
               path: 'option2',
               component: () =>
-                import('@/views/EDM/Day8.vue'),
+                import('@/views/EDM/Day1.vue'),
               name: 'option1-2'
             },
             {
               path: 'option3',
               component: () =>
-                import('@/views/EDM/Day5.vue'),
+                import('@/views/EDM/Day3.vue'),
               name: 'option1-3'
+            },
+            {
+              path: 'option4',
+              component: () =>
+                import('@/views/EDM/Day5.vue'),
+              name: 'option1-4'
+            },
+            {
+              path: 'option5',
+              component: () =>
+                import('@/views/EDM/Day7.vue'),
+              name: 'option1-5'
+            },
+            {
+              path: 'option6',
+              component: () =>
+                import('@/views/EDM/Day8.vue'),
+              name: 'option1-6'
+            },
+            {
+              path: 'option7',
+              component: () =>
+                import('@/views/EDM/Day11.vue'),
+              name: 'option1-7'
+            },
+            {
+              path: 'option8',
+              component: () =>
+                import('@/views/EDM/Day12.vue'),
+              name: 'option1-8'
             },
           ],
         },
@@ -55,7 +85,7 @@ export default new Router({
       path: '/menu2',
       name: 'menu2',
       component: () =>
-        import('@/views/EDM/Day12.vue')
+        import('@/views/EDM/Day13.vue')
     },
     {
       path: '/menu3',

@@ -182,4 +182,30 @@ salesOffices.trigger('squareMeter100', 3000000)
 
 
 
+// 命令模式、 用于解耦发送者和接受者的关系  是callback函数的一个面对对象替代品
 
+const setCommand = function (btn, command) {
+  btn.onclick = function () {
+    command.execute()
+  }
+}
+
+const singleCommand = {
+  operate: function () {
+    window.console.log('do something')
+  }
+}
+
+const catchCommand = function (reveiver) {
+  return {
+    execute: function () {
+      reveiver.operate()
+    }
+  }
+}
+
+const executeCommand = catchCommand(singleCommand)
+
+setCommand(document.getElementById('commandButton'), executeCommand)
+
+// 组合模式

@@ -12,18 +12,43 @@ export default [
         children: [
           { 
             name: 'option1-1',
-            title: '标题一一',
+            title: '标题一1',
             url: '/menu1/item1/option1'
           },
           { 
             name: 'option1-2',
-            title: '标题一二',
+            title: '标题一2',
             url: '/menu1/item1/option2'
           },
           { 
             name: 'option1-3',
-            title: '标题一三',
+            title: '标题一3',
             url: '/menu1/item1/option3'
+          },
+          { 
+            name: 'option1-4',
+            title: '标题一4',
+            url: '/menu1/item1/option4'
+          },
+          { 
+            name: 'option1-5',
+            title: '标题一5',
+            url: '/menu1/item1/option5'
+          },
+          { 
+            name: 'option1-6',
+            title: '标题一6',
+            url: '/menu1/item1/option6'
+          },
+          { 
+            name: 'option1-7',
+            title: '标题一7',
+            url: '/menu1/item1/option7'
+          },
+          { 
+            name: 'option1-8',
+            title: '标题一8',
+            url: '/menu1/item1/option8'
           },
         ],
       },

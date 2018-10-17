@@ -1,6 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
+
   const table = document.querySelectorAll('.MsoNormalTable')[0]
   const trs = table.querySelectorAll('tr')
   const trArray = Array.from(trs)
@@ -18,5 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
     return singleData
   })
   window.console.log(JSON.stringify(textData.filter(item => Object.keys(item).length !== 0)))
+  
 })
 

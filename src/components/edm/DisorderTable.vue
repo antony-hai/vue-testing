@@ -1,5 +1,5 @@
 <template>
-  <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width: 634px;text-align: center;line-height: 20px;">
+  <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width: 634px;text-align: center;line-height: 20px;table-layout: fixed;">
     <tr style="background-color: #0070C0;">
       <td rowspan="2" style="font-family: 微软雅黑;text-align: center;color:#fff;width:120px;height: 30px;line-height: 30px;font-weight: 700;">奖励机型</td>
       <td rowspan="2" style="font-family: 微软雅黑;text-align: center;color:#fff;width:70px;height: 30px;line-height: 30px;font-weight: 700;">系列</td>
