@@ -78,7 +78,7 @@
 
 
         <!-- 数据 ----------------------------------------------------- -->
-        <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '40px', 'background-color': '#0070C0'}"></DataTable>
+        <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '40px', 'background-color': '#0070C0', color: '#ffffff'}"></DataTable>
 
         <StanceTable hasTop hasBottom>
           <tr>

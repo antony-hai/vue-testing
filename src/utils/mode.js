@@ -208,4 +208,12 @@ const executeCommand = catchCommand(singleCommand)
 
 setCommand(document.getElementById('commandButton'), executeCommand)
 
-// 组合模式
+// 组合模式   模版方法模式 -----------------用到的概率不太大
+
+
+// 享元模式 flyweight  蝇量级   用于性能优化的一种模式
+// 通过共享来支持大量细力度的对象
+
+
+
+
