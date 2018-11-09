@@ -20,7 +20,7 @@ export default {
     },
     width: {
       type: String,
-      default: "120"
+      default: '120'
     }
   }
 };

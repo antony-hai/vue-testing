@@ -8,7 +8,8 @@ Vue.use(Router)
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes: [{
+  routes: [
+    {
       path: '/',
       name: 'home',
       component: Home
@@ -22,7 +23,8 @@ export default new Router({
       // which is lazy-loaded when the route is visited.
       component: () =>
         import( /* webpackChunkName: "about" */ './views/About'),
-      children: [{
+      children: [
+        {
           path: 'item1',
           component: () =>
             import('@/components/RouterView.vue'),
@@ -77,15 +79,42 @@ export default new Router({
             },
           ],
         },
-
+        {
+          path: 'item2',
+          component: () =>
+            import('@/components/RouterView.vue'),
+          // redirect: '/menu1/item1/option1',
+          children: [{
+              path: 'option1',
+              component: () =>
+                import('@/views/EDM/Day17.vue'),
+              name: 'option2-1'
+            },
+           
+          ],
+        },
+        {
+          path: 'item3',
+          component: () =>
+            import('@/components/RouterView.vue'),
+          // redirect: '/menu1/item1/option1',
+          children: [{
+              path: 'option1',
+              component: () =>
+                import('@/views/EDM/Day14.vue'),
+              name: 'option3-1'
+            },
+           
+          ],
+        },
       ]
     },
-
+    // ------------------------------------------------------------------------------------常用编辑
     {
       path: '/menu2',
       name: 'menu2',
       component: () =>
-        import('@/views/EDM/Day15.vue')
+        import('@/views/EDM/Day20.vue')
     },
     {
       path: '/menu3',

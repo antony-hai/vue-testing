@@ -1,5 +1,5 @@
 <template>
-  <td :style="finallyStyle" :width="width">
+  <td :style="finallyStyle" :width="width" :rowspan="rowspan" :colspan="colspan">
     <slot></slot>
   </td>
 </template>
@@ -28,6 +28,12 @@ export default {
       default(){
         return {}
       }
+    },
+    rowspan: {
+      type: String
+    },
+    colspan: {
+      type: String
     }
   },
 };
