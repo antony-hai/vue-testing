@@ -216,4 +216,57 @@ setCommand(document.getElementById('commandButton'), executeCommand)
 
 
 
+const console = window.consloe
 
+//--------------------------------------------------------------------
+/**  装饰模式
+ * 动态的给对象添加一些额外职责、从而不影响这个类的派生对象
+ * example 分离业务代码和数据统计代码、
+ *         页面有个登录btn 点击弹出浮层、同时进行统计上报  记录点击的人数
+ * */
+
+ // AOP 装饰函数
+
+Function.prototype.before = function (beforeFn) {
+  const _self = this // 保存远函数的引用
+  return function () { // 包含原函数和新函数的代理函数
+    beforeFn.apply(this, arguments) // 执行新函数，并且this不会被劫持
+
+    return _self.apply(this, arguments) // 执行原函数 、并返回原函数结果
+  }
+
+}
+
+
+Function.prototype.after = function (afterFn) {
+  const _self = this // 保存远函数的引用
+  return function () { // 包含原函数和新函数的代理函数
+    const ret =  _self.apply(this, arguments) // 执行原函数 、并返回原函数结果
+
+    afterFn.apply(this, arguments) // 执行新函数，并且this不会被劫持
+
+    return ret
+  }
+}
+
+const showLogin = function() {
+  console.log('显示登录浮层')
+  log(this.getAttribute('tag'))// 两层可以分离的逻辑
+  
+}
+
+const log = tag => { // 具体统计的函数、业务代码忽略
+  console.log(`上报标签为 ${tag}`)
+}
+
+const showLoginFromAPO = function () {
+  console.log('------')
+}
+
+const logFromAPO = function () {
+  const tag = this.getAttribute('tag')
+  // 具体的统计业务
+}
+
+document.getElementById('loginBtn').onclick = showLoginFromAPO.after(logFromAPO)
+ 
