@@ -1,5 +1,6 @@
 <template>
   <tr>
+    <td v-if="hasSpace" width="20"></td>
     <td style="text-align: center; vertical-align: top; padding-right: 8px; line-height: 24px;">
       <img :width="imgWidth" style="vertical-align: middle" border="0" :src="imgUrl" alt="">
     </td>
@@ -24,6 +25,10 @@ export default {
     imgUrl: {
       type: String,
       default: 'http://show.easeye.com.cn/fckattach/2018-04-30/e3b9e77152a2095d72521d1898764e2d/image/70c069239880e3060deb6c3a47c25159.jpg'
+    },
+    hasSpace: {
+      type: Boolean,
+      default: false,
     }
   }
 };

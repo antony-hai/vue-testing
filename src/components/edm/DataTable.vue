@@ -26,7 +26,7 @@ const defaultHeadStyle = {
 export default {
   data() {
     const finallHeadStyle = Object.assign({}, defaultHeadStyle, this.headStyle);
-    return {
+    return { 
       finallHeadStyle
     };
   },
@@ -43,6 +43,7 @@ export default {
       type: String,
       default: "634"
     },
+
   },
   methods: {
     hasRow(value) {

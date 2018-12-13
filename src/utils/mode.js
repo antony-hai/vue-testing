@@ -146,7 +146,7 @@ const event = {
     if (!fn) {
       fns && (fns.length = 0) // 没有具体取消哪一过，取消全部
     } else {
-      for ( let l = fns.length - 1; l > 0; l --) { // 反向遍历
+      for (let l = fns.length - 1; l > 0; l--) { // 反向遍历
         if (fn === fns[l]) {
           fns.splice(l, 1)
         }
@@ -236,7 +236,7 @@ Function.prototype.before = function (beforeFn) {
   }
 
 }
-
+//  由于公用参数、所以before 可以根据需求改变当前函数需要的参数
 
 Function.prototype.after = function (afterFn) {
   const _self = this // 保存远函数的引用
