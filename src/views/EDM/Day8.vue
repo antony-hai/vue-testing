@@ -3,27 +3,28 @@
     <tr>
       <td>
         <Nav></Nav>
+        <ImageRow imgUrl="http://show.easeye.com.cn/fckattach/2018-04-17/e3b9e77152a2095d72521d1898764e2d/image/face9686a126c31e936870d7c956b970.jpg"></ImageRow>
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 尊敬的英特尔<Sup></Sup>NUC技术合作伙伴</td>
+            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 尊敬的英特尔<Sup></Sup>服务器技术合作伙伴</td>
           </tr>
           <tr height='10'></tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              在新的季度里，为了继续助力各位合作伙伴在英特尔<Sup></Sup>NUC产品的销售，实现业务持续快速增长，英特尔推出了“2018年第四季度英特尔<Sup></Sup>NUC常规积分奖励计划”。
-              通过该计划，您在参加英特尔<Sup></Sup>NUC相关业务培训的基础上，通过销售指定型号的NUC可获取丰厚的积分奖励，赶快行动吧！</td>
+              新的一年，新的季度，为了继续帮助大家实现英特尔<Sup></Sup>服务器产品的业务持续快速增长，英特尔推出了“2019年第一季度英特尔<Sup></Sup>服务器常规积分奖励计划”。
+              通过该计划，您在参加英特尔<Sup></Sup>服务器相关业务培训的基础上，通过销售指定型号的服务器可获取丰厚的积分奖励，赶快行动吧！</td>
           </tr>
         </StanceTable>
 
         <StanceTable hasTop>
           <tr>
             <td width="95" style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600">一、活动时间：</td>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">2018年第四季度</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">2019年第一季度</td>
           </tr>
           <tr>
             <td width="95" style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600">二、活动对象：</td>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">英特尔<Sup></Sup>NUC技术合作伙伴
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">英特尔<Sup></Sup>服务器技术合作伙伴
               <u>至尊会员和菁英会员</u>（具体参与资格请咨询您的客户经理）</td>
           </tr>
           <tr>
@@ -37,10 +38,10 @@
             <td>
               <StanceTable width="604">
                 <IconText>
-                  英特尔<Sup></Sup>NUC技术合作伙伴<u>需参加符合英特尔所要求形式与数量的关于英特尔NUC产品的培训方可获得销售积分奖励资格；</u>
+                  英特尔<Sup></Sup>服务器技术合作伙伴<u>需参加符合英特尔所要求形式与数量的关于英特尔<Sup></Sup>服务器产品的培训方可获得销售积分奖励资格</u> ；
                 </IconText>
                 <IconText>
-                  最终结果以英特尔授权总代理提供的销售数据作为奖励依据
+                  最终结果以英特尔授权总代理提供的销售数据作为奖励依据。
                 </IconText>
               </StanceTable>
             </td>
@@ -59,8 +60,8 @@
             <td>
               <StanceTable width="604">
                 <IconText>
-                  <b>请您确保参与活动前会员账户已为激活状态</b>；如未激活，您将无法参与积分奖励计划，获取积分奖励；如对激活流程有任何问题，请点击
-                  <a href="https://prc-points.inteltechnologyprovider.com/sites/static/public/proc/How%20To%20Enroll%20Points%20Aug%202018-ITP.pdf" target="_blank">《英特尔<Sup></Sup>渠道积分会员账户激活流程》</a>或联系英特尔客户支持寻求帮助。
+                  <b><u>请您确保参与活动前会员账户已为激活状态</u></b>；如未激活，您将无法参与积分奖励计划，获取积分奖励；如对激活流程有任何问题，请点击
+                  <a href="https://prc-points.inteltechnologyprovider.com/sites/static/public/proc/How%20To%20Enroll%20Points%20Aug%202018-ITP.pdf" target="_blank"><u>《英特尔<Sup></Sup>渠道积分会员账户激活流程》</u></a>或联系英特尔<Sup></Sup>客户支持寻求帮助。
                 </IconText>
                 <IconText>
                   如至尊会员或菁英会员连续2个季度未达到其会员级别最低要求，将会被降级为菁英会员或注册会员，具体会员级别要求，请咨询您的客户经理。
@@ -70,12 +71,18 @@
           </tr>
         </StanceTable>
 
-        <StanceTable hasBottom>
+        <StanceTable>
           <tr>
             <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600;">五、奖励规则：</td>
           </tr>
         </StanceTable>
-
+        
+        <StanceTable hasBottom>
+          <tr>
+            <td width="30"></td>
+            <TCell><b>注：以下产品，HPC数据中心专家和云数据中心专家可额外赚取20%的奖励积分，且额外赚取奖励积分无上限限制。</b></TCell>
+          </tr>
+        </StanceTable>
 
         <!-- 数据 ----------------------------------------------------- -->
         <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '40px', 'background-color': '#0070C0', color: '#ffffff'}"></DataTable>
@@ -100,9 +107,9 @@
                 <tr>
                   <td width="20" style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px; vertical-align: top">a.</td>
                   <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
-                    新会员自获得GID号之日起，超过45天从未登录英特尔<Sup></Sup>技术合作伙伴网站 
+                    新会员自获得GID号之日起，超过45天从未登录英特尔<Sup></Sup>技术合作伙伴网站
                     <a href="https://www.intel.com/technologyprovider" target="_blank" rel="noopener noreferrer">(https://www.intel.com/technologyprovider)</a> 或者英特尔<Sup></Sup>渠道积分网站 
-                    <a href="https://prc-points.inteltechnologyprovider.com" target="_blank" rel="noopener noreferrer">(https://prc-points.inteltechnologyprovider.com/)</a>
+                    <a href="https://prc-points.inteltechnologyprovider.com/" target="_blank" rel="noopener noreferrer">(https://prc-points.inteltechnologyprovider.com/)</a>
                   </td>
                 </tr>
                 <tr>
@@ -110,7 +117,7 @@
                   <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
                     非新会员超过18个月从未登录英特尔<Sup></Sup>技术合作伙伴网站 
                     <a href="https://www.intel.com/technologyprovider" target="_blank" rel="noopener noreferrer">(https://www.intel.com/technologyprovider)</a> 或者英特尔<Sup></Sup>渠道积分网站 
-                    <a href="https://prc-points.inteltechnologyprovider.com" target="_blank" rel="noopener noreferrer">(https://prc-points.inteltechnologyprovider.com/)</a>
+                    <a href="https://prc-points.inteltechnologyprovider.com/" target="_blank" rel="noopener noreferrer">(https://prc-points.inteltechnologyprovider.com/)</a>
                   </td>
 
                 </tr>
@@ -148,6 +155,7 @@
 
         </StanceTable>
 
+
         <ListTable :dataSource="dataSource5"></ListTable>
 
 
@@ -158,10 +166,13 @@
           <tr height='10'></tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              依照英特尔的网站使用条款 <a href="https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html" target="_blank">（https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html）</a>，凡以您的账户在英特尔网站上进行的操作，均视为您的操作并由您负责；如果您的账户、密码等信息有误或发生泄露，导致您的权益受损，请理解英特尔将不承担任何责任。 </td>
+              依照英特尔的网站使用条款 <a href="https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html" target="_blank">（https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html）</a>，
+              凡以您的账户在英特尔网站上进行的操作，均视为您的操作并由您负责；如果您的账户、密码等信息有误或发生泄露，导致您的权益受损，请理解英特尔将不承担任何责任。 </td>
           </tr>
           <tr height="20"></tr>
         </StanceTable>
+
+        <Footer></Footer>
 
       </td>
     </tr>
@@ -175,19 +186,25 @@ import {
   ListTable,
   DataTable,
   IconText,
-  Sup
+  Sup,
+  ImageRow,
+  Footer1,
+  TCell,
 } from "@/components/edm";
 
 
 
 const column = [
   {
-    title: "CPU型号",
-    dataIndex: "text1"
+    title: "产品名称",
+    dataIndex: "text1",
+    width: 270,
+    align: 'left',
   },
   {
-    title: "产品型号",
-    dataIndex: "text2"
+    title: "产品代码",
+    dataIndex: "text2",
+    align: 'left',
   },
   {
     title: "积分奖励（分/台）",
@@ -197,12 +214,12 @@ const column = [
   {
     title: "积分上限",
     dataIndex: "text4",
-    rowspan: 61,
+    rowspan: 73,
   },
  
 ];
 const tableData = [
-  {"text1":"Core i3","text2":"BLKNUC7i3DNBE","text3":"20","text4":"至尊会员：<br>5,000积分<br>菁英会员：<br>3,000积分"},{"text1":"Core i3","text2":"BLKNUC7i3DNHE","text3":"20"},{"text1":"Core i3","text2":"BLKNUC7I3DNHNC","text3":"20"},{"text1":"Core i3","text2":"BLKNUC7i3DNK6E","text3":"20"},{"text1":"Core i3","text2":"BLKNUC7i3DNKE","text3":"20"},{"text1":"Core i3","text2":"BLKNUC7I3DNKTC","text3":"20"},{"text1":"Core i5","text2":"BLKNUC7i5DNBE","text3":"30"},{"text1":"Core i5","text2":"BLKNUC7i5DNH6EL","text3":"30"},{"text1":"Core i5","text2":"BLKNUC7i5DNKE","text3":"30"},{"text1":"Core i5","text2":"BLKNUC7i5DNKEL","text3":"30"},{"text1":"Core i5","text2":"BLKNUC7I5DNKPC","text3":"30"},{"text1":"Core i7","text2":"BLKNUC7i7DNBE","text3":"40"},{"text1":"Core i7","text2":"BLKNUC7i7DNH7E","text3":"40"},{"text1":"Core i7","text2":"BLKNUC7i7DNHE","text3":"40"},{"text1":"Core i7","text2":"BLKNUC7i7DNK7E","text3":"40"},{"text1":"Core i7","text2":"BLKNUC7i7DNKE","text3":"40"},{"text1":"Celeron","text2":"BOXNUC7CJYSAL","text3":"10"},{"text1":"Core i3","text2":"BOXNUC7I3BNH","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7I3BNHL","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7i3BNHR","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7I3BNHX1L","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7i3BNHXF","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7i3BNHXFL","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7I3BNK","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7I3BNKL","text3":"20"},{"text1":"Core i3","text2":"BOXNUC7i3BNKR","text3":"20"},{"text1":"Core i5","text2":"BOXNUC7I5BNH","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7I5BNHL","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNHR","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7I5BNHX1L","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNHXF","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNHXFL","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7I5BNK","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7I5BNKL","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNKP","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNKPL","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNKPR","text3":"30"},{"text1":"Core i5","text2":"BOXNUC7i5BNKR","text3":"30"},{"text1":"Core i7","text2":"BOXNUC7I7BNH","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7I7BNHL","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7i7BNHR","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7I7BNHX1L","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7i7BNHXG","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7i7BNHXGL","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7i7BNKQ","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7i7BNKQL","text3":"40"},{"text1":"Core i7","text2":"BOXNUC7i7BNKQR","text3":"40"},{"text1":"Pentium Silver","text2":"BOXNUC7PJYH","text3":"10"},{"text1":"Core i3","text2":"BOXNUC8i3BEH","text3":"20"},{"text1":"Core i3","text2":"BOXNUC8i3BEK","text3":"20"},{"text1":"Core i3","text2":"BOXNUC8I3CYSM","text3":"20"},{"text1":"Core i3","text2":"BOXNUC8I3CYSN","text3":"20"},{"text1":"Core i5","text2":"BOXNUC8i5BEH","text3":"30"},{"text1":"Core i5","text2":"BOXNUC8i5BEK","text3":"30"},{"text1":"Core i7","text2":"BOXNUC8i7BEH","text3":"40"},{"text1":"Core i7","text2":"BOXNUC8i7HNK","text3":"40"},{"text1":"Core i7","text2":"BOXNUC8i7HNKQC","text3":"40"},{"text1":"Core i7","text2":"BOXNUC8I7HVK","text3":"40"},{"text1":"Core i7","text2":"BOXNUC8i7HVK6","text3":"40"},{"text1":"Core i7","text2":"BOXNUC8i7HVKVA","text3":"40"},{"text1":"Core i7","text2":"BOXNUC8i7HVKVA6","text3":"40"}
+  {"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6144 Processor","text2":"CD8067303843000","text3":"150","text4":"至尊会员和<br/>菁英会员：<br/>80,000积分"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6146 Processor","text2":"CD8067303657201","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6126 Processor","text2":"CD8067303405900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6126F Processor","text2":"CD8067303593400","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6126T Processor","text2":"CD8067303593100","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"BX806736128","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"CD8067303592600","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"WX806736128","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"BX806736130","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"CD8067303409000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"WX806736130","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130F Processor","text2":"CD8067303593300","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130T Processor","text2":"CD8067303593000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6132 Processor","text2":"CD8067303592500","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6133 Processor","text2":"CD8067303589900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"BX806736134","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"CD8067303330302","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"WX806736134","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134M Processor","text2":"CD8067303330402","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6136 Processor","text2":"CD8067303330201","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6136 Processor","text2":"CD8067303405800","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"BX806736138","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"CD8067303406100","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"WX806736138","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138F Processor","text2":"CD8067303593900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138T Processor","text2":"CD8067303592900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"BX806736140","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"CD8067303405200","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"WX806736140","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140M Processor","text2":"CD8067303405500","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"BX806736142","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"CD8067303405400","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"WX806736142","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142F Processor","text2":"CD8067303593700","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142M Processor","text2":"CD8067303405700","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6144 Processor","text2":"CD8067303657302","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176F Processor","text2":"CD8067303694600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176M Processor","text2":"CD8067303133605","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"BX806738180","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"CD8067303314400","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"WX806738180","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180M Processor","text2":"CD8067303192101","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"WX806736148","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148F Processor","text2":"CD8067303593800","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"BX806738164","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"CD8067303408800","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"WX806738164","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8168 Processor","text2":"CD8067303327701","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"BX806738170","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"CD8067303327601","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"WX806738170","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170M Processor","text2":"CD8067303319201","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"BX806738176","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"CD8067303314700","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"WX806738176","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6150 Processor","text2":"CD8067303328000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"BX806736152","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"CD8067303406000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"WX806736152","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6154 Processor","text2":"CD8067303316400","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6154 Processor","text2":"CD8067303592700","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8153 Processor","text2":"CD8067303408900","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8156 Processor","text2":"CD8067303368800","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8158 Processor","text2":"CD8067303406500","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"BX806738160","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"CD8067303314302","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"CD8067303405600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"WX806738160","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160F Processor","text2":"CD8067303593600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160M Processor","text2":"CD8067303406600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160T Processor","text2":"CD8067303592800","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"BX806736148","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"CD8067303406200","text3":"150"}
 ]
 
 const dataSource5 = [
@@ -248,7 +265,10 @@ export default {
     ListTable,
     Sup,
     IconText,
-    DataTable
+    DataTable,
+    ImageRow,
+    Footer: Footer1,
+    TCell,
   }
 };
 </script>

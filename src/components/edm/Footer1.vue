@@ -104,7 +104,7 @@
           href="https://www.intel.cn/content/www/cn/zh/privacy/intel-privacy-notice.html"
           target="_blank"
           style="color: #fff; text-decoration: underline"
-        >隐私条款</a>©2018英特尔公司。</td>
+        >隐私条款</a>©2019英特尔公司。</td>
     </tr>
     <tr>
       <td style="font-family: 微软雅黑;height: 40px;"></td>

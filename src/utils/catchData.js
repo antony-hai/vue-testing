@@ -1,6 +1,6 @@
 
 
-document.addEventListener('DOMContentLoaded', function () {
+
 
   const table = document.querySelectorAll('.MsoNormalTable')[0]
   const trs = table.querySelectorAll('tr')
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const singleData = {}
     Array.from(textBoxes).forEach((box, i) => {
       const spanArrays = Array.from(box.querySelectorAll('span'))
-      singleData[`text${i + 1}`] = spanArrays.reduce((total, text) => `${total}${text.textContent.replace(/®/, '<sup>®</sup>')}`, '')
+      singleData[`text${i + 1}`] = spanArrays.reduce((total, text) => `${total}${text.textContent.replace(/®/g, '<sup>®</sup>')}`, '')
       const superLink = box.querySelector('a')
       if (superLink) {
         singleData.link = superLink.href
@@ -20,5 +20,5 @@ document.addEventListener('DOMContentLoaded', function () {
   })
   window.console.log(JSON.stringify(textData.filter(item => Object.keys(item).length !== 0)))
   
-})
+
 
