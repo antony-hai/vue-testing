@@ -8,17 +8,17 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> 尊敬的英特尔-品牌零售菁英合作伙伴：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> 尊敬的英特尔中小企业渠道合作伙伴：</td>
           </tr>
           <tr height='10'></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 大家好！感谢您一直以来对英特尔公司的支持。您的合作和信任是我们的动力和基础。我们将共同把握机遇，迎接新的挑战。 </td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大家好！感谢您一直以来对英特尔公司的支持。您的合作和信任是我们的动力和基础。我们将共同把握机遇，迎接新的挑战。 </td>
           </tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 新季度新目标，英特尔将继续深入推进“英特尔中小企业解决方案”，支持合作伙伴搭建“英特尔中小企业解决方案平台”。我们将与您携手，依托平台，联合SI (系统集成商)， 持续推出以英特尔解决方案为基础的新产品和新技术。 </td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新季度新目标，英特尔将继续深入推进“英特尔中小企业解决方案”，支持合作伙伴搭建“英特尔中小企业解决方案平台”。我们将与您携手，依托平台，联合SI (系统集成商)， 持续推出以英特尔解决方案为基础的新产品和新技术。</td>
           </tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现公布合作伙伴招募计划如下： </td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现公布合作伙伴招募计划如下： </td>
           </tr>
         </StanceTable>
 
@@ -140,13 +140,17 @@
           </tr>
         </StanceTable>
         <!-- 数据 ----------------------------------------------------- -->
-        <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '40px', 'background-color': '#0070C0'}"></DataTable>
+        <DataTable :column="column" :dataSource="tableData" :headStyle="{'background-color': '#0070C0', color: '#ffffff'}"></DataTable>
 
         <StanceTable hasTop hasBottom>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">K，X型号以及i5+8400， i5+8500，i7+8700不设积分上限。</td>
           </tr>
         </StanceTable>
+
+        <DataTable :column="column2" :dataSource="tableData2" :headStyle="{'background-color': '#0070C0', color: '#ffffff'}" width="400"></DataTable>
+        
+        <StanceTable hasTop></StanceTable>
 
         <ListTable listType="■" :dataSource="dataSource5"></ListTable>
 
@@ -169,7 +173,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">3、英特尔保有核查相关销售数据和其它奖励依据的真实性和准确性的权利，并有权根据核查结果确定、调整或取消相关奖励内容、结果。。</td>
+                  <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">3、英特尔保有核查相关销售数据和其它奖励依据的真实性和准确性的权利，并有权根据核查结果确定、调整或取消相关奖励内容、结果。</td>
                 </tr>
                 <tr>
                   <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">4、本活动计划仅在本次活动期间内有效，英特尔保留后续取消、修改、补充本活动计划具体内容的权利。</td>
@@ -194,7 +198,7 @@
         <StanceTable hasBottom>
           <tr height="20"></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎您加入“2018年第四季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎您加入“2019年第一季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -202,7 +206,7 @@
           </tr>
 
           <tr>
-            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2018年9月</td>
+            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2018年12月</td>
           </tr>
         </StanceTable>
         <Footer></Footer>
@@ -229,7 +233,7 @@ const dataSource1 = [
   { text: "与平台建立连接的会员渠道给予积分支持（与原渠道奖励计划不可兼得）" }
 ];
 const dataSource2 = [
-  { text: "1）考核时间：2018年10月1日至2018年12月31日" },
+  { text: "1）考核时间：2019年1月1日至2019年3月31日" },
   {
     text: "2）考核指标："
   },
@@ -243,16 +247,17 @@ const dataSource3 = [
       "针对平台客户，覆盖SI的数量，由英特尔地区销售经理在季度末决算前，以邮件的形式给到项目组做确认；"
   },
   {
-    text: "季度扫描中国盒数量，以SMS系统数据为准，单颗奖励细则请参考以下内容；"
+    text: "季度扫描中国盒数量，以SMS系统数据为准，单颗奖励细则请参考以下内容"
   },
-  { text: "积分上限为对应级别的会员渠道可以在当季度享受的最高积分数量。" }
+  { text: "积分上限为对应级别的会员渠道可以在当季度享受的最高积分数量。" },
+  { text: "针对非平台客户，完成中国盒产品扫描后，需将对应产品包装盒在扫描完成的7天内，邮寄给英特尔或其指定的中小企业审核项目组，外包装不可涂抹，条码保持清晰完整，待审核完成后才为有效扫描的中国盒产品数量。" }
 ];
 
 const dataSource4 = [
   { text: "1)至尊渠道升级、降级" },
   {
     text:
-      "优选级级渠道和/或菁英渠道如当季业绩和培训达到至尊标准，区域英特尔®销售人员可提名其升级为至尊渠道。至尊渠道的业务核心应基于解决方案，而非单纯的交易型业务;"
+      "优选级级渠道和/或菁英渠道如当季业绩和培训达到至尊标准，区域英特尔<sup>®</sup>销售人员可提名其升级为至尊渠道。至尊渠道的业务核心应基于解决方案，而非单纯的交易型业务;"
   },
   {
     text:
@@ -293,21 +298,22 @@ const dataSource4 = [
   { text: "升降级的生效时间均为每一业绩考核季的下一季度第一个月月底;" },
   {
     text:
-      "优选级渠道降级为注册级渠道后，自降级生效日起，其账户中的英特尔®渠道积分在60天内仍可有效使用，逾期积分将自动清零；"
+      "优选级渠道降级为注册级渠道后，自降级生效日起，其账户中的英特尔®渠道积分在60天内仍可有效使用，逾期积分将自动清零"
   },
   { text: "4)注册级渠道" },
   {
     text:
-      "新增渠道，在当季度未能达到优选级会员以上标准，季度决算后，当季度资格设定为注册级渠道；"
+      "新增渠道，在当季度未能达到优选级会员以上标准，季度决算后，当季度资格设定为注册级渠道"
   },
   { text: "注册级渠道不享受当季度任何扫描积分；" },
-  { text: "注册级渠道对应渠道积分管理平台Registered 级别；" }
+  { text: "注册级渠道对应渠道积分管理平台Registered 级别" }
 ];
 
 const column = [
   {
     title: "型号",
-    dataIndex: "text1"
+    dataIndex: "text1",
+    align: 'left',
   },
   {
     title: "积分/颗 ",
@@ -315,7 +321,8 @@ const column = [
   },
   {
     title: "型号",
-    dataIndex: "text3"
+    dataIndex: "text3",
+    align: 'left',
   },
   {
     title: "积分/颗 ",
@@ -323,6 +330,7 @@ const column = [
   },
   {
     title: "型号",
+    align: 'left',
     dataIndex: "text5"
   },
   {
@@ -331,6 +339,7 @@ const column = [
   },
   {
     title: "型号",
+    align: 'left',
     dataIndex: "text7"
   },
   {
@@ -339,187 +348,8 @@ const column = [
   }
 ];
 const tableData = [
-  {
-    text1: "G3900",
-    text2: "5",
-    text3: "i5-7400",
-    text4: "30",
-    text5: "i7-7700",
-    text6: "40",
-    text7: "i9-7900X",
-    text8: "100"
-  },
-  {
-    text1: "G3930",
-    text2: "5",
-    text3: "i5-7400T",
-    text4: "30",
-    text5: "i7-7700K",
-    text6: "40",
-    text7: "i9-7920X",
-    text8: "100"
-  },
-  {
-    text1: "G4900",
-    text2: "5",
-    text3: "i5-7500",
-    text4: "30",
-    text5: "i7-7700T",
-    text6: "40",
-    text7: "i9-7940X",
-    text8: "100"
-  },
-  {
-    text1: "G4920",
-    text2: "5",
-    text3: "i5-7500T",
-    text4: "30",
-    text5: "i7-7740X",
-    text6: "60",
-    text7: "i9-7960X",
-    text8: "100"
-  },
-  {
-    text1: "G4400",
-    text2: "10",
-    text3: "i5-7600",
-    text4: "30",
-    text5: "i7-7800X",
-    text6: "60",
-    text7: "i9-7980XE",
-    text8: "100"
-  },
-  {
-    text1: "G4560",
-    text2: "12",
-    text3: "i5-7600K",
-    text4: "30",
-    text5: "i7-7820X",
-    text6: "60",
-    text7: "i9-9900K",
-    text8: "80"
-  },
-  {
-    text1: "G5400",
-    text2: "10",
-    text3: "i5-7600T",
-    text4: "30",
-    text5: "i7-8700",
-    text6: "40",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "G5500",
-    text2: "12",
-    text3: "i5-7640X",
-    text4: "40",
-    text5: "i7-8700K",
-    text6: "40",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "G5600",
-    text2: "12",
-    text3: "i5-8400",
-    text4: "30",
-    text5: "i7  8086K ",
-    text6: "40",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-7100",
-    text2: "20",
-    text3: "i5-8500",
-    text4: "30",
-    text5: "i7+ 8700 ",
-    text6: "50",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-7100T",
-    text2: "20",
-    text3: "i5-8600",
-    text4: "30",
-    text5: "i7-9700K",
-    text6: "60",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-7300",
-    text2: "20",
-    text3: "i5-8600K",
-    text4: "30",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-7300T",
-    text2: "20",
-    text3: "i5+ 8400 ",
-    text4: "40",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-7320",
-    text2: "20",
-    text3: "i5+ 8500 ",
-    text4: "40",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-7350K",
-    text2: "20",
-    text3: "I5-9600K",
-    text4: "40",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-8100",
-    text2: "20",
-    text3: "　",
-    text4: "　",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-8300",
-    text2: "20",
-    text3: "　",
-    text4: "　",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  },
-  {
-    text1: "i3-8350K",
-    text2: "20",
-    text3: "　",
-    text4: "　",
-    text5: "　",
-    text6: "　",
-    text7: "　",
-    text8: "　"
-  }
-];
+  {"text1":"G4400","text2":"10","text3":"i5-7400","text4":"21","text5":"i7-7700","text6":"28","text7":"i9-7900X","text8":"100"},{"text1":"G4560","text2":"12","text3":"i5-7400T","text4":"21","text5":"i7-7700K","text6":"28","text7":"i9-7920X","text8":"100"},{"text1":"G5400","text2":"10","text3":"i5-7500","text4":"21","text5":"i7-7700T","text6":"28","text7":"i9-7940X","text8":"100"},{"text1":"G5500","text2":"12","text3":"i5-7500T","text4":"21","text5":"i7-7740X","text6":"60","text7":"i9-7960X","text8":"100"},{"text1":"G5600","text2":"12","text3":"i5-7600","text4":"21","text5":"i7-7800X","text6":"60","text7":"i9-7980XE","text8":"100"},{"text1":"i3-7100","text2":"14","text3":"i5-7600K","text4":"21","text5":"i7-7820X","text6":"60","text7":"i9-9900K","text8":"60"},{"text1":"i3-7100T","text2":"14","text3":"i5-7600T","text4":"21","text5":"i7-8700","text6":"40","text7":"i9-9820X","text8":"100"},{"text1":"i3-7300","text2":"14","text3":"i5-7640X","text4":"40","text5":"i7-8700K","text6":"45","text7":"i9-9900X","text8":"100"},{"text1":"i3-7300T","text2":"14","text3":"i5-8400","text4":"30","text5":"i7-8086K","text6":"45","text7":"i9-9920X","text8":"100"},{"text1":"i3-7320","text2":"14","text3":"i5-8500","text4":"30","text5":"i7-9700K","text6":"45","text7":"i9-9940X","text8":"100"},{"text1":"i3-7350K","text2":"14","text3":"i5-8600","text4":"30","text5":"i7-9800X","text6":"60","text7":"i9-9960X","text8":"100"},{"text1":"i3-8100","text2":"20","text3":"i5-8600K","text4":"35","text5":" ","text6":" ","text7":"i9-9980XE","text8":"100"},{"text1":"i3-8300","text2":"20","text3":"i5-9600K","text4":"35","text5":" ","text6":" ","text7":" ","text8":" "},{"text1":"i3-8350K","text2":"25","text3":" ","text4":" ","text5":" ","text6":" ","text7":" ","text8":" "}
+]
 
 const dataSource5 = [
   { text: "中国盒实际决算数量，以英特尔扫描客户端体现的有效数字为主要依据；" },
@@ -530,12 +360,29 @@ const dataSource5 = [
   {
     text: "对于经确切证据证明的条码涂改、拆盒等行为，视为违反促销规则销售行为。"
   },
-  { text: "中国盒实际决算数量，以英特尔扫描客户端体现的有效数字为主要依据；" },
+  // { text: "中国盒实际决算数量，以英特尔扫描客户端体现的有效数字为主要依据；" },
   {
     text:
       "对于违反促销规则的渠道取消被发现季度相应的促销奖励，降级为注册级，并重新考核是否具备中小企业渠道资格。"
   }
 ];
+
+const column2 = [
+  {
+    title: '型号',
+    align: 'left',
+    dataIndex: 'text1',
+  },
+  {
+    title: '积分/颗',
+    dataIndex: 'text2',
+    width: 80,
+  }
+]
+
+const tableData2 = [
+  {"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"450"}
+]
 
 export default {
   data() {
@@ -546,7 +393,9 @@ export default {
       dataSource4,
       dataSource5,
       column,
-      tableData
+      column2,
+      tableData,
+      tableData2,
     };
   },
   components: {

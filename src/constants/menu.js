@@ -90,6 +90,7 @@ export default [
     children: [
       {
         title: 'Item2-1',
+        name: 'Item2-1',
         icon_type: 'ios-navigate',
         children: [
           { 
@@ -104,6 +105,7 @@ export default [
       },
       {
         title: 'Item2-2',
+        name: 'Item2-2',
         icon_type: 'ios-basket',
         children: [
           { 
@@ -118,6 +120,7 @@ export default [
       },
       {
         title: 'Item2-3',
+        name: 'Item2-3',
         icon_type: 'ios-bicycle',
         children: [
           { 

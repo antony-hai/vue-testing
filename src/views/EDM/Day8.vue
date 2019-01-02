@@ -7,13 +7,13 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 尊敬的英特尔<Sup></Sup>服务器技术合作伙伴</td>
+            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 20px; font-weight: 600;"> 尊敬的英特尔<Sup></Sup>固态盘技术合作伙伴：</td>
           </tr>
           <tr height='10'></tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              新的一年，新的季度，为了继续帮助大家实现英特尔<Sup></Sup>服务器产品的业务持续快速增长，英特尔推出了“2019年第一季度英特尔<Sup></Sup>服务器常规积分奖励计划”。
-              通过该计划，您在参加英特尔<Sup></Sup>服务器相关业务培训的基础上，通过销售指定型号的服务器可获取丰厚的积分奖励，赶快行动吧！</td>
+              为了继续助力各位合作伙伴在新的季度里对英特尔<Sup></Sup>固态盘产品的销售，实现业务的快速增长，英特尔继续推出了“2019年第一季度英特尔<Sup></Sup>固态盘常规积分奖励计划”。
+              通过该计划，您在参加英特尔<Sup></Sup>固态盘相关业务培训的基础上，通过销售指定型号的产品可获取丰厚的积分奖励，赶快行动吧！</td>
           </tr>
         </StanceTable>
 
@@ -24,7 +24,7 @@
           </tr>
           <tr>
             <td width="95" style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600">二、活动对象：</td>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">英特尔<Sup></Sup>服务器技术合作伙伴
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">英特尔<Sup></Sup>固态盘技术合作伙伴
               <u>至尊会员和菁英会员</u>（具体参与资格请咨询您的客户经理）</td>
           </tr>
           <tr>
@@ -38,7 +38,7 @@
             <td>
               <StanceTable width="604">
                 <IconText>
-                  英特尔<Sup></Sup>服务器技术合作伙伴<u>需参加符合英特尔所要求形式与数量的关于英特尔<Sup></Sup>服务器产品的培训方可获得销售积分奖励资格</u> ；
+                  英特尔<Sup></Sup>固态盘技术合作伙伴<u>需参加符合英特尔所要求形式与数量的关于英特尔<Sup></Sup>固态盘产品的培训方可获得销售积分奖励资格</u> ；
                 </IconText>
                 <IconText>
                   最终结果以英特尔授权总代理提供的销售数据作为奖励依据。
@@ -64,7 +64,7 @@
                   <a href="https://prc-points.inteltechnologyprovider.com/sites/static/public/proc/How%20To%20Enroll%20Points%20Aug%202018-ITP.pdf" target="_blank"><u>《英特尔<Sup></Sup>渠道积分会员账户激活流程》</u></a>或联系英特尔<Sup></Sup>客户支持寻求帮助。
                 </IconText>
                 <IconText>
-                  如至尊会员或菁英会员连续2个季度未达到其会员级别最低要求，将会被降级为菁英会员或注册会员，具体会员级别要求，请咨询您的客户经理。
+                  如至尊会员或菁英会员连续2个季度未达到其会员级别最低要求，将会被降级为菁英会员或注册会员，具体会员级别要求请咨询您的客户经理。
                 </IconText>
               </StanceTable>
             </td>
@@ -76,13 +76,13 @@
             <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600;">五、奖励规则：</td>
           </tr>
         </StanceTable>
-        
+<!--         
         <StanceTable hasBottom>
           <tr>
             <td width="30"></td>
             <TCell><b>注：以下产品，HPC数据中心专家和云数据中心专家可额外赚取20%的奖励积分，且额外赚取奖励积分无上限限制。</b></TCell>
           </tr>
-        </StanceTable>
+        </StanceTable> -->
 
         <!-- 数据 ----------------------------------------------------- -->
         <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '40px', 'background-color': '#0070C0', color: '#ffffff'}"></DataTable>
@@ -156,7 +156,7 @@
         </StanceTable>
 
 
-        <ListTable :dataSource="dataSource5"></ListTable>
+        <ListTable :dataSource="dataSource5" :indexAddNumber="2"></ListTable>
 
 
         <StanceTable hasTop hasBottom>
@@ -196,58 +196,66 @@ import {
 
 const column = [
   {
-    title: "产品名称",
+    title: "类型",
     dataIndex: "text1",
-    width: 270,
-    align: 'left',
+    width: 70,
+    align: 'left'
   },
   {
-    title: "产品代码",
+    title: "产品系列",
     dataIndex: "text2",
     align: 'left',
   },
   {
-    title: "积分奖励（分/台）",
+    title: "产品型号",
     dataIndex: "text3",
-    width: 110,
+    // align: 'left',
+    width: 125,
+
+  },
+  {
+    title: "积分奖励",
+    dataIndex: "text4",
+    width: 60,
   },
   {
     title: "积分上限",
-    dataIndex: "text4",
-    rowspan: 73,
+    dataIndex: "text5",
+    width: 80,
+    rowspan: 72,
   },
  
 ];
 const tableData = [
-  {"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6144 Processor","text2":"CD8067303843000","text3":"150","text4":"至尊会员和<br/>菁英会员：<br/>80,000积分"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6146 Processor","text2":"CD8067303657201","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6126 Processor","text2":"CD8067303405900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6126F Processor","text2":"CD8067303593400","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6126T Processor","text2":"CD8067303593100","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"BX806736128","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"CD8067303592600","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"WX806736128","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"BX806736130","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"CD8067303409000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"WX806736130","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130F Processor","text2":"CD8067303593300","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130T Processor","text2":"CD8067303593000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6132 Processor","text2":"CD8067303592500","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6133 Processor","text2":"CD8067303589900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"BX806736134","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"CD8067303330302","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"WX806736134","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134M Processor","text2":"CD8067303330402","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6136 Processor","text2":"CD8067303330201","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6136 Processor","text2":"CD8067303405800","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"BX806736138","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"CD8067303406100","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"WX806736138","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138F Processor","text2":"CD8067303593900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138T Processor","text2":"CD8067303592900","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"BX806736140","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"CD8067303405200","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"WX806736140","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140M Processor","text2":"CD8067303405500","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"BX806736142","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"CD8067303405400","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"WX806736142","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142F Processor","text2":"CD8067303593700","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142M Processor","text2":"CD8067303405700","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6144 Processor","text2":"CD8067303657302","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176F Processor","text2":"CD8067303694600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176M Processor","text2":"CD8067303133605","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"BX806738180","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"CD8067303314400","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"WX806738180","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180M Processor","text2":"CD8067303192101","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"WX806736148","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148F Processor","text2":"CD8067303593800","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"BX806738164","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"CD8067303408800","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"WX806738164","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8168 Processor","text2":"CD8067303327701","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"BX806738170","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"CD8067303327601","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"WX806738170","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170M Processor","text2":"CD8067303319201","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"BX806738176","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"CD8067303314700","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"WX806738176","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6150 Processor","text2":"CD8067303328000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"BX806736152","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"CD8067303406000","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"WX806736152","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6154 Processor","text2":"CD8067303316400","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6154 Processor","text2":"CD8067303592700","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8153 Processor","text2":"CD8067303408900","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8156 Processor","text2":"CD8067303368800","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8158 Processor","text2":"CD8067303406500","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"BX806738160","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"CD8067303314302","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"CD8067303405600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"WX806738160","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160F Processor","text2":"CD8067303593600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160M Processor","text2":"CD8067303406600","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160T Processor","text2":"CD8067303592800","text3":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"BX806736148","text3":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"CD8067303406200","text3":"150"}
+  {"text1":"数据中心级固态盘","text2":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 1.5TB  ","text3":"SSDPE21K015TA01","text4":"400","text5":"至尊会员：100,000积分 菁英会员：50,000积分"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 1.5TB  ","text2":"SSDPE21K015TA10","text3":"400"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 1.5TB  ","text2":"SSDPED1K015TA01","text3":"400"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 1.5TB  ","text2":"SSDPED1K015TA10","text3":"400"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 375GB ","text2":"SSDPD21K375GA01","text3":"70"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 375GB ","text2":"SSDPE21K375GA10","text3":"70"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 375GB ","text2":"SSDPED1K375GA10","text3":"70"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 750GB ","text2":"SSDPE21K750GA01","text3":"150"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 750GB ","text2":"SSDPE21K750GA10","text3":"150"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 750GB ","text2":"SSDPED1K750GA01","text3":"150"},{"text1":"Intel<sup>®</sup> Optane™ SSD DC P4800X Series 750GB ","text2":"SSDPED1K750GA10","text3":"150"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 1.0TB ","text2":"SSDPE2KX010T701","text3":"30"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 1.0TB ","text2":"SSDPE2KX010T710","text3":"30"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 2.0TB ","text2":"SSDPE2KX020T710","text3":"60"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 2.0TB","text2":"SSDPE2KX020T701","text3":"60"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 4.0TB ","text2":"SSDPE2KX040T701","text3":"120"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 4.0TB ","text2":"SSDPE2KX040T710","text3":"120"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 4.0TB ","text2":"SSDPEDKX040T701","text3":"120"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 4.0TB ","text2":"SSDPEDKX040T710","text3":"120"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 4.0TB ","text2":"SSDPERKX040T701","text3":"120"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 4.0TB ","text2":"SSDPERKX040T710","text3":"120"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 8.0TB ","text2":"SSDPE2KX080T701","text3":"240"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 8.0TB ","text2":"SSDPE2KX080T710","text3":"240"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 8.0TB ","text2":"SSDPERKX080T701","text3":"240"},{"text1":"Intel<sup>®</sup> SSD DC P4500 Series 8.0TB ","text2":"SSDPERKX080T710","text3":"140"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 1.0TB ","text2":"SSDPE2KX010T801","text3":"60"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 1.0TB ","text2":"SSDPE2KX010T810","text3":"60"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 2.0TB ","text2":"SSDPE2KX020T801","text3":"110"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 2.0TB ","text2":"SSDPE2KX020T810","text3":"110"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 4.0TB ","text2":"SSDPE2KX040T801","text3":"220"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 4.0TB ","text2":"SSDPE2KX040T810","text3":"220"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 8.0TB ","text2":"SSDPE2KX080T801","text3":"440"},{"text1":"Intel<sup>®</sup> SSD DC P4510 Series 8.0TB ","text2":"SSDPE2KX080T810","text3":"440"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 1.0TB ","text2":"SSDPE2KE010T701","text3":"45"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 1.0TB ","text2":"SSDPE2KE010T710","text3":"45"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 1.6TB ","text2":"SSDPE2KE016T701","text3":"70"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 1.6TB","text2":"SSDPE2KE016T710","text3":"70"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 2.0TB ","text2":"SSDPE2KE020T701","text3":"80"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 2.0TB ","text2":"SSDPE2KE020T710","text3":"80"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 2.0TB ","text2":"SSDPEDKE020T701","text3":"80"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 2.0TB ","text2":"SSDPEDKE020T710","text3":"80"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 3.2TB ","text2":"SSDPE2KE032T701","text3":"140"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 3.2TB ","text2":"SSDPE2KE032T710","text3":"140"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 4.0TB ","text2":"SSDPEDKE040T701","text3":"160"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 4.0TB ","text2":"SSDPEDKE040T710","text3":"160"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 6.4TB ","text2":"SSDPE2KE064T701","text3":"300"},{"text1":"Intel<sup>®</sup> SSD DC P4600 Series 6.4TB ","text2":"SSDPE2KE064T710","text3":"300"},{"text1":"Intel<sup>®</sup> SSD DC P4608 Series 6.4TB ","text2":"SSDPECKE064T701","text3":"80"},{"text1":"Intel<sup>®</sup> SSD DC P4608 Series 6.4TB ","text2":"SSDPECKE064T710","text3":"80"},{"text1":"Intel<sup>®</sup> SSD DC P4610 Series 1.6TB ","text2":"SSDPE2KE016T801","text3":"70"},{"text1":"Intel<sup>®</sup> SSD DC P4610 Series 3.2TB ","text2":"SSDPE2KE032T801","text3":"140"},{"text1":"Intel<sup>®</sup> SSD DC P4610 Series 6.4TB ","text2":"SSDPE2KE064T801","text3":"300"},{"text1":"Intel<sup>®</sup> SSD DC P4610 Series 7.6TB ","text2":"SSDPE2K076T801","text3":"400"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 1.9TB ","text2":"SSDSC2KB019T7","text3":"50"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 1.9TB ","text2":"SSDSCKKB019T7","text3":"50"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 240GB ","text2":"SSDSC2KB240G7","text3":"10"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 240GB ","text2":"SSDSC2KB240G701","text3":"10"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 3.8TB ","text2":"SSDSC2KB038T7","text3":"90"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 3.8TB ","text2":"SSDSC2KB038T701","text3":"90"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 480GB ","text2":"SSDSC2KB480G7","text3":"15"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 480GB ","text2":"SSDSC2KB480G701","text3":"15"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 7.6TB ","text2":"SSDSC2KB076T701","text3":"170"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 960GB ","text2":"SSDSC2KB960G7","text3":"25"},{"text1":"Intel<sup>®</sup> SSD DC S4500 Series 960GB ","text2":"SSDSC2KB960G701","text3":"25"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 1.9TB ","text2":"SSDSC2KG019T7","text3":"70"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 1.9TB ","text2":"SSDSC2KG019T701","text3":"70"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 240GB ","text2":"SSDSC2KG240G7","text3":"10"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 240GB ","text2":"SSDSC2KG240G701","text3":"10"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 480GB ","text2":"SSDSC2KG480G7","text3":"20"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 480GB ","text2":"SSDSC2KG480G701","text3":"20"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 960GB ","text2":"SSDSC2KG960G7","text3":"35"},{"text1":"Intel<sup>®</sup> SSD DC S4600 Series 960GB ","text2":"SSDSC2KG960G701","text3":"35"},{"text1":"客户端固态盘","text2":"Intel<sup>®</sup> Optane™ Memory 16GB ","text3":"MEMPEK1W016GA","text4":"10","text5":"至尊会员：50,000积分菁英会员：20,000积分"},{"text1":"Intel<sup>®</sup> Optane™ Memory 16GB ","text2":"MEMPEK1W016GAX1","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory 16GB ","text2":"MEMPEK1W016GAXT","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory 32GB ","text2":"MEMPEK1W032GA","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ Memory 32GB ","text2":"MEMPEK1W032GAXT","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 16GB ","text2":"MEMPEK1J016GA","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 16GB ","text2":"MEMPEK1J016GA01","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 32GB ","text2":"MEMPEK1J032GA01","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 64GB ","text2":"MEMPEK1J064GA","text3":"40"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 64GB ","text2":"MEMPEK1J064GA01","text3":"40"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 64GB ","text2":"MEMPEK1J064GAXT","text3":"40"},{"text1":"Intel<sup>®</sup> Optane™ SSD 800P Series 120GB ","text2":"SSDPEK1W120GA","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ SSD 800P Series 120GB ","text2":"SSDPEK1W120GA01","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ SSD 800P Series 120GB ","text2":"SSDPEK1W120GAX1","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ SSD 800P Series 120GB ","text2":"SSDPEK1W120GAXT","text3":"20"},{"text1":"Intel<sup>®</sup> Optane™ SSD  800P Series 60GB ","text2":"SSDPEK1W060GA","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ SSD  800P Series 60GB ","text2":"SSDPEK1W060GA01","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ SSD  800P Series 60GB ","text2":"SSDPEK1W060GAXT","text3":"10"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 280GB ","text2":"SSDPE21D280GAM3","text3":"35"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 280GB ","text2":"SSDPE21D280GASM","text3":"35"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 280GB ","text2":"SSDPE21D280GASX","text3":"35"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 280GB ","text2":"SSDPE21D280GAX1","text3":"35"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 280GB ","text2":"SSDPED1D280GASX","text3":"35"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 280GB ","text2":"SSDPED1D280GAX1","text3":"35"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 480GB ","text2":"SSDPED1D480GASX","text3":"55"},{"text1":"Intel<sup>®</sup> Optane™ SSD 900P 480GB ","text2":"SSDPED1D480GAX1","text3":"55"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 1.5TB ","text2":"SSDPE21D015TAM3","text3":"200"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 1.5TB ","text2":"SSDPE21D015TAX1","text3":"200"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 1.5TB ","text2":"SSDPED1D015TAX1","text3":"200"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 380GB ","text2":"SSDPEL1D380GA01","text3":"50"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 380GB ","text2":"SSDPEL1D380GAX1","text3":"50"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 480GB ","text2":"SSDPE21D480GAM3","text3":"60"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 480GB ","text2":"SSDPE21D480GAX1","text3":"60"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 960GB ","text2":"SSDPE21D960GAM3","text3":"130"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 960GB ","text2":"SSDPE21D960GAX1","text3":"130"},{"text1":"Intel<sup>®</sup> Optane™ SSD 905P Series 960GB ","text2":"SSDPED1D960GAX1","text3":"130"},{"text1":"Intel<sup>®</sup> SSD 660p Series 1TB ","text2":"SSDPEKNW010T801","text3":"20"},{"text1":"Intel<sup>®</sup> SSD 660p Series 1TB ","text2":"SSDPEKNW010T8X1","text3":"20"},{"text1":"Intel<sup>®</sup> SSD 660p Series 1TB ","text2":"SSDPEKNW010T8XT","text3":"20"},{"text1":"Intel<sup>®</sup> SSD 660p Series 2TB ","text2":"SSDPEKNW020T801","text3":"30"},{"text1":"Intel<sup>®</sup> SSD 660p Series 2TB ","text2":"SSDPEKNW020T8X1","text3":"30"},{"text1":"Intel<sup>®</sup> SSD 660p Series 2TB ","text2":"SSDPEKNW020T8XT","text3":"30"},{"text1":"Intel<sup>®</sup> SSD 660p Series 512GB ","text2":"SSDPEKNW512G801","text3":"10"},{"text1":"Intel<sup>®</sup> SSD 660p Series 512GB ","text2":"SSDPEKNW512G810","text3":"10"},{"text1":"Intel<sup>®</sup> SSD 660p Series 512GB ","text2":"SSDPEKNW512G8X1","text3":"10"},{"text1":"Intel<sup>®</sup> SSD 660p Series 512GB ","text2":"SSDPEKNW512G8XT","text3":"10"},{"text1":"Intel<sup>®</sup> SSD 760p Series 1.024TB ","text2":"SSDPEKKW010T8X1","text3":"35"},{"text1":"Intel<sup>®</sup> SSD 760p Series 128GB ","text2":"SSDPEKKW128G801","text3":"10"},{"text1":"Intel<sup>®</sup> SSD 760p Series 128GB ","text2":"SSDPEKKW128G8XT","text3":"10"},{"text1":"Intel<sup>®</sup> SSD 760p Series 2.048TB ","text2":"SSDPEKKW020T8X1","text3":"45"},{"text1":"Intel<sup>®</sup> SSD 760p Series 256GB ","text2":"SSDPEKKW256G801","text3":"20"},{"text1":"Intel<sup>®</sup> SSD 760p Series 256GB ","text2":"SSDPEKKW256G8XT","text3":"20"},{"text1":"Intel<sup>®</sup> SSD 760p Series 512GB ","text2":"SSDPEKKW512G801","text3":"30"},{"text1":"Intel<sup>®</sup> SSD 760p Series 512GB ","text2":"SSDPEKKW512G8XT","text3":"30"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 1.9TB ","text2":"SSDSC2KB019T8","text3":"50"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 1.9TB ","text2":"SSDSC2KB019T801","text3":"50"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 3.8TB ","text2":"SSDSC2KB038T8","text3":"90"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 3.8TB ","text2":"SSDSC2KB038T801","text3":"90"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 960GB ","text2":"SSDSC2KG960G801","text3":"35"},{"text1":"Intel<sup>®</sup> SSD P4800X Series 375GB ","text2":"SSDPE21K375GA01","text3":"70"},{"text1":"Intel<sup>®</sup> SSD P4800X Series 375GB","text2":"SSDPED1K375GA01","text3":"70"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 240GB ","text2":"SSDSC2KB240G8","text3":"10"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 240GB ","text2":"SSDSC2KB240G801","text3":"10"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 480GB ","text2":"SSDSC2KB480G8","text3":"15"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 480GB ","text2":"SSDSC2KB480G801","text3":"15"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 960GB ","text2":"SSDSC2KB960G8","text3":"25"},{"text1":"Intel<sup>®</sup> SSD D3-S4510 Series 960GB ","text2":"SSDSC2KB960G801","text3":"25"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 1.9TB ","text2":"SSDSC2KG019T8","text3":"70"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 1.9TB ","text2":"SSDSC2KG019T801","text3":"70"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 240GB ","text2":"SSDSC2KG240G8","text3":"10"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 240GB ","text2":"SSDSC2KG240G801","text3":"10"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 3.8TB ","text2":"SSDSC2KG038T801","text3":"140"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 480GB ","text2":"SSDSC2KG480G8","text3":"20"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 480GB ","text2":"SSDSC2KG480G801","text3":"20"},{"text1":"Intel<sup>®</sup> SSD D3-S4610 Series 960GB ","text2":"SSDSC2KG960G8","text3":"35"}
 ]
 
 const dataSource5 = [
-  { text: "3．本季度积分将在<b>本季度</b>核算，并上传至您的<a href='https://prc-points.inteltechnologyprovider.com' target='_blank'>英特尔<sup>®</sup>渠道积分</a>账户，积分有效期为一年；" },
+  { text: "本季度积分将在<b>本季度</b>核算，并上传至您的<a href='https://prc-points.inteltechnologyprovider.com' target='_blank'>英特尔<sup>®</sup>渠道积分</a>账户，积分有效期为一年；" },
   {
     text:
-      "4．您可以登录<a href='https://prc-points.inteltechnologyprovider.com'\
+      "您可以登录<a href='https://prc-points.inteltechnologyprovider.com'\
        target='_blank'>英特尔<sup>®</sup>渠道积分</a>查询积分并进行礼品兑换，可兑换的礼品有多种面值的亚马逊电子礼品卡\
        Intel产品等多种礼品；为了确保礼品能准确及时的发送给您，请尽快登录<a href='http://www.intel.com/technologyprovider'\
        target='_blank'>英特尔<sup>®</sup>技术合作伙伴网站</a> 或 <a href='https://prc-points.inteltechnologyprovider.com' target='_blank'>英特尔<sup>®</sup>渠道积分网站</a>核实并更新您的联系信息；"
   },
   {
-    text: "5．在您成功兑换礼品后，我们将尽快安排礼品发送（如兑换亚马逊电子礼品卡，则由亚马逊通过电子邮件的方式发送充值密码）；如您在1个月内未收到礼品，请立即联系英特尔客户支持。由于订单量较大，我们无法保证能够查询到超过2个月的订单递送情况，若有任何不便之处请谅解；"
+    text: "在您成功兑换礼品后，我们将尽快安排礼品发送（如兑换亚马逊电子礼品卡，则由亚马逊通过电子邮件的方式发送充值密码）；如您在1个月内未收到礼品，请立即联系英特尔客户支持。由于订单量较大，我们无法保证能够查询到超过2个月的订单递送情况，若有任何不便之处请谅解；"
   },
   { text: "凡参加本活动规则所描述活动，或兑换本活动规则所列积分，即表明您同意受本活动规则中各项条款的调整和约束，并遵守英特尔<sup>®</sup>技术合作伙伴（“ITP”）项目的条款和条件，包括附录A与积分补充条款和条件（“ITP项目条款”）。该ITP项目条款为本活动规则的一部分，其详情可在此网址查询：\
         <a href='https://www.intel.cn/content/www/cn/zh/technology-provider/legal/program-terms-and-conditions.html?_ga=2.161268861.1386006631.1522205920-1782132059.1444618124&elq_cid=1498511&erpm_id=2886134；' target='_blank'>https://www.intel.cn/content/www/cn/zh/technology-provider/legal/program-terms-and-conditions.html?_ga=2.161268861.1386006631.1522205920-1782132059.1444618124&elq_cid=1498511&erpm_id=2886134； </a>"
   },
   {
     text:
-      "7．英特尔可以根据本活动规则以及ITP项目条款的内容，对您的级别状态进行定期评估，并按照本活动规则以及ITP项目条款进行相应的升级、降级操作。若本活动规则中的任何内容，与ITP项目条款存在冲突，应以本活动规则为准。任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本活动规则中涉及上述协议内容的条款。除非英特尔授权代表以书面形式与您另有约定，英特尔的标准销售条款和条件将适用于任何英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议；"
+      "英特尔可以根据本活动规则以及ITP项目条款的内容，对您的级别状态进行定期评估，并按照本活动规则以及ITP项目条款进行相应的升级、降级操作。若本活动规则中的任何内容，与ITP项目条款存在冲突，应以本活动规则为准。任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本活动规则中涉及上述协议内容的条款。除非英特尔授权代表以书面形式与您另有约定，英特尔的标准销售条款和条件将适用于任何英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议；"
   },
   {
     text:
-      "8．在适用法律所允许的范围内，本活动规则的最终解释权归英特尔所有；"
+      "本次活动最终解释权归英特尔所有；"
   },
   {
     text:
-      "9．英特尔保留进一步调整、修改本活动规则的权利。"
+      "英特尔保留进一步调整、修改本次活动规则的权利。"
   }
 ];
 

@@ -3,7 +3,7 @@
     <tr v-for="(item, index) in dataSource" :key="index">
       <td v-if="hasSpace" style="width: 20px;"></td>
       <td v-if="isLetter" width="20" :style="textStyle">{{ getLetter(index+1) }}</td>
-      <td v-else :style="textStyle" width="20">{{listType || `${index + 1}.`}}</td>
+      <td v-else :style="textStyle" width="20">{{listType || `${index + 1 + indexAddNumber}.`}}</td>
       <td :style="textStyle" v-html="item.text"></td>
     </tr>
     <slot></slot>
@@ -62,6 +62,10 @@ export default {
     isLetter: {
       type: Boolean,
       default: false,
+    },
+    indexAddNumber: {
+      type: Number,
+      default: 0,
     }
   },
   methods: {
