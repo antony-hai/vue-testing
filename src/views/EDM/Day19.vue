@@ -12,13 +12,13 @@
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;">尊敬的英特尔增值分销合作伙伴：</td>
           </tr>
           <tr>
-            <TCell>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018年第四季度，英特尔为推动高端产品销售，特别为增值分销合作伙伴推出了额外积分的奖励活动。在活动期间，客户在通过产品扫描享受常规积分奖励的基础上，还可以通过此计划获得额外积分奖励，只限奖励规则中指定产品。</TCell>
+            <TCell>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019年第一季度，英特尔为推动八系列高端产品销售，特别为增值分销合作伙伴推出了额外积分的奖励活动。在活动期间，客户在通过产品扫描享受常规积分奖励的基础上，还可以通过此计划获得额外积分奖励，只限奖励规则中指定产品。</TCell>
           </tr>
         </StanceTable>
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <TCell><b>一、活动期间：</b>2018年11月5日起至2018 年11月25日</TCell>
+            <TCell><b>一、活动期间：</b>2019年1月15日起至2019 年1月30日</TCell>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -30,10 +30,10 @@
           </tr>
           <tr height="10"></tr>
           <tr>
-            <TCell>1、活动要求和细则均以《2018年第四季度英特尔增值分销合作伙伴扫描积分奖励计划》为准，请遵照履行;</TCell>
+            <TCell>1、活动要求和细则均以《2019 年第一季度英特尔增值分销合作伙伴扫描积分奖励计划》为准，请遵照履行;</TCell>
           </tr>
           <tr>
-            <TCell>2、特别奖励计划型号及积分如下：</TCell>
+            <TCell>2、特别奖励计划型号及积分如下： </TCell>
           </tr>
         </StanceTable>
         <!-- 数据表格 -->
@@ -53,9 +53,14 @@
               <DataTable :column="column" :dataSource="tableData5" width="135"></DataTable>
             </td>
           </tr>
-          <tr height="30"></tr>
+          <tr height="20"></tr>
         </StanceTable>
 
+        <StanceTable hasBottom>
+          <tr>
+            <TCell :ostyle="{'text-align': 'right', 'padding-right': '10px'}">2019年1月15日</TCell>
+          </tr>
+        </StanceTable>
 
         <Footer></Footer>
 
@@ -113,18 +118,17 @@ const column = [
   },
 ];
 const tableData2 = [
-  {"text1":"i3-7100","text2":"20"},{"text1":"i3-7100T","text2":"20"},{"text1":"i3-7300","text2":"20"},{"text1":"i3-7300T","text2":"20"},{"text1":"i3-7320","text2":"20"},{"text1":"i3-7350K","text2":"20"},{"text1":"i3-8100","text2":"20"},{"text1":"I3-8300","text2":"20"},{"text1":"i3-8350K","text2":"20"}
+  {"text1":"i3-8100","text2":"20"},{"text1":"i3-8300","text2":"20"},{"text1":"i3-8350K","text2":"25"}
 ];
 const tableData3 = [
-  {"text1":"i5-7400","text2":"30"},{"text1":"i5-7400T","text2":"30"},{"text1":"i5-7500","text2":"30"},{"text1":"i5-7500T","text2":"30"},{"text1":"i5-7600","text2":"30"},{"text1":"i5-7600K","text2":"30"},{"text1":"i5-7600T","text2":"30"},{"text1":"i5-7640X","text2":"40"},{"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"30"},{"text1":"i5-9600K","text2":"30"}
+  {"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"35"},{"text1":"i5-9600K","text2":"35"}
 ]
 const tableData4 = [
-  {"text1":"i7-7700","text2":"40"},{"text1":"i7-7700K","text2":"40"},{"text1":"i7-7700T","text2":"40"},{"text1":"i7-7740X","text2":"60"},{"text1":"i7-7800X","text2":"60"},{"text1":"i7-7820X","text2":"60"},{"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"40"},{"text1":"i7-8086K","text2":"40"},{"text1":"i7-9700K","text2":"40"}
+ {"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"45"},{"text1":"i7-8086K","text2":"45"},{"text1":"i7-9700K","text2":"45"},{"text1":"i7-9800X","text2":"60"}
 ]
 const tableData5 = [
-  {"text1":"i9-7900X","text2":"100"},{"text1":"i9-7920X","text2":"100"},{"text1":"i9-7940X","text2":"100"},{"text1":"i9-7960X","text2":"100"},{"text1":"i9-7980XE","text2":"100"},{"text1":"i7-9900K","text2":"80"}
+ {"text1":"i9-9900K","text2":"60"},{"text1":"i9-9820X","text2":"100"},{"text1":"i9-9900X","text2":"100"},{"text1":"i9-9920X","text2":"100"},{"text1":"i9-9940X","text2":"100"},{"text1":"i9-9960X","text2":"100"},{"text1":"i9-9980XE","text2":"100"}
 ]
-
 export default {
   data() {
     return {

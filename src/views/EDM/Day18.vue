@@ -18,14 +18,14 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <TCell>一、活动时间：2018 年10月1 日起至2018 年12月31日 </TCell>
+            <TCell>一、活动时间：2019 年1月1 日起至2019 年3月31日</TCell>
           </tr>
           <tr height="10"></tr>
           <tr>
             <TCell>
               二、参加资格: <br>
               1. 被英特尔渠道销售经理根据上一季度的情况在系统中做出相应级别提名的增值分销合作伙伴；且<br>
-              2．该增值分销合作伙伴接受与英特尔商定的增值服务覆盖的区域。
+              2. 该增值分销合作伙伴接受与英特尔商定的增值服务覆盖的区域。
             </TCell>
           </tr>
         </StanceTable>
@@ -75,7 +75,7 @@
                       </tr>
                       <tr>
                         <TCell width="20">-</TCell>
-                        <TCell> 配合并执行英特尔在与英特尔商定的增值服务覆盖的区域范围内不定期举行的市场活动。</TCell>
+                        <TCell>配合并执行英特尔在与英特尔商定的增值服务覆盖的区域范围内不定期举行的市场活动。</TCell>
                       </tr>
                       <tr>
                         <TCell width="20">-</TCell>
@@ -85,13 +85,16 @@
                         <TCell width="20"></TCell>
                         <TCell>
                           <StanceTable width="579">
-                            <IconText>截至2018年第四季度末，如销售指标达成率小于50%，不能获得本地覆盖增值服务积分；</IconText>
-                            <IconText>截至2018年第四季度末，如销售指标达成率大于等于50%且小于70%, 只能获得60%本地覆盖增值服务积分。</IconText>
-                            <IconText>截至2018年第四季度末，如销售指标达成率大于等于70%且小于100%, 只能获得80%本地覆盖增值服务积分。</IconText>
+                            <IconText>在2019年2月1日前销售指标达成率小于30%，只能获得80%本地覆盖增值服务积分；</IconText>
+                            <IconText>在2019年3月1日前销售指标达成率小于60%，只能获得80%本地覆盖增值服务积分；</IconText>
+                            <IconText>截至2019年第一季度末，如销售指标达成率小于50%，不能获得本地覆盖增值服务积分；</IconText>
+                            <IconText>截至2019年第一季度末，如销售指标达成率大于等于50%且小于70%, 只能获得60%本地覆盖增值服务积分。</IconText>
+                            <IconText>截至2019年第一季度末，如销售指标达成率大于等于70%且小于100%, 只能获得80%本地覆盖增值服务积分。</IconText>
                             <IconText>
-                              截至2018年第四季度末，如未能完成相应数量的培训课程，或者未能按照英特尔的要求配合英特尔完成相应的市场活动，则不能获得本地覆盖增值服务积分。<br>
+                              截至2019年第一季度末，如未能完成相应数量的培训课程，或者未能按照英特尔的要求配合英特尔完成相应的市场活动，则不能获得本地覆盖增值服务积分。<br>
                               注1：如按照上述积分规则分别计算得出的季度末积分不一致，以积分最低的计算方式为准。<br>
-                              注2：仅第七代、第八代、第九代及X系列英特尔酷睿处理器产品，及其他英特尔书面认可的产品，才可计入销售指标中。
+                              注2：仅第七代、第八代、第九代及X系列英特尔酷睿处理器产品，及其他英特尔书面认可的产品，才可计入销售指标中。<br>
+                              注3：经扫描并被视为有效的英特尔NUC产品，将被计入高端销量，但不产生积分。
                             </IconText>
                           </StanceTable>
                         </TCell>
@@ -130,11 +133,11 @@
                       </tr>
                       <tr>
                         <TCell width="20">-</TCell>
-                        <TCell> 在T5+覆盖的区域内通过渠道宝提名服务相应数量的店面，且满足英特尔渠道销售经理在系统内做出的相应的指标设定；</TCell>
+                        <TCell>在T5+覆盖的区域内通过渠道宝提名服务相应数量的店面，且满足英特尔渠道销售经理在系统内做出的相应的指标设定；</TCell>
                       </tr>
                       <tr>
                         <TCell width="20">-</TCell>
-                        <TCell> 提名服务的店面要大于等于60%达到县镇店面标准，否则此项县镇开发增值服    务积分减半，并且下一季度提名服务店面的数量不得超过达标的县镇店面数量的1.2倍。</TCell>
+                        <TCell>提名服务的店面要大于等于60%达到县镇店面标准，否则此项县镇开发增值服务积分减半，并且下一季度提名服务店面的数量不得超过达标的县镇店面数量的1.2倍。</TCell>
                       </tr>
                     </StanceTable>
                   </TCell>
@@ -224,7 +227,8 @@
           <tr>
             <TCell>
               八、依照英特尔的网站使用条款<br>
-              <a href="https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html" target="_blank">（https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html）</a> ，凡以您的账户在英特尔网站上进行的操作，均视为您的操作并由您负责；如果您的账户、密码等信息有误或发生泄露，导致您的权益受损，请理解英特尔将不承担任何责任。
+              <a href="https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html" target="_blank">（https://www.intel.cn/content/www/cn/zh/legal/terms-of-use.html）</a> ，
+              凡以您的账户在英特尔网站上进行的操作，均视为您的操作并由您负责；如果您的账户、密码等信息有误或发生泄露，导致您的权益受损，请理解英特尔将不承担任何责任。
             </TCell>
           </tr>
           <tr height="10"></tr>
@@ -250,7 +254,7 @@
         </StanceTable>
         <!-- 数据表格 -->
 
-        <StanceTable hasTop hasBottom>
+        <StanceTable hasTop>
           <tr>
             <td width="135" style="vertical-align: top">
               <DataTable :column="column" :dataSource="tableData2" width="135"></DataTable>
@@ -265,9 +269,17 @@
               <DataTable :column="column" :dataSource="tableData5" width="135"></DataTable>
             </td>
           </tr>
-          <tr height="30"></tr>
+          <tr height="20"></tr>
         </StanceTable>
 
+        <StanceTable hasBottom>
+          <tr>
+            <td align="center" valign="top">
+              <DataTable :column="column2" :dataSource="tableData6" width="400"></DataTable>
+            </td>
+          </tr>
+          <tr height="10"></tr>
+        </StanceTable>
 
         <Footer></Footer>
 
@@ -317,7 +329,20 @@ const tableData1 = [
 const column = [
   {
     title: "型号",
-    dataIndex: "text1"
+    dataIndex: "text1",
+    align: 'left'
+  },
+  {
+    title: "积分",
+    dataIndex: "text2"
+  },
+];
+const column2 = [
+  {
+    title: "型号",
+    dataIndex: "text1",
+    width: '300',
+    align: 'left',
   },
   {
     title: "积分",
@@ -325,28 +350,35 @@ const column = [
   },
 ];
 const tableData2 = [
-  {"text1":"G3900","text2":"5"},{"text1":"G3930","text2":"5"},{"text1":"G4900","text2":"5"},{"text1":"G4920","text2":"5"},{"text1":"G4400","text2":"10"},{"text1":"G4560","text2":"12"},{"text1":"G5400","text2":"10"},{"text1":"G5500","text2":"12"},{"text1":"G5600","text2":"12"},{"text1":"i3-7100","text2":"20"},{"text1":"i3-7100T","text2":"20"},{"text1":"i3-7300","text2":"20"},{"text1":"i3-7300T","text2":"20"},{"text1":"i3-7320","text2":"20"},{"text1":"i3-7350K","text2":"20"},{"text1":"i3-8100","text2":"20"},{"text1":"i3-8300","text2":"20"},{"text1":"i3-8350K","text2":"20"}
+  {"text1":"i3-8100","text2":"20"},{"text1":"i3-8300","text2":"20"},{"text1":"i3-8350K","text2":"25"}
 ];
 const tableData3 = [
-  {"text1":"i5-7400","text2":"30"},{"text1":"i5-7400T","text2":"30"},{"text1":"i5-7500","text2":"30"},{"text1":"i5-7500T","text2":"30"},{"text1":"i5-7600","text2":"30"},{"text1":"i5-7600K","text2":"30"},{"text1":"i5-7600T","text2":"30"},{"text1":"i5-7640X","text2":"40"},{"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"30"},{"text1":"i5+ 8400 ","text2":"40"},{"text1":"i5+ 8500 ","text2":"40"},{"text1":"I5-9600K","text2":"40"}
+  {"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"35"},{"text1":"i5-9600K","text2":"35"}
 ]
 const tableData4 = [
-  {"text1":"i7-7700","text2":"40"},{"text1":"i7-7700K","text2":"40"},{"text1":"i7-7700T","text2":"40"},{"text1":"i7-7740X","text2":"60"},{"text1":"i7-7800X","text2":"60"},{"text1":"i7-7820X","text2":"60"},{"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"40"},{"text1":"i7  8086K ","text2":"40"},{"text1":"i7+ 8700 ","text2":"50"},{"text1":"i7-9700K","text2":"60"},
+  {"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"45"},{"text1":"i7-8086K","text2":"45"},{"text1":"i7-9700K","text2":"45"}
 ]
 const tableData5 = [
-  {"text1":"i9-7900X","text2":"100"},{"text1":"i9-7920X","text2":"100"},{"text1":"i9-7940X","text2":"100"},{"text1":"i9-7960X","text2":"100"},{"text1":"i9-7980XE","text2":"100"},{"text1":"i9-9900K","text2":"80"},
+ {"text1":"i9-9900K","text2":"60"}
 ]
+const tableData6 = [
+  {"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"450"}
+]
+
+
 
 export default {
   data() {
     return {
       column,
       column1,
+      column2,
       tableData1,
       tableData2,
       tableData3,
       tableData4,
       tableData5,
+      tableData6,
       iconUrl:
         "http://show.easeye.com.cn/fckattach/2018-06-28/e3b9e77152a2095d72521d1898764e2d/image/c81e728d9d4c2f636f067f89cc14862c.jpg"
     };
