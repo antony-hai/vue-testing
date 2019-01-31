@@ -84,11 +84,18 @@ export default new Router({
           component: () =>
             import('@/components/RouterView.vue'),
           // redirect: '/menu1/item1/option1',
-          children: [{
+          children: [
+            {
               path: 'option1',
               component: () =>
                 import('@/views/EDM/Day17.vue'),
               name: 'option2-1'
+            },
+            {
+              path: 'option2',
+              component: () =>
+                import('@/views/EDM/Day25.vue'),
+              name: 'option2-2'
             },
            
           ],
@@ -110,6 +117,12 @@ export default new Router({
               component: () =>
                 import('@/views/EDM/Day18.vue'),
               name: 'option3-2'
+            },
+            {
+              path: 'option3',
+              component: () =>
+                import('@/views/EDM/Day4.vue'),
+              name: 'option3-3'
             },
            
           ],

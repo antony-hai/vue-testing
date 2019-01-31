@@ -62,6 +62,11 @@ export default [
             title: '标题二一',
             url: '/menu1/item2/option1'
           },
+          { 
+            name: 'option2-2',
+            title: '标题二er',
+            url: '/menu1/item2/option2'
+          },
         ],
       },
       {
@@ -78,6 +83,11 @@ export default [
             name: 'option3-2',
             title: '标题三二',
             url: '/menu1/item3/option2'
+          },
+          { 
+            name: 'option3-3',
+            title: '标题三三',
+            url: '/menu1/item3/option3'
           },
         ],
       },
