@@ -182,16 +182,19 @@ export default [
         icon_type: 'ios-basket',
         children: [
           { 
-            name: 'option1',
+            name: 'option2-1',
             title: '标题一',
+            url: '/menu3/item2/option1'
           },
           { 
-            name: 'option2',
-            title: '标题一',
+            name: 'option2-2',
+            title: '标题er',
+            url: '/menu3/item2/option2'
           },
           { 
-            name: 'option2',
-            title: '标题一',
+            name: 'option2-3',
+            title: '标题san',
+            url: '/menu3/item2/option3'
           },
         ],
       },
