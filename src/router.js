@@ -185,13 +185,13 @@ export default new Router({
           {
             path: 'option2',
             component: () =>
-              import('@/views/EDM/Day21.vue'),
+              import('@/views/EDM/Day22.vue'),
             name: 'option2-2'
           },
           {
             path: 'option3',
             component: () =>
-              import('@/views/EDM/Day5.vue'),
+              import('@/views/EDM/Day23.vue'),
             name: 'option2-3'
           },
           ],
