@@ -1,4 +1,5 @@
 
+
 // 一个节流函数、用于mosemove, resize 等函数
 const throttle = (fn, delay = 100) => {
   const _self = fn
@@ -189,6 +190,23 @@ Function.prototype.after = function (afterFn) {
 
     return ret
   }
+}
+
+setRem = () => {
+
+  (function(doc, win){
+    const docEl = doc.documentElement;
+    const resizeEvent = 'orientationchange' in window ? 'orientationchange' : 'resize';
+    const recalc = () => {
+      const clientWidth = docEl.clientWidth;
+      if (!clientWidth) { return }
+      docEl.style.fontSize = 100 * (clientWidth / 375) + "px";
+    }
+
+    if (!doc.addEventListener) { return } 
+    win.addEventListener(resizeEvent, recalc, false);
+    doc.addEventListener("DomContentLoaded", recalc)
+  })(document, window)
 }
 
 
