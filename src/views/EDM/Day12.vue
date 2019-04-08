@@ -12,15 +12,15 @@
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;">尊敬的英特尔<Sup></Sup>网吧渠道技术合作伙伴：</td>
           </tr>
           <tr>
-            <TCell>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先感谢您一直以来对英特尔<Sup></Sup>公司的支持，为了更好地支持广大网吧渠道技术合作伙伴把握机遇，服务及覆盖更多客户，我们诚挚地邀请大家参加2019年第一季度英特尔®网吧渠道技术合作伙伴积分奖励计划。</TCell>
+            <TCell>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先感谢您一直以来对英特尔<Sup></Sup>公司的支持，为了更好地支持广大网吧渠道技术合作伙伴把握机遇，服务及覆盖更多客户，我们诚挚地邀请大家参加2019年第二季度英特尔<Sup></Sup>网吧渠道技术合作伙伴积分奖励计划。</TCell>
           </tr>
         </StanceTable>
 
         <StanceTable>
-          <IconText title="活动名称" :imgUrl="iconUrl"><b>2019年第一季度英特尔<Sup></Sup>网吧渠道合作伙伴积分奖励计划</b></IconText>
-          <IconText title="活动时间" :imgUrl="iconUrl">2019年1月1日-2019年3月31日</IconText>
-          <IconText title="目标产品" :imgUrl="iconUrl">英特尔酷睿处理器中国盒装产品</IconText>
-          <IconText title="参与资格" :imgUrl="iconUrl">英特尔网吧配件渠道及英特尔网吧系统集成商</IconText>
+          <IconText title="活动名称" :imgUrl="iconUrl"><b>2019年第二季度英特尔<Sup></Sup>网吧渠道合作伙伴积分奖励计划</b></IconText>
+          <IconText title="活动时间" :imgUrl="iconUrl">2019年4月1日-2019年6月30日</IconText>
+          <IconText title="目标产品" :imgUrl="iconUrl">英特尔<Sup></Sup>酷睿<Sup></Sup>处理器中国盒装产品</IconText>
+          <IconText title="参与资格" :imgUrl="iconUrl">英特尔<Sup></Sup>网吧配件渠道及英特尔网吧系统集成商</IconText>
           <IconText title="活动内容" :imgUrl="iconUrl">招募英特尔<Sup></Sup>网吧渠道技术合作伙伴加入英特尔<Sup></Sup>网吧合作伙伴计划，并给予相应的“英特尔<Sup></Sup>渠道积分”支持，以及其他市场活动支持和技术支持；</IconText>
         </StanceTable>
 
@@ -154,8 +154,8 @@
           </IconText>
           <IconText :imgUrl="iconUrl">
             本奖励计划对特定渠道级别的标准和要求，为该渠道级别所应满足的最低标准。英特尔可以根据本奖励计划以及ITP项目条款和条件的内容，
-            对会员、渠道或客户的级别状态进行定期评估，并按照本奖励计划进行相应的升级、降级操作。若本奖励计划中的任何内容，与ITP项目条款存在冲突，应以本奖励计划为准。
-            任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本奖励计划中涉及上述协议内容的条款。
+            对会员、渠道或客户的级别状态进行定期评估，并按照本奖励计划进行相应的升级、降级操作。若本奖励计划中的任何内容，与ITP项目条款存在冲突，
+            应以本奖励计划为准。任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本奖励计划中涉及上述协议内容的条款。
             除非英特尔授权代表书面签署，英特尔的标准销售条款和条件将适用于任何英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议。
           </IconText>
           <IconText :imgUrl="iconUrl">接受、兑换本活动中的积分，即表示接受本奖励计划与ITP项目条款，并同意受其约束。</IconText>
@@ -174,7 +174,7 @@
           <tr>
             <td width="35"></td>
             <TCell>
-              英特尔真诚地欢迎您加入“2019年第一季度英特尔<Sup></Sup>网吧渠道技术合作伙伴积分奖励计划” <br>让我们在 2019年携手并进，共创辉煌！
+              英特尔真诚地欢迎您加入“2019年第二季度英特尔<Sup></Sup>网吧渠道技术合作伙伴积分奖励计划” <br>让我们在 2019年携手并进，共创辉煌！
             </TCell>
           </tr>
           <tr>
@@ -183,7 +183,7 @@
           </tr>
           <tr>
             <td width="35"></td>
-            <TCell :ostyle="{ 'text-align': 'right'}">2019年1月</TCell>
+            <TCell :ostyle="{ 'text-align': 'right'}">2019年4月</TCell>
           </tr>
         </StanceTable>
 
@@ -202,7 +202,7 @@
             <td width="135" style="vertical-align: top">
               <DataTable :column="column11" :dataSource="tableData2" width="135"></DataTable>
             </td>
-            <td width="135" style="vertical-align: top">
+            <!-- <td width="135" style="vertical-align: top">
               <DataTable :column="column11" :dataSource="tableData3" width="135"></DataTable>
             </td>
             <td width="135" style="vertical-align: top">
@@ -210,148 +210,13 @@
             </td>
             <td width="135" style="vertical-align: top">
               <DataTable :column="column11" :dataSource="tableData5" width="135"></DataTable>
-            </td>
+            </td> -->
           </tr>
           <!-- <tr height="20"></tr> -->
         </StanceTable>
 
-        <!-- <StanceTable hasTop>
-          <tr>
-            <td width="150" style="vertical-align: top">
-              <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width:150px;text-align: center;line-height: 22px;table-layout: fixed">
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>型号</b></TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>积分</b></TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i3-8100</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">20</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i3-8300</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">20</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i3-8350K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">205</TCell>
-                </tr>
-              </table>
-            </td>
-            <td width="150" style="vertical-align: top">
-              <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width:150px;text-align: center;line-height: 22px;table-layout: fixed">
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>型号</b></TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>积分</b></TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5-7500</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">30</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5-7600K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">30</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5-8500</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">30</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5-8600</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">30</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5-8600K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">30</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5+ 8400</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5+ 8500</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i5-9600K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
 
-              </table>
-            </td>
-            <td width="150" style="vertical-align: top">
-              <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width:150px;text-align: center;line-height: 22px;table-layout: fixed">
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>型号</b></TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>积分</b></TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7-7700</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7-7700K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7-8700</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7-8700K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7 8086K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">40</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7+ 8700</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">50</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i7-9700K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">60</TCell>
-                </tr>
-
-              </table>
-            </td>
-            <td width="150" style="vertical-align: top">
-              <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width:150px;text-align: center;line-height: 22px;table-layout: fixed">
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>型号</b></TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}"><b>积分</b></TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i9-7900X</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">100</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i9-7920X</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">100</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i9-7940X</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">100</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i9-7960X</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">100</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i9-7980XE</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">100</TCell>
-                </tr>
-                <tr>
-                  <TCell :ostyle="{ 'text-align': 'center'}">i9-9900K</TCell>
-                  <TCell :ostyle="{ 'text-align': 'center'}">80</TCell>
-                </tr>
-
-              </table>
-            </td>
-          </tr>
-        </StanceTable> -->
-
-        <StanceTable hasTop hasBottom>
+        <!-- <StanceTable hasTop hasBottom>
           <tr>
             <TCell><b>2. 产品基础积分奖励标准</b></TCell>
           </tr>
@@ -361,9 +226,9 @@
           <tr>
             <TCell>&nbsp;&nbsp;&nbsp;■ &nbsp;&nbsp;&nbsp;渠道合作伙伴在不违反促销规则前提下，除i7-9700K及i9-990K外，可以按照级别享受以下加倍奖励积分政策。</TCell>
           </tr>
-        </StanceTable>
+        </StanceTable> -->
 
-        <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width:634px;text-align: center;line-height: 22px;table-layout: fixed">
+        <!-- <table border="1" style="border-collapse:collapse;font-size: 12px;;font-family: 微软雅黑;margin: 0 auto;width:634px;text-align: center;line-height: 22px;table-layout: fixed">
           <tr>
             <TCell width="80"></TCell>
             <TCell>英特尔网吧配件渠道</TCell>
@@ -379,7 +244,7 @@
             <TCell>2倍基础积分网吧特殊支持型号</TCell>
             <TCell>2.5倍基础积分对网吧特殊支持型号，1.5倍基础积分对其他型号产品</TCell>
           </tr>
-        </table>
+        </table> -->
 
         <StanceTable hasBottom hasTop>
           <tr height="20"></tr>
@@ -391,7 +256,7 @@
             <TCell :ostyle="{ 'text-align': 'right'}">英特尔中国区域销售运营与战略项目部</TCell>
           </tr>
           <tr>
-            <TCell :ostyle="{ 'text-align': 'right'}">2019年1月</TCell>
+            <TCell :ostyle="{ 'text-align': 'right'}">2019年4月</TCell>
           </tr>
         </StanceTable>
 
@@ -427,7 +292,7 @@ const dataSource2 = [
     text:
       "交单中的英特尔<sup>®</sup>CPU数量及交单中的有效扫描的中国盒产品数量为当季度新装网吧机器数量。"
   },
-  { text: "有效的产品数量累计即扫描时间区间为2019年1月1日-2019年3月31日。" },
+  { text: "有效的产品数量累计即扫描时间区间为2019年4月1日-2019年6月30日。" },
   {
     text:
       "完成中国盒产品扫描后，需将对应产品包装盒在扫描完成的7天内，邮寄给英特尔或其指定的网吧审核项目组，外包装不可涂抹，条码保持清晰完整，待审核完成后才为有效扫描的中国盒产品数量。"
@@ -570,7 +435,7 @@ const column11 = [
   }
 ]
 const tableData2 = [
-  {"text1":"i3-8100","text2":"20"},{"text1":"i3-8300","text2":"20"},{"text1":"i3-8350K","text2":"25"}
+  {"text1":"i3-8350K","text2":"25"},{"text1":"i3-9350KF","text2":"25"},{"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"35"},{"text1":"i5-9400F","text2":"30"},{"text1":"i5-9600K","text2":"35"},{"text1":"i5-9600KF","text2":"35"},{"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"45"},{"text1":"i7-8086K","text2":"45"},{"text1":"i7-9700K","text2":"45"},{"text1":"i7-9700KF","text2":"45"},{"text1":"i9-9900K","text2":"60"},{"text1":"i9-9900KF","text2":"60"}
 ];
 const tableData3 = [
   {"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"35"},{"text1":"i5-9600K","text2":"35"}

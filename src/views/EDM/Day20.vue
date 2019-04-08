@@ -12,7 +12,7 @@
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 24px;">尊敬的英特尔<Sup></Sup>网吧技术合作伙伴：</td>
           </tr>
           <tr>
-            <TCell>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知您2019年第一季度英特尔与华硕网吧联合促销奖励计划，如下：</TCell>
+            <TCell>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知您2019年第二季度英特尔与微星网吧联合促销奖励计划，如下：</TCell>
           </tr>
         </StanceTable>
 
@@ -30,18 +30,20 @@
           <tr>
             <TCell width="25">2.</TCell>
             <TCell>
-               本促销活动有效期为2019年3月7日至2019年3月31日（“促销活动时间”），可参加本促销活动的客户仅限于在中国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）直接向网吧销售包含英特尔产品的电脑设备的客户（“授权客户”）。
-               授权客户需为英特尔<Sup></Sup>技术合作伙伴中已激活的至尊会员及菁英会员。上述“网吧”系指营业场所位于中国境内，在该营业场所配备个人电脑，并通过个人电脑向公众提供有偿互联网上网服务的终端用户。
+              本促销活动有效期为2019年4月1日至2019年6月30日（“促销活动时间”），可参加本促销活动的客户仅限于在中国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）直接向网吧销售包含英特尔产品的电脑设备的客户（“授权客户”）。 
+              授权客户需为英特尔<Sup></Sup>技术合作伙伴中已激活的至尊会员及菁英会员。上述“网吧”系指营业场所位于中国境内，在该营业场所配备个人电脑，并通过个人电脑向公众提供有偿互联网上网服务的终端用户。
             </TCell>
           </tr>
           <tr>
             <TCell width="25">3.</TCell>
             <TCell>
-              在促销活动期间，对授权客户购买的如下列表中的主板（“符合条件的华硕主板”）和英特尔产品（“符合条件的英特尔产品”）组合（“组合一”）以及显卡（“符合条件的华硕显卡”）和英特尔产品（“符合条件的英特尔产品”）组合（“组合二”），
-              将获得以下积分奖励。如下产品需整合于同一台电脑设备中才可计算为一个组合；积分以组合为单位计算。所有产品采购需从英特尔及华硕厂商认可的渠道进货，否则视为不符合条件产品组合。
+              在促销活动期间，对授权客户购买的如下列表中的微星主板（“符合条件的微星主板”）和英特尔处理器产品（“符合条件的英特尔处理器”）组合（“基本组合”），
+              将获得以下积分奖励。此外，在基本组合基础上，如购买指定的微星显卡（“可选产品一”）或指定的英特尔<Sup></Sup>傲腾<sup>™</sup>内存（“可选产品二”），将获得额外积分奖励，
+              详情如下。积分以组合为单位计算。所有产品采购需从英特尔及微星厂商认可的渠道进货，否则视为不符合条件产品组合。
               <table  cellspacing="0" cellpadding="0" border="0" align="center" width="608">
+                <tr height="10"></tr>
                 <tr>
-                  <TCell><b>组合一：</b></TCell>
+                  <TCell><b>基本组合：</b></TCell>
                 </tr>
                 <tr>
                   <td align="center" valign="top">
@@ -52,13 +54,25 @@
                 </tr>
               </table>
               <table  cellspacing="0" cellpadding="0" border="0" align="center" width="608">
+                <tr height="10"></tr>
                 <tr>
-                  <TCell><b>组合二：</b></TCell>
+                  <TCell><b>可选产品一：</b></TCell>
                 </tr>
                 <tr>
                   <td align="center" valign="top">
                     <DataTable :column="column1" :dataSource="tableData11" width="470"></DataTable>
-                    <br>
+                    <!-- <br>
+                    <DataTable :column="column1" :dataSource="tableData2" width="470"></DataTable> -->
+                  </td>
+                </tr>
+              </table>
+              <table  cellspacing="0" cellpadding="0" border="0" align="center" width="608">
+                <tr height="10"></tr>
+                <tr>
+                  <TCell><b>可选产品二：</b></TCell>
+                </tr>
+                <tr>
+                  <td align="center" valign="top">
                     <DataTable :column="column1" :dataSource="tableData2" width="470"></DataTable>
                   </td>
                 </tr>
@@ -69,13 +83,13 @@
           <tr>
             <TCell width="25">4.</TCell>
             <TCell>
-              授权客户须按指定流程提交网吧赢单信息给英特尔， 赢单信息应包含具体配置、主板品牌型号、傲腾型号、显卡品牌型号、处理器型号等；英特尔销售团队每周核实提交的网吧赢单信息和捆绑销售情况，
-              跟踪进度，直到确认赢单采购完成。主板厂商销售团队每周核实网吧赢单销售数量报告是否真实；英特尔产品经理将按季度核实网吧销售报告是否真实。
+             授权客户须按指定流程提交网吧赢单信息给英特尔， 赢单信息应包含具体配置、主板品牌型号、傲腾型号、显卡品牌型号、处理器型号等；英特尔销售团队每周核实提交的网吧赢单信息和组合销售情况，
+             跟踪进度，直到确认赢单采购完成。主板厂商销售团队每周核实网吧赢单销售数量报告是否真实；英特尔产品经理将按季度核实网吧销售报告是否真实
             </TCell>
           </tr>
           <tr>
             <TCell width="25">5.</TCell>
-            <TCell>英特尔和华硕将分别进行神秘访客现场抽查。如发现虚假赢单信息，将扣减客户当季度奖励或取消资格。</TCell>
+            <TCell>英特尔和微星将分别进行神秘访客现场抽查。如发现虚假赢单信息，将扣减客户当季度奖励或取消资格。</TCell>
           </tr>
           <tr>
             <TCell width="25">6.</TCell>
@@ -94,9 +108,9 @@
           <tr>
             <TCell width="25">8.</TCell>
             <TCell>
-               <b>先到先得原则</b>：本次促销活动中积分奖励的总量，存在英特尔设定的上限。英特尔将按照“先到先得”的原则，按照授权客户提交网吧赢单信息的日期，确定发放上述积分奖励的先后顺序。
-               具体而言，英特尔将根据经核实确属真实有效的网吧赢单赢单信息，确定您实际达成的组合一及组合二的采购量与销售量，以及发放上述积分奖励的先后顺序。
-               由于积分资源有限，英特尔有权根据资源使用情况随时终止本次促销活动。
+               <b>先到先得原则</b>：本次促销活动中积分奖励的总量，存在英特尔设定的上限。英特尔将按照“先到先得”的原则，按照授权客户提交网吧赢单信息的日期，
+               确定发放上述积分奖励的先后顺序。具体而言，英特尔将根据经核实确属真实有效的网吧赢单赢单信息，
+               确定您实际达成的基本组合及可选产品的采购量与销售量，以及发放上述积分奖励的先后顺序。由于积分资源有限，英特尔有权根据资源使用情况随时终止本次促销活动。
             </TCell>
              
           </tr>
@@ -169,7 +183,7 @@ import {
 
 const column1 = [
   {
-    title: "符合条件的华硕主板",
+    title: "符合条件的微星主板",
     dataIndex: "text1",
     align: 'left',
   },
@@ -181,24 +195,30 @@ const column1 = [
 
 ];
 const tableData1 = [
-  {"text1":"PRIME Z390-P","text2":"32"},{"text1":"PRIME Z370-P II","text2":"19"},{"text1":"PRIME Z370M-PLUS II","text2":"32"},{"text1":"ROG STRIX B360-G GAMING","text2":"32"},{"text1":"TUF B360M-E GAMING","text2":"32"},{"text1":"PRIME B360-PLUS","text2":"19"},{"text1":"PRIME H310-PLUS","text2":"13"},{"text1":"EX-B360M-V5","text2":"13"},{"text1":"EX-B360M-V3","text2":"13"},{"text1":"PRIME H310M-E","text2":"13"},{"text1":"EX-H310M V3 R2.0","text2":"13"}
+  {"text1":"Z390 ACE","text2":"60"},{"text1":"Z390 GAMING PRO CARBON ","text2":"40"},{"text1":"Z390 GAMING PLUS","text2":"30"},{"text1":"Z390-A PRO","text2":"30"},{"text1":"Z390M-S01","text2":"30"},{"text1":"Z370 OC PRO","text2":"30"},{"text1":"B360M MORTAR","text2":"20"},{"text1":"B360M icafe","text2":"10"},{"text1":"B365M PRO-VH","text2":"40"},{"text1":"H310M PRO-VD PLUS","text2":"10"}
 ];
 const tableData11 = [
-  {"text1":"ROG-STRIX-RTX2080TI-O11G-GAMING","text2":"126"},{"text1":"ROG-STRIX-RTX2080TI-A11G-GAMING","text2":"126"},{"text1":"ROG-STRIX-RTX2080TI-11G-GAMING","text2":"126"},{"text1":"DUAL-RTX2080TI-O11G","text2":"126"},{"text1":"DUAL-RTX2080TI-A11G","text2":"126"},{"text1":"ROG-STRIX-RTX2080-O8G-GAMING","text2":"126"},{"text1":"ROG-STRIX-RTX2080-A8G-GAMING","text2":"126"},{"text1":"ROG-STRIX-RTX2080-8G-GAMING","text2":"126"},{"text1":"DUAL-RTX2080-O8G","text2":"63"},{"text1":"DUAL-RTX2080-A8G","text2":"63"},{"text1":"DUAL-RTX2080-8G","text2":"63"},{"text1":"ROG-STRIX-RTX2070-O8G-GAMING","text2":"63"},{"text1":"ROG-STRIX-RTX2070-A8G-GAMING","text2":"63"},{"text1":"DUAL-RTX2070-O8G","text2":"63"},{"text1":"DUAL-RTX2070-A8G","text2":"63"},{"text1":"DUAL-RTX2070-8G","text2":"63"},{"text1":"GTX1060-6G-SI","text2":"25"}
+  {"text1":"指定的微星显卡","text2":"积分/单位"},{"text1":"RTX 2080 系列","text2":"75"},{"text1":"RTX 2070 系列","text2":"50"},{"text1":"RTX 2060 系列","text2":"40"},{"text1":"GTX 1660Ti 系列","text2":"30"},{"text1":"GTX 1660 系列","text2":"25"}
 ]
 
 const column = [
   {
-    title: "符合条件的英特尔产品(50积分/单位)",
+    title: "符合条件的英特尔处理器",
     dataIndex: "text1",
     align: 'left'
   },
+  {
+    title: "积分/单位",
+    dataIndex: "text2",
+    width: 80,
+  },
+
 ];
 const tableData = [
- {"text1":"Intel<sup>®</sup> Optane™ Memory Series -MEMPEK1W016GA"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series -MEMPEK1W016GAX1"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series -MEMPEK1W016GAXT"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series- MEMPEK1W032GA"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series- MEMPEK1W032GAX1"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series- MEMPEK1W032GAXT"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series- MEMPEK1J064GA"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series -MEMPEK1J016GA"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series -MEMPEK1J032GA "}
+  {"text1":"i3-9350KF","text2":"50"},{"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"60"},{"text1":"i5-9400F","text2":"40"},{"text1":"i5-9600K","text2":"60"},{"text1":"i5-9600KF","text2":"60"},{"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"45"},{"text1":"i7-8086K","text2":"45"},{"text1":"i7-9700K","text2":"45"},{"text1":"i7-9700KF","text2":"45"},{"text1":"i9-9900K","text2":"60"},{"text1":"i9-9900KF","text2":"60"}
 ];
 const tableData2 = [
- {"text1":"Intel<sup>®</sup> Core™ I9-9900KF Desktop Processor - BXC80684I99900KF","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ I7-9700KF Desktop Processor - BXC80684I79700KF","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ I5-9600KF Desktop Processor - BXC80684I59600KF","text2":"70"},{"text1":"Intel<sup>®</sup> Core™ I3-9350KF Desktop Processor - BXC80684I39350KF","text2":"50"},{"text1":"Intel<sup>®</sup> Core™ I5-9400F Desktop Processor - BXC80684I59400F","text2":"60"}
+  {"text1":"指定的英特尔<sup>®</sup>傲腾™内存","text2":"积分/单位"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 16GB - MEMPEK1J016GA","text2":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory M10 Series 16GB - MEMPEK1J016GA01","text2":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series 16GB - MEMPEK1W016GA","text2":"10"},{"text1":"Intel<sup>®</sup> Optane™ Memory Series 16GB - MEMPEK1W016GAXT","text2":"10"}
 ]
 
 const listData1 = [

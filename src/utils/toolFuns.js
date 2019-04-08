@@ -192,8 +192,7 @@ Function.prototype.after = function (afterFn) {
   }
 }
 
-setRem = () => {
-
+const setRem = () => {
   (function(doc, win){
     const docEl = doc.documentElement;
     const resizeEvent = 'orientationchange' in window ? 'orientationchange' : 'resize';
@@ -213,5 +212,5 @@ setRem = () => {
 export default {
   throttle,
   debounce,
-
+  setRem,
 }

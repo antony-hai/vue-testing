@@ -18,7 +18,7 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <TCell>一、活动时间：2019 年1月1 日起至2019 年3月31日</TCell>
+            <TCell>一、2019 年4月1 日起至2019 年6月30日</TCell>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -85,16 +85,16 @@
                         <TCell width="20"></TCell>
                         <TCell>
                           <StanceTable width="579">
-                            <IconText>在2019年2月1日前销售指标达成率小于30%，只能获得80%本地覆盖增值服务积分；</IconText>
-                            <IconText>在2019年3月1日前销售指标达成率小于60%，只能获得80%本地覆盖增值服务积分；</IconText>
-                            <IconText>截至2019年第一季度末，如销售指标达成率小于50%，不能获得本地覆盖增值服务积分；</IconText>
-                            <IconText>截至2019年第一季度末，如销售指标达成率大于等于50%且小于70%, 只能获得60%本地覆盖增值服务积分。</IconText>
-                            <IconText>截至2019年第一季度末，如销售指标达成率大于等于70%且小于100%, 只能获得80%本地覆盖增值服务积分。</IconText>
+                            <IconText>在2019年5月1日前预估销量达成率小于30%，将会获得80%本地覆盖增值服务积分；</IconText>
+                            <IconText>在2019年6月1日前预估销量达成率小于60%，将会获得80%本地覆盖增值服务积分；</IconText>
+                            <IconText>截至2019年第二季度末，如预估销量达成率小于50%，将不能获得本地覆盖增值服务积分；</IconText>
+                            <IconText>截至2019年第二季度末，如预估销量达成率大于等于50%且小于70%，将会获得60%本地覆盖增值服务积分；</IconText>
+                            <IconText>截至2019年第二季度末，如预估销量达成率大于等于70%且小于100%，将会获得80%本地覆盖增值服务积分；</IconText>
                             <IconText>
-                              截至2019年第一季度末，如未能完成相应数量的培训课程，或者未能按照英特尔的要求配合英特尔完成相应的市场活动，则不能获得本地覆盖增值服务积分。<br>
-                              注1：如按照上述积分规则分别计算得出的季度末积分不一致，以积分最低的计算方式为准。<br>
-                              注2：仅第七代、第八代、第九代及X系列英特尔酷睿处理器产品，及其他英特尔书面认可的产品，才可计入销售指标中。<br>
-                              注3：经扫描并被视为有效的英特尔NUC产品，将被计入高端销量，但不产生积分。
+                              截至2019年第二季度末，如未能完成相应数量的培训课程，或者未能按照英特尔的要求配合英特尔完成相应的市场活动，则将不能获得本地覆盖增值服务积分。<br>
+                              注1：如按照上述积分规则分别计算得出的季度末积分不一致，以积分最低的计算方式为准；<br>
+                              注2：仅第七代、第八代、第九代及X系列英特尔酷睿处理器产品及其他英特尔书面认可的产品，才可计入预估销量中。<br>
+                              
                             </IconText>
                           </StanceTable>
                         </TCell>
@@ -210,11 +210,11 @@
           </tr>
           <tr height="10"></tr>
           <tr>
-            <TCell>五、活动结束后30 个工作日内, 英特尔将确认增值分销合作伙伴最终的有效积分，增值分销合作伙伴可按照有效积分在活动网站兑换相应的礼品（增值分销合作伙伴需在季度开始前注册并激活ITP帐户）。</TCell>
+            <TCell>五、活动结束后30个工作日内，英特尔将确认增值分销合作伙伴最终的有效积分，增值分销合作伙伴可按照有效积分在活动网站兑换相应的礼品（增值分销合作伙伴需在季度开始前注册并激活ITP帐户）。</TCell>
           </tr>
           <tr height="10"></tr>
           <tr>
-            <TCell>六、英特尔的相关业务部门可根据增值分销合作伙伴在当季度的综合业务表现情况对非销售指标的最终完成情况做出综合认定、调整或豁免。</TCell>
+            <TCell>六、英特尔的相关业务部门可根据增值分销合作伙伴在当季度的综合业务表现情况对非预估销量的最终完成情况做出综合认定、调整或豁免。</TCell>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -274,8 +274,17 @@
 
         <StanceTable hasBottom>
           <tr>
+            <TCell>
+              英特尔为推动高端产品销售，特别为增值分销合作伙伴推出了额外积分的奖励活动，客户在享受常规积分奖励的基础上，
+              还可以通过此促销计划根据Tier的级别获得对应的额外积分奖励，Tier产品累计数量只限奖励规则中指定产品。
+            </TCell>
+          </tr>
+        </StanceTable>
+
+        <StanceTable hasBottom>
+          <tr>
             <td align="center" valign="top">
-              <DataTable :column="column2" :dataSource="tableData6" width="400"></DataTable>
+              <DataTable :column="column2" :dataSource="tableData6"></DataTable>
             </td>
           </tr>
           <tr height="10"></tr>
@@ -306,7 +315,7 @@ const column1 = [
   {
     title: "级别",
     dataIndex: "text1",
-    width: 150,
+    width: 100,
     align: 'left',
   },
   {
@@ -323,7 +332,7 @@ const column1 = [
   },
 ];
 const tableData1 = [
-{"text1":"英特尔非酷睿盒装处理器销量积分上限","text2":"<=（整体POR-酷睿POR）*10点","text3":"<=（整体POR-酷睿POR）*9点","text4":"<=（整体POR-酷睿POR）*8点"},{"text1":"英特尔酷睿盒装处理器销量积分上限","text2":"<=酷睿POR*35点","text3":"<=酷睿POR*33点","text4":"<=酷睿POR*30点"}
+  {"text1":"英特尔非酷睿盒装处理器销量积分上限","text2":"<=（整体POR-酷睿POR）*10点","text3":"<=（整体POR-酷睿POR）*9点","text4":"<=（整体POR-酷睿POR）*8点"},{"text1":"英特尔酷睿盒装处理器销量积分上限","text2":"<=酷睿POR*40点","text3":"<=酷睿POR*38点","text4":"<=酷睿POR*35点"}
 ];
 
 const column = [
@@ -341,28 +350,36 @@ const column2 = [
   {
     title: "型号",
     dataIndex: "text1",
-    width: '300',
+    width: 100,
     align: 'left',
   },
   {
-    title: "积分",
+    title: "Tier1(100u-500u)积分/u",
     dataIndex: "text2"
+  },
+  {
+    title: "Tier2(501u-1000u)积分/u",
+    dataIndex: "text3"
+  },
+  {
+    title: "Tier3(1001u+)积分/u",
+    dataIndex: "text4"
   },
 ];
 const tableData2 = [
-  {"text1":"i3-8100","text2":"20"},{"text1":"i3-8300","text2":"20"},{"text1":"i3-8350K","text2":"25"}
+  {"text1":"G4400","text2":"10"},{"text1":"G4560","text2":"12"},{"text1":"G5400","text2":"10"},{"text1":"G5500","text2":"12"},{"text1":"G5600","text2":"12"},{"text1":"i3-7100","text2":"14"},{"text1":"i3-7100T","text2":"14"},{"text1":"i3-7300","text2":"14"},{"text1":"i3-7300T","text2":"14"},{"text1":"i3-7320","text2":"14"},{"text1":"i3-7350K","text2":"14"},{"text1":"i3-8100","text2":"20"},{"text1":"i3-8300","text2":"20"},{"text1":"i3-8350K","text2":"25"},{"text1":"i3-9350KF","text2":"25"}
 ];
 const tableData3 = [
-  {"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"35"},{"text1":"i5-9600K","text2":"35"}
+  {"text1":"i5-7400","text2":"21"},{"text1":"i5-7400T","text2":"21"},{"text1":"i5-7500","text2":"21"},{"text1":"i5-7500T","text2":"21"},{"text1":"i5-7600","text2":"21"},{"text1":"i5-7600K","text2":"21"},{"text1":"i5-7600T","text2":"21"},{"text1":"i5-7640X","text2":"40"},{"text1":"i5-8400","text2":"30"},{"text1":"i5-8500","text2":"30"},{"text1":"i5-8600","text2":"30"},{"text1":"i5-8600K","text2":"35"},{"text1":"i5-9400","text2":"30"},{"text1":"i5-9400F","text2":"30"},{"text1":"i5-9600K","text2":"35"},{"text1":"i5-9600KF","text2":"35"}
 ]
 const tableData4 = [
-  {"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"45"},{"text1":"i7-8086K","text2":"45"},{"text1":"i7-9700K","text2":"45"}
+  {"text1":"i7-7700","text2":"28"},{"text1":"i7-7700K","text2":"28"},{"text1":"i7-7700T","text2":"28"},{"text1":"i7-7740X","text2":"60"},{"text1":"i7-7800X","text2":"60"},{"text1":"i7-7820X","text2":"60"},{"text1":"i7-8700","text2":"40"},{"text1":"i7-8700K","text2":"45"},{"text1":"i7-8086K","text2":"45"},{"text1":"i7-9700K","text2":"45"},{"text1":"i7-9700KF","text2":"45"},{"text1":"i7-9800X","text2":"60"}
 ]
 const tableData5 = [
- {"text1":"i9-9900K","text2":"60"}
+  {"text1":"i9-7900X","text2":"100"},{"text1":"i9-7920X","text2":"100"},{"text1":"i9-7940X","text2":"100"},{"text1":"i9-7960X","text2":"100"},{"text1":"i9-7980XE","text2":"100"},{"text1":"i9-9900K","text2":"60"},{"text1":"i9-9900KF","text2":"60"},{"text1":"i9-9820X","text2":"100"},{"text1":"i9-9900X","text2":"100"},{"text1":"i9-9920X","text2":"100"},{"text1":"i9-9940X","text2":"100"},{"text1":"i9-9960X","text2":"100"},{"text1":"i9-9980XE","text2":"100"} 
 ]
 const tableData6 = [
-  {"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6128 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6130 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6134 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6138 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6140 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6142 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6148 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Gold 6152 Processor","text2":"150"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8160 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8164 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8170 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8176 Processor","text2":"450"},{"text1":"Intel<sup>®</sup> Xeon<sup>®</sup> Platinum 8180 Processor","text2":"450"}
+  {"text1":"i3-9100F","text2":"30","text3":"40","text4":"50"},{"text1":"i3-9350KF","text2":"30","text3":"40","text4":"50"},{"text1":"i5-9400F","text2":"30","text3":"40","text4":"50"},{"text1":"i5-9600KF","text2":"30","text3":"40","text4":"50"},{"text1":"i5-8400","text2":"30","text3":"40","text4":"50"},{"text1":"i5-8500","text2":"30","text3":"40","text4":"50"},{"text1":"i7-8700","text2":"30","text3":"40","text4":"50"},{"text1":"i7-8700K","text2":"30","text3":"40","text4":"50"},{"text1":"i7-8086K","text2":"30","text3":"40","text4":"50"},{"text1":"i5-9600K","text2":"30","text3":"40","text4":"50"},{"text1":"i7-9700K","text2":"30","text3":"40","text4":"50"},{"text1":"i7-9700KF","text2":"30","text3":"40","text4":"50"},{"text1":"i7-9800X","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9900K","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9900KF","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9820X","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9900X","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9920X","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9940X","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9960X","text2":"30","text3":"40","text4":"50"},{"text1":"i9-9980XE","text2":"30","text3":"40","text4":"50"}
 ]
 
 
