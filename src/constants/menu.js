@@ -11,44 +11,44 @@ export default [
         name: 'item1',
         children: [
           { 
-            name: 'option1',
+            name: 'option11',
             title: '标题一1',
-            url: '/menu1/item1/option1'
+            url: '/menu1/item1/option11'
           },
           { 
-            name: 'option2',
+            name: 'option12',
             title: '标题一2',
-            url: '/menu1/item1/option2'
+            url: '/menu1/item1/option12'
           },
           { 
-            name: 'option3',
+            name: 'option13',
             title: '标题一3',
-            url: '/menu1/item1/option3'
+            url: '/menu1/item1/option13'
           },
           { 
-            name: 'option4',
+            name: 'option14',
             title: '标题一4',
-            url: '/menu1/item1/option4'
+            url: '/menu1/item1/option14'
           },
           { 
-            name: 'option5',
+            name: 'option15',
             title: '标题一5',
-            url: '/menu1/item1/option5'
+            url: '/menu1/item1/option15'
           },
           { 
-            name: 'option6',
+            name: 'option16',
             title: '标题一6',
-            url: '/menu1/item1/option6'
+            url: '/menu1/item1/option16'
           },
           { 
-            name: 'option7',
+            name: 'option17',
             title: '标题一7',
-            url: '/menu1/item1/option7'
+            url: '/menu1/item1/option17'
           },
           { 
-            name: 'option8',
+            name: 'option18',
             title: '标题一8',
-            url: '/menu1/item1/option8'
+            url: '/menu1/item1/option18'
           },
         ],
       },
@@ -58,19 +58,19 @@ export default [
         icon_type: 'ios-basket',
         children: [
           { 
-            name: 'option1',
+            name: 'option21',
             title: '标题二一',
-            url: '/menu1/item2/option1'
+            url: '/menu1/item2/option21'
           },
           { 
-            name: 'option2',
+            name: 'option22',
             title: '标题二er',
-            url: '/menu1/item2/option2'
+            url: '/menu1/item2/option22'
           },
           { 
-            name: 'option3',
+            name: 'option23',
             title: '标题er san',
-            url: '/menu1/item2/option3'
+            url: '/menu1/item2/option23'
           },
         ],
       },
@@ -80,19 +80,19 @@ export default [
         icon_type: 'ios-bicycle',
         children: [
           { 
-            name: 'option1',
+            name: 'option31',
             title: '标题三一',
-            url: '/menu1/item3/option1'
+            url: '/menu1/item3/option31'
           },
           { 
-            name: 'option2',
+            name: 'option32',
             title: '标题三二',
-            url: '/menu1/item3/option2'
+            url: '/menu1/item3/option32'
           },
           { 
-            name: 'option3',
+            name: 'option33',
             title: '标题三三',
-            url: '/menu1/item3/option3'
+            url: '/menu1/item3/option33'
           },
         ],
       },
@@ -114,19 +114,19 @@ export default [
         name: 'item1',
         children: [
           { 
-            name: 'option1',
+            name: 'option11',
             title: '标题一',
-            url: '/menu3/item1/option1'
+            url: '/menu3/item1/option11'
           },
           { 
-            name: 'option2',
+            name: 'option12',
             title: '标题二',
-            url: '/menu3/item1/option2'
+            url: '/menu3/item1/option12'
           },
           { 
-            name: 'option3',
+            name: 'option13',
             title: '标题三',
-            url: '/menu3/item1/option3'
+            url: '/menu3/item1/option13'
           },
         ],
       },
@@ -136,19 +136,19 @@ export default [
         icon_type: 'ios-basket',
         children: [
           { 
-            name: 'option1',
+            name: 'option21',
             title: '标题一',
-            url: '/menu3/item2/option1'
+            url: '/menu3/item2/option21'
           },
           { 
-            name: 'option2',
+            name: 'option22',
             title: '标题er',
-            url: '/menu3/item2/option2'
+            url: '/menu3/item2/option22'
           },
           { 
-            name: 'option3',
+            name: 'option23',
             title: '标题san',
-            url: '/menu3/item2/option3'
+            url: '/menu3/item2/option23'
           },
         ],
       },
