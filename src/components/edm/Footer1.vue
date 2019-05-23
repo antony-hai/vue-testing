@@ -4,7 +4,8 @@
     cellspacing="0"
     cellpadding="0"
     border="0"
-    style="padding-left: 5px;padding-right: 5px;font-size: 12px;font-family: 微软雅黑;margin: 0 auto;width: 634px;text-align: left;line-height: 24px;color: #fff;background-color: #00427F;"
+    :width="width"
+    style="padding-left: 5px;padding-right: 5px;font-size: 12px;font-family: 微软雅黑;margin: 0 auto;text-align: left;line-height: 24px;color: #fff;background-color: #00427F;"
   >
     <tr>
       <td style="font-family: 微软雅黑;"> 欲了解關於英特爾<sup>®</sup>技術合作夥伴更多信息，請訪問我們的網站：</td>
@@ -59,7 +60,8 @@
     cellspacing="0"
     cellpadding="0"
     border="0"
-    style="padding-left: 5px;padding-right: 5px;font-size: 12px;font-family: 微软雅黑;margin: 0 auto;width: 634px;text-align: left;line-height: 24px;color: #fff;background-color: #00427F;"
+    :width="width"
+    style="padding-left: 5px;padding-right: 5px;font-size: 12px;font-family: 微软雅黑;margin: 0 auto;text-align: left;line-height: 24px;color: #fff;background-color: #00427F;"
   >
     <tr>
       <td style="font-family: 微软雅黑;">欲了解关于英特尔<sup>®</sup>技术合作伙伴更多信息，请访问我们的网站：</td>
@@ -115,6 +117,10 @@
 <script>
 export default {
   props: {
+    width: {
+      default: '634',
+      type: String,
+    },
     isHongKong: {
       default: false,
       type: Boolean

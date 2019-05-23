@@ -49,16 +49,26 @@ export default {
     secondMenu: Array
   },
   created() {
-    // console.log(this.$route);
-    const secondMenuFirst = this.secondMenu[0] || {};
-    const openName = secondMenuFirst.name;
-    const thirdMenuFirst = secondMenuFirst.children
-      ? secondMenuFirst.children[0]
-      : {};
-    const activeName = thirdMenuFirst.name;
 
-    this.openName = openName;
-    this.activeName = activeName;
+    const path = this.$route.path
+    const pathInfo = path.split('/') || []
+    const pathNeedInfo = pathInfo.slice('2')
+
+    this.openName = pathNeedInfo[0];
+    this.activeName = pathNeedInfo[1];
   },
+  watch: {
+    // 提醒一下，当使用路由参数时，例如从 /user/foo 导航到 /user/bar，原来的组件实例会被复用。
+    // 因为两个路由都渲染同个组件，比起销毁再创建，复用则显得更加高效。不过，这也意味着组件的生命周期钩子不会再被调用。
+    '$route' (to, from) {
+      const path = to.path
+      console.log(path)
+      const pathInfo = path.split('/') || []
+      const pathNeedInfo = pathInfo.slice('2')
+      this.openName = pathNeedInfo[0];
+      this.activeName = pathNeedInfo[1];
+    }
+  }
+
 };
 </script>

@@ -8,13 +8,13 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">尊敬的英特尔<Sup></Sup>增值分销合作伙伴:</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">尊敬的英特尔<Sup></Sup>技术合作伙伴:</td>
           </tr>
           <tr height='10'></tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;"> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-              您好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知您2019年第一季度全新第九代智能英特尔<Sup></Sup>酷睿™台式机处理器促销奖励计划，如下：
+              您好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知您2019年第二季度英特尔<Sup></Sup>傲腾™内存H10促销奖励计划，如下：
             </td>
           </tr>
         </StanceTable>
@@ -26,16 +26,16 @@
               本促销活动受以下条款和条件约束（“促销条款”），此外仍须遵守英特尔<Sup></Sup>技术合作伙伴的条款和条件，
               包括附录A与积分补充条款和条件（“英特尔<Sup></Sup>技术合作伙伴条款”），该条款为本促销条款的一部分，其详情可在此网址查询：
               <a href="https://www.intel.cn/content/www/cn/zh/technology-provider/legal/program-terms-and-conditions.html" target="_blank">https://www.intel.cn/content/www/cn/zh/technology-provider/legal/program-terms-and-conditions.html.</a>
-              本次活动的具体要求和实施细则均以《2019 年第一季度英特尔增值分销合作伙伴扫描积分奖励计划》为准。以上各项促销条款、英特尔<Sup></Sup>技术合作伙伴条款及奖励计划，统称为“活动规则”。
+              促销条款和英特尔<Sup></Sup>技术合作伙伴条款统称为“活动规则”。
             </TCell>
           </tr>
           <tr>
             <TCell width="25">2.</TCell>
-            <TCell>本促销活动有效期为2019年2月10日至2019年3月31日（“促销活动时间”），适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）的英特尔<Sup></Sup>技术合作伙伴中已激活的增值分销合作伙伴至尊会员及菁英会员（“合格会员”）。</TCell>
+            <TCell>本促销活动有效期为2019年5月13日至2019年6月30日（“促销活动时间”），适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）的英特尔<Sup></Sup>技术合作伙伴中已激活的至尊会员及菁英会员（“合格会员”）。</TCell>
           </tr>
           <tr>
             <TCell width="25">3.</TCell>
-            <TCell>在促销活动期间，合格会员成功扫描购买如下列表中的英特尔产品（“符合条件的英特尔<Sup></Sup>产品”），英特尔将实行以下积分奖励：</TCell>
+            <TCell>在促销活动期间，对合格会员从英特尔<Sup></Sup>授权总代理（“IAD”）购买10个如下列表中的英特尔产品（“符合条件的英特尔<Sup></Sup>产品”），英特尔将奖励500积分：</TCell>
           </tr>
         </StanceTable>
 
@@ -48,7 +48,7 @@
           <!-- <tr height="30"></tr> -->
           <tr>
             <td align="center">
-              <DataTable :dataSource="tableData2" :column="column2" width="500"></DataTable>              
+              <DataTable :dataSource="tableData2" :column="column2" width="560" :headStyle="{ 'background-color': '#0070C0', color: '#ffffff', 'line-height': '22px' }"></DataTable>              
             </td>
           </tr>
 
@@ -59,7 +59,8 @@
           <tr>
             <TCell width="25">4.</TCell>
             <TCell>
-             季度末完成考核后，英特尔将根据活动规则，向符合条件且遵守各项规则的增值分销合作伙伴发放在本次促销活动中获得的有效积分。
+             在此次促销活动中，购买参与活动英特尔产品的积分赚取日期为购买英特尔产品的发票开具日期。
+             英特尔将在促销结束后60（六十）天内，根据规则，向符合条件且遵守各项规则的合作伙伴发放在本次促销活动中奖励的积分。
             </TCell>
           </tr>          
           <tr>
@@ -78,9 +79,10 @@
           </tr>
           <tr>
             <TCell width="25">7.</TCell>
-            <TCell>活动规则以英文版本为准，且英文版优先于其他任何翻译版本。若本促销活动条款和条件与ITP项目条款和条件存在冲突，应以此促销条款和条件为准。
-              任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本促销活动条款和条件中涉及上述协议内容的条款。除非英特尔授权代表书面签署，
-              英特尔的标准销售条款和条件将适用于任何合格会员与英特尔之间发生的英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议。
+            <TCell>
+              活动规则以英文版本为准，且英文版优先于其他任何翻译版本。若本促销活动条款和条件与ITP项目条款和条件存在冲突，应以此促销条款和条件为准。
+              任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本促销活动条款和条件中涉及上述协议内容的条款。
+              除非英特尔授权代表书面签署，英特尔的标准销售条款和条件将适用于任何合格会员与英特尔之间发生的英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议。
             </TCell>
           </tr>
 
@@ -111,7 +113,7 @@
           <tr height="10"></tr>
           <tr>
             <TCell :ostyle="{ 'font-size': '13px', 'font-weight': '600'}">
-             全新第九代智能英特尔<Sup></Sup>酷睿™台式机处理器（“促销活动”）条款和条件
+             Intel® Optane™ Memory H10 Promotion (“Promotion”) Terms and Conditions 
             </TCell>
           </tr>
           <tr height="10"></tr>
@@ -121,20 +123,20 @@
           <tr>
             <TCell width="25" >1.</TCell>
             <TCell>
-              This Promotion is governed by these terms and conditions (“Promotion Terms”), and the terms and conditions of Intel<Sup></Sup> Technology Provider, including Exhibit A, Points Terms and Conditions (“Intel<Sup></Sup> Technology Provider Terms”), which are incorporated herein and available at:
+              This Promotion is governed by these terms and conditions (“Promotion Terms”), and the terms and conditions of Intel® Technology Provider, including Exhibit A, Points Terms and Conditions (“Intel® Technology Provider Terms”), which are incorporated herein and available at:
               <a href="https://www.intel.com/content/www/us/en/technology-provider/legal/program-terms-and-conditions.html" target="_blank">https://www.intel.com/content/www/us/en/technology-provider/legal/program-terms-and-conditions.html.</a>
-              The Promotion Terms and the Intel<Sup></Sup> Technology Provider Terms are collectively, the “Rules”. Specific requirements and implementing rules of this Promotion are provided for in the Value-added Resale Partner Points Award Program for Q1 2019. The Promotion Terms, the Intel<Sup></Sup> Technology Provider Terms and the award program terms and conditions are collectively, the “Rules”.
+              The Promotion Terms and the Intel® Technology Provider Terms are collectively, the “Rules”.
             </TCell>
           </tr>
           <tr>
             <TCell width="25">2.</TCell>
             <TCell>
-              This Promotion is effective from February 10th, 2019 until March 31st, 2019 (the “Promotion Period”) and available to active Platinum, Gold value-added resale partners of Intel<Sup></Sup> Technology Provider in the People’s Republic of China (excluding Hong Kong, Macao and Taiwan, for the purpose of the Promotion Terms)  (“Eligible Partners”).
+             This Promotion is effective from May 13, 2019 until June 30, 2019  (the “Promotion Period”) and available to active Platinum and Gold partners of Intel® Technology Provider in the People’s Republic of China (excluding Hong Kong, Macao and Taiwan, for the purpose of the Promotion Terms) (“Eligible Partners”).
             </TCell>
           </tr>
           <tr>
             <TCell width="25">3.</TCell>
-            <TCell>Intel will award Eligible Partners the following Points per unit for purchases of the Intel products listed below (“Qualifying Intel Products”) by scanning successfully during the Promotion Period: </TCell>
+            <TCell>Intel will award Eligible Partners the following points for the purchase of ten (10) units of the Intel® products listed below (“Qualifying Intel Products”) from an Intel® Authorized Distributor during the Promotion Period: </TCell>
           </tr>
         </StanceTable>
 
@@ -147,7 +149,7 @@
           <!-- <tr height="30"></tr> -->
           <tr>
             <td algin="center">
-              <DataTable :dataSource="tableData2" :column="column22" width="500"></DataTable>
+              <DataTable :dataSource="tableData2" :column="column22" :headStyle="{ 'background-color': '#0070C0', color: '#ffffff', 'line-height': '22px'}" width="560" ></DataTable>
             </td>
           </tr>
 
@@ -157,7 +159,7 @@
           <tr>
             <TCell width="25">4.</TCell>
             <TCell>
-             Intel will award Points under this Promotion after the end of the Promotion, subject to Eligible Partner’s compliance with the Rules.
+             4.In this Promotion, the relevant date used for establishing the Points earned for the purchase of any Qualifying Intel Product is the invoice date for the Qualifying Intel Product. Intel will award Points under this Promotion within 60 (sixty) days of the end of the Promotion Period, subject to Eligible Partner’s compliance with the Rules.
             </TCell>
           </tr>          
           <tr>
@@ -176,9 +178,8 @@
           </tr>
           <tr>
             <TCell width="25">7.</TCell>
-            <TCell>The English language version of the Rules shall prevail over any translation. If there is a conflict between the Promotion Terms and the ITP Program Terms,
-               the Promotion Terms shall prevail. The terms of any Intel trademark license agreement(s) and/or Intel logo license agreement(s) shall prevail over the Promotion Terms with respect to the subject matter of such agreement(s). 
-               Intel’s standard terms and conditions of sale shall govern any purchase or redemption of Points for Intel products made between the Eligible Partner and Intel and shall prevail over any other agreements unless in writing and signed by an authorized representative of Intel.
+            <TCell>
+              The English language version of the Rules shall prevail over any translation. If there is a conflict between the Promotion Terms and the ITP Program Terms, the Promotion Terms shall prevail. The terms of any Intel trademark license agreement(s) and/or Intel logo license agreement(s) shall prevail over the Promotion Terms with respect to the subject matter of such agreement(s). Intel’s standard terms and conditions of sale shall govern any purchase or redemption of Points for Intel products made between the Eligible Partner and Intel and shall prevail over any other agreements unless in writing and signed by an authorized representative of Intel.
             </TCell>
           </tr>
 
@@ -215,7 +216,7 @@
 import { TCell, Nav, StanceTable, ListTable, DataTable, Footer1, Sup, ImageRow } from '@/components/edm'
 
 const dataSource1 = [
-  { text: "在本次促销活动中可赚取无上限限制的积分；" },
+  { text: "在本次促销活动中最高可赚取500积分；" },
   { text: "可同时参与本次活动和其他积分活动；" },
   { text: "不可同时参加针对本次促销活动中符合条件的英特尔产品所进行的其他英特尔通知的折扣或促销活动，不论折扣或促销活动是针对本促销活动的合格会员，或是代表合格会员的第三方；" },
   { text: "不可以转让此次促销活动中赚取的积分；且" },
@@ -232,7 +233,7 @@ const dataSource2 = [
 ];
 const dataSource3 = [
   {
-    text:"earn up to  Unlimited Points under this Promotion;"
+    text:"earn up to 500 points under this Promotion;"
   },
   {
     text: "combine this Promotion with other Points offers;"
@@ -280,33 +281,33 @@ const tableData11 = [
 ]
 const column2 = [
   {
-    title: "符合条件的英特尔产品",
+    title: "符合条件的英特尔<sup>®</sup>产品",
     dataIndex: "text1",
     align: 'left',
   },
   {
-    title: '积分/单位',
+    title: 'SKU',
     dataIndex: 'text2',
-    width: 100,
+    width: 130,
   }
 
 ]
 const column22 = [
   {
-    title: "Qualifying Intel Products",
+    title: "Qualifying Intel<sup>®</sup> Product",
     dataIndex: "text1",
     align: 'left',
   },
   {
-    title: 'Points per unit',
+    title: 'SKU',
     dataIndex: 'text2',
-    width: 100,
+    width: 130,
   }
 
 ]
 
 const tableData2 = [
- {"text1":"Intel<sup>®</sup> Core™ I9-9900KF Desktop Processor - BXC80684I99900KF","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ I9-9900KF Desktop Processor - CM8068403873927","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ I7-9700KF Desktop Processor - BXC80684I79700KF","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ I7-9700KF Desktop Processor - CM8068403874219","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ I5-9600KF Desktop Processor - BXC80684I59600KF","text2":"70"},{"text1":"Intel<sup>®</sup> Core™ I5-9600KF Desktop Processor - CM8068403874409","text2":"70"},{"text1":"Intel<sup>®</sup> Core™ I3-9350KF Desktop Processor - BXC80684I39350KF","text2":"50"},{"text1":"Intel<sup>®</sup> Core™ I3-9350KF Desktop Processor - CM8068403376823","text2":"50"},{"text1":"Intel<sup>®</sup> Core™ I3-8100F Desktop Processor - BXC80684I38100F","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ I3-8100F Desktop Processor - CM8068403377323","text2":"40"}
+  {"text1":"Intel<sup>®</sup> Optane™ Memory H10 (32GB + 512GB, M.2 80mm PCIe 3.0)","text2":"HBRPEKNX0202A01"},{"text1":"Intel<sup>®</sup> Optane™ Memory H10 (32GB + 512GB, M.2 80mm PCIe 3.0)","text2":"HBRPEKNX0202A"}
 ]
 
 

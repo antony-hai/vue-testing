@@ -97,6 +97,12 @@ export default new Router({
                 import('@/views/EDM/Day25.vue'),
               name: 'option2-2'
             },
+            {
+              path: 'option3',
+              component: () =>
+                import('@/views/EDM/Day27.vue'),
+              name: 'option2-3'
+            },
 
           ],
         },
@@ -133,7 +139,7 @@ export default new Router({
       path: '/menu2',
       name: 'menu2',
       component: () =>
-        import('@/views/EDM/Day20.vue'),
+        import('@/views/EDM/SEvent.vue'),
 
     },
     {

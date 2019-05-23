@@ -209,6 +209,65 @@ const setRem = () => {
 }
 
 
+const logger = function(store) {
+  return function(next) {
+    return function(action) {
+      window.console.log(store)
+      next(action)
+    }
+  }
+}
+
+const compose = function(...funs) {
+  if (funs.length === 0) {
+    return arg => arg
+  } 
+  if (funs.length === 1) {
+    return funs[0]
+  }
+
+  return funs.reduce((a,b) => (...args) => a(b(...args)))
+  /**
+   * 
+   * 理解fn执行的结果为  (action) => { ....somehandle }
+   * 
+   * return function(...args) {
+   *  return fn1(fn2(fn3(...args)))
+   * }
+   * 
+   *  */ 
+}
+
+
+function applyMiddlware(...middlewares) {
+  return function(createStore) {
+    return function(...args) {
+      const store = createStore(...args)
+      let dispatch = () => {
+        throw new Error(
+          'Dispatching while constructing your middleware is not allowed. ' +
+            'Other middleware would not be applied to this dispatch.'
+        )
+      }
+
+      const middlewareAPI = {
+        store,
+        dispatch: (...args) => dispatch(...args)
+      }
+
+      const chain = middlewares.map(middleware => middleware(middlewareAPI))
+      // chain = [(next) => (action) => { next(action) }, (next) => (action) => { next(action) }, (next = dispatch) => (action) => { next(action) === dispatch(action)} ]
+      
+      dispatch = compose(...chain)(store.dispatch)
+
+      return {
+        ...store,
+        dispatch,
+      }
+    }
+  }
+} 
+
 export default {
   throttle,
   debounce,

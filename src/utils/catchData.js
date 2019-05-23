@@ -16,5 +16,3 @@ const textData = trArray.map((item) => {
   return singleData
 })
 window.console.log(JSON.stringify(textData.filter(item => Object.keys(item).length !== 0)))
-
-

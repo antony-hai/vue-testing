@@ -22,7 +22,6 @@ export default {
     //   return;
     // }
     const path = this.$route.path;
-    console.log(this.$route);
     if (path) {
       const menuObj = menu.find(item => path.includes(item.path)) || {};
       this.secondMenu = menuObj.children || [];
@@ -35,7 +34,6 @@ export default {
     // 提醒一下，当使用路由参数时，例如从 /user/foo 导航到 /user/bar，原来的组件实例会被复用。
     // 因为两个路由都渲染同个组件，比起销毁再创建，复用则显得更加高效。不过，这也意味着组件的生命周期钩子不会再被调用。
     '$route' (to, from) {
-      console.log(to)
       const path = to.path
       const menuObj = menu.find(item => path.includes(item.path)) || {};
       this.secondMenu = menuObj.children || [];
