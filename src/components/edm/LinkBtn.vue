@@ -1,13 +1,31 @@
 <template>
   <!-- outlook 解释器无法用 a 标签去模拟  只好在外层套一个td-->
-  <table cellspacing="0" cellpadding="0" border="0" style="margin: 0 atu0;border-collapse:collapse;border-spacing:0;text-align:center;vertical-align:middle;width:auto">
-    <tr style="padding:0;text-align:center;vertical-align:top;">
-      <td :width="width" style="background:#00AEEF; border:0 solid #00AEEF;height: 40px; line-height: 40px; border-radius: 3px;">
-        <a :href="url" target="_blank" style="border:0 solid #00AEEF; color:#fefefe; display:inline-block; mso-line-height: exactly; font-family:微软雅黑;font-size:15px;line-height:25px;margin:0;padding:8px 30px 8px 30px;text-align:center;text-decoration:none">
-          <slot>即刻加入</slot>
-        </a>
-      </td>
-    </tr>
+  <table
+    :align="align"
+    border="0"
+    cellpadding="0"
+    cellspacing="0"
+    :width="width"
+  >
+    <tbody>
+      <tr>
+        <td class="open" height="85" valign="middle" :align="align">
+          <div>
+            <!--[if gte mso 9]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://eroi-s3.s3.amazonaws.com/emailassets/intel/2019/05/Mesh_HPC-brief_Approaches-to-Convergence%20_V4.pdf" style="height:32px;v-text-anchor:middle;width:200px;" arcsize="19%" stroke="f" fillcolor="#00aeef"><w:anchorlock/><center><!
+            [endif]--><a
+              class="open"
+              style="background-color:#00aeef;border-radius:6px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:12px;line-height:32px;mso-line-height-rule:exactly;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none"
+              :href="url"
+              name="Learn How"
+              target="_blank"
+              xt="SPCLICK"
+              ><slot>button</slot></a
+            >
+            <!--[if gte mso 9]></center></v:roundrect><![endif]-->
+          </div>
+        </td>
+      </tr>
+    </tbody>
   </table>
 </template>
 
@@ -20,8 +38,12 @@ export default {
     },
     width: {
       type: String,
-      default: '120'
-    }
+      default: "200"
+    },
+    align: {
+      type: String,
+      default: 'left',
+    },
   }
 };
 </script>

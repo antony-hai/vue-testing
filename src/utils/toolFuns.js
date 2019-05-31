@@ -268,8 +268,15 @@ function applyMiddlware(...middlewares) {
   }
 } 
 
+// 注入中间件
+applyMiddlware(logger)
+
+
+
+
 export default {
   throttle,
   debounce,
   setRem,
+
 }

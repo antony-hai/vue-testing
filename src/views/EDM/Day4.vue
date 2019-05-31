@@ -8,7 +8,7 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> 尊敬的英特尔-品牌零售至尊合作伙伴：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> 尊敬的英特尔-品牌零售菁英合作伙伴：</td>
           </tr>
           <tr height='10'></tr>
           <tr>
@@ -17,15 +17,15 @@
           <tr height='10'></tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              为了帮助大家在2019年第一季度获得更好的销售成绩，在品牌OEM厂商的大力支持下，我们为英特尔<Sup></Sup>技术合作伙伴的核心渠道推出了至尊渠道产品销售积分奖励计划！在此活动期间，您可以通过销售指定产品获取高额积分奖励。赶快了解详情，即刻行动吧！
+              为了帮助大家在2019年第二季度获得更好的销售成绩，在品牌OEM厂商的大力支持下，我们为英特尔<Sup></Sup>技术合作伙伴的核心渠道推出了菁英渠道产品销售积分奖励计划！在此活动期间，您可以通过销售指定产品获取高额积分奖励。赶快了解详情，即刻行动吧！
             </td>
           </tr>
           <tr height='10'></tr>
-          <tr>
+          <!-- <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             经由品牌提名及英特尔审核后，您于2019年第一季度在英特尔<Sup></Sup>技术合作伙伴品牌零售项目中的合作伙伴等级为<u>XXXX级（例：至尊A级）</u> 合作伙伴 。
+              经由品牌提名及英特尔审核后，您于2019年第二季度在英特尔<Sup></Sup>技术合作伙伴品牌零售项目中的合作伙伴等级为：<u>菁英XX级（例：菁英A级）</u> 合作伙伴 。
             </td>
-          </tr>
+          </tr> -->
           <tr height="10"></tr>
           <tr>
             <td style="font-size:15px;text-align: left; font-family: 微软雅黑; line-height: 25px; text-decoration: underline; color: #000000; font-weight: 600; ">销售奖励计划</td>
@@ -40,7 +40,7 @@
           <tr>
             <td width="35"></td>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">适用对象为中华人民共和国大陆地区（仅为本条款的目的，系指不包括香港、澳门和台湾的境内地区）已激活的英特尔-品牌零售渠道的
-              <b><u>至尊A级和至尊B级</u></b>合作伙伴（“合格会员”）。</td>
+              <b><u>菁英</u></b>合作伙伴（“合格会员”）。</td>
           </tr>
         </StanceTable>
 
@@ -54,13 +54,13 @@
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
               <StanceTable width="599">
                 <IconText title="活动日期">
-                  本活动有效期为2019年1月1日至2019年3月31日。
+                  本活动有效期为2019年4月1日至2019年6月30日。
                 </IconText>
                 <IconText title="促销产品">
                   基于英特尔<Sup></Sup>架构（IA架构）的2in1，笔记本，台式机（含AIO）。
                 </IconText>
                 <IconText title="活动要求">
-                  参加销售奖励的渠道在2019年3月31日完成进货，并在每月10日前提交上个月的销量报告至OEM厂商。
+                  参加销售奖励的渠道在2019年6月30日完成进货，并在每月10日前提交上个月的销量报告至OEM厂商。
                 </IconText>
                 <IconText title="活动原则">
                   <ListTable listType="-" :dataSource="dataSource1" :tStyle="{ 'font-size': '12px', 'line-height': '20px' }" width="584"></ListTable>
@@ -76,7 +76,7 @@
                 </IconText>
                 <IconText title="温馨提示">
                   此活动仅对英特尔
-                  <Sup></Sup>渠道积分计划中的至尊A级和至尊B级合作伙伴开放，<b>请大家确保参与活动前已激活英特尔<Sup></Sup>渠道积分计划的会员账号</b>,
+                  <Sup></Sup>渠道积分计划中的菁英A级和菁英B级合作伙伴开放，<b>请大家确保参与活动前已激活英特尔<Sup></Sup>渠道积分计划的会员账号</b>,
                   以保障活动奖励的正常享有；如果还未完成账号激活，请尽快登陆
                   <a href="http://prc-points.inteltechnologyprovider.com/" style="color: #071C5; text-decoration: underline" target="_blank">英特尔
                     <Sup></Sup>渠道积分网站</a>激活账户 (注册流程请咨询Intel客服中心热线800-820-1100)。
@@ -124,12 +124,12 @@
             <td rowspan="2" style="text-align: center;font-family: 微软雅黑; color:#0070C0;">英特尔二合一产品</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">8代</td>
             <td rowspan="2" style="text-align: center;font-family: 微软雅黑; color:#0070C0;">10</td>
-            <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">-</td>
+            <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">10</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">14</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">21</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">40</td>
-            <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">60</td>
-            <td rowspan="7" style="text-align: center;font-family: 微软雅黑;color:#0070C0;">至尊A/B级<br>无积分上限</td>
+            <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">-</td>
+            <td rowspan="7" style="text-align: center;font-family: 微软雅黑;color:#0070C0;">菁英级<br>积分上限<br>5,000</td>
           </tr>
           <tr>
             <td style="text-align: center;font-family: 微软雅黑;color:#0070C0;">7代</td>
@@ -145,7 +145,7 @@
             </td>
             <td style="text-align: center;font-family: 微软雅黑;color:#0070C0;">8代</td>
             <td rowspan="2" style="text-align: center;font-family: 微软雅黑;color:#0070C0;">10</td>
-            <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">-</td>
+            <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">10</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">14</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">21</td>
             <td style="text-align: center;font-family: 微软雅黑; color:#0070C0;">40</td>
@@ -189,6 +189,26 @@
             <td style="text-align: center;font-family: 微软雅黑;color:#0070C0;">12</td>
           </tr>
         </table>
+
+        <StanceTable hasTop>
+          <tr>
+            <td width='35' style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600">四、</td>
+            <td style="font-size:13px;text-align: left; font-family: 微软雅黑; line-height: 22px;color: #000000; font-weight: 600">特别促销奖励规则:</td>
+          </tr>
+          <tr>
+            <td width="35"></td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
+              <IconText>
+                通过销售符合条件的英特尔<Sup></Sup>酷睿™ KBL-H及CFL-H系列处理器，您可以在获得季度性常规积分奖励的基础上获得额外积分奖励，
+                具体条款及符合条件的产品详情请查看<a href="https://www.intel.com/content/www/cn/zh/secure/technology-provider/local/buying/promotions/sfr-h-series-special-promotion-plan-prc-q2-19.html" target="_blank">《2019年第二季度英特尔技术合作伙伴品牌零售H系列酷睿™处理器特别促销积分奖励计划-指定机型》</a> 。
+              </IconText>
+              <IconText>
+                通过销售符合条件的含英特尔<Sup></Sup>傲腾™内存和英特尔<Sup></Sup>傲腾™固态盘 的产品机型，您可以在获得季度性常规积分奖励的基础上获得额外积分奖励，
+                具体条款及符合条件的产品详情请查看<a href="https://www.intel.com/content/www/cn/zh/secure/technology-provider/local/buying/promotions/sfr-optane-special-promotion-plan-prc-q2-19.html" target="_blank">《2019年度第二季度英特尔<Sup></Sup>技术合作伙伴品牌零售英特尔<Sup></Sup>傲腾™ 特别促销积分奖励计划-指定机型》</a>。
+              </IconText>
+            </td>
+          </tr>
+        </StanceTable>
 
         <StanceTable hasTop hasBottom>
           <tr>
@@ -259,7 +279,7 @@
         </StanceTable>
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;英特尔真诚邀请您参与“2019年第一季度英特尔-品牌零售至尊渠道积分奖励计划“，让我们在2019年携手共进，共创佳绩！</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;英特尔真诚邀请您参与“2019年第二季度英特尔-品牌零售菁英渠道积分奖励计划“，让我们在2019年携手共进，共创佳绩！	</td>
 
           </tr>
         </StanceTable>
@@ -289,18 +309,21 @@ export const dataSource1 = [
   },
   {
     text:
-      "积分核算过程中，您的英特尔-品牌零售渠道合作伙伴级别，以2019年第一季度末在英特尔<sup>®</sup>渠道积分网站中所录入级别为准；"
+      "积分核算过程中，您的英特尔-品牌零售渠道合作伙伴级别，以2019年第二季度末在英特尔<sup>®</sup>渠道积分网站中所录入级别为准；"
+  },
+  {
+    text: '菁英级英特尔品牌零售渠道合作伙伴下挂店面完成培训课程总数每季度不低于15门；'
   },
   {
     text:
-      "至尊A/B级英特尔品牌零售渠道合作伙伴将由英特尔服务商对您下挂的任何一家英特尔体验店和英特尔星级店进行店面核查，每季度每个下挂店面至少完成体验环境、体验内容、产品上架、培训或RXT/IPOS中的其中至少两项店面行为，\
+      "菁英级英特尔品牌零售渠道合作伙伴将由英特尔服务商对您下挂的任何一家英特尔体验店和英特尔星级店进行店面核查，每季度每个下挂店面至少完成体验环境、体验内容、产品上架、培训、iPOS中的其中至少两项店面行为，\
       否则英特尔将有权冻结您本季度赚取品牌零售渠道各项积分奖励的资格，且该渠道及其下挂店面将无法参加未来2个季度的ITP积分及店面活动；"
   },
   {
     text:
       "若英特尔在规定时间内未收到渠道销售报告，或本季度渠道销量为零，则您将自动失去参与本季度渠道积分奖励计划的资格，且该渠道下挂的任何一家店面将自动失去英特尔体验店或英特尔星级店的身份；"
   },
-  { text: "了解详细店面行为要求，请点击右侧超链接阅读《Q1'19 英特尔 品牌零售店面常规积分奖励计划》[上传文件后增加超链接]。" },
+  { text: "了解详细店面行为要求，请点击右侧超链接阅读<a href='https://www.intel.com/content/www/cn/zh/technology-provider/local/brand-retailer-campaign-plan-q2-19.html' target='_black'>《2019年第二季度 英特尔 品牌零售店面活动计划》</a>。" },
   { text: "升/降级触发条件：" },
   // {
   //   text:
@@ -317,11 +340,12 @@ const dataSource11 = [
   { text: '若在任何1个季度的ITP积分项目销量为<u>0</u>，则该渠道退出品牌零售ITP项目，且半年内不得再提名加入；'},
   { text: '若在任何1个季度渠道下挂店面为<u>0</u>，则该渠道退出品牌零售ITP项目，且半年内不得再提名加入；'},
   { text: '若品牌厂商对其<u>不合作渠道</u>，向英特尔提出要求退出品牌零售ITP项目的渠道，该渠道则退出项目且半年内不得再提名加入；'},
-  { text: '若渠道连续2个季度ITP积分项目销量<u>不足所在级别要求</u>（至尊A级2500台/季度；至尊B级1000台/季度），则该渠道下降一级，直至退出；'},
-  { text: '若连续2个季度渠道下挂店面数量<u>不满足所在级别要求</u>（至尊A级10个；至尊B级5个 ），则该渠道下降一级，直至退出品牌零售ITP项目。'},
+  { text: '若渠道连续2个季度ITP积分项目销量<u>不足所在级别要求</u>（菁英级100台/季度），则该渠道下降一级，直至退出；'},
+  { text: '若连续2个季度渠道下挂店面数量<u>不满足所在级别要求</u>（菁英级下挂至少1个店面），则该渠道下降一级，直至退出品牌零售ITP项目。'},
+  { text: '若连续2个季度渠道下挂店面完成培训课程总数均未达到10门，则该则该渠道下降一级，直至退出品牌零售ITP项目。'},
 ]
 const dataSource111 = [
-  { text: '至尊A/B级享有获得英特尔客户团队的支持，优先获得品牌及英特尔联合物料支持，优先参加产品推广活动，优先参加英特尔各项会议及面对面的培训机会；'},
+  { text: '菁英级合作伙伴享有参加ITP常规积分项目，品牌及英特尔联合物料支持，产品推广活动，网络培训机会的权利；'},
   { text: '应履行义务：'},
   { text: '应品牌方和英特尔要求，完成指定产品销售，店面行为及市场营销活动'},
   { text: '配合品牌方，按时提报月度销量及其他要求的市场报告，并对数据真实及完整性负责'},

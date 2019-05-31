@@ -65,7 +65,6 @@ export default {
       const pathInfo = path.split('/') || []
       const pathNeedInfo = pathInfo.slice('2')
       this.openName = pathNeedInfo[0];
-      console.log(this.openName)
       this.activeName = pathNeedInfo[1];
     }
   }
