@@ -8,14 +8,15 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> 尊敬的英特尔-品牌零售菁英合作伙伴：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> 尊敬的英特尔-品牌零售合作伙伴</td>
           </tr>
           <tr height='10'></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为了帮助品牌零售合作伙伴更好的提升搭载KBL-H及CFL-H系列英特尔
-              <Sup></Sup>酷睿™处理器的产品销售，我们特意为了大家制定了英特尔
-              <Sup></Sup>品牌零售渠道KBL-H及CFL-H系列酷睿™处理器特别促销积分奖励计划！在活动期间，您在获得季度性常规积分奖励的基础上，还可以通过英特尔
-              <Sup></Sup>指定机型的销售获得额外促销积分奖励。赶快了解详情，即刻行动吧！</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              为了帮助联想品牌零售合作伙伴更好的提升搭载 英特尔<Sup></Sup>酷睿™系列处理器的联想品牌笔记本指定机型的产品销售，我们特意为大家制定了英特尔<Sup></Sup>品牌零售渠道联想品牌笔记本特别机型促销积分奖励计划！
+              在活动期间，您能够在获得季度性常规积分奖励的基础上，通过销售英特尔<Sup></Sup>指定机型获得无上限限制的额外促销积分奖励。赶快了解详情，即刻行动吧！
+            </td>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -30,9 +31,9 @@
           </tr>
           <tr>
             <td width="35"></td>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）已激活的英特尔- 品牌零售渠道的
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）已激活的英特尔<Sup></Sup>技术合作伙伴品牌零售渠道的
               <u>
-                <b>至尊及菁英</b>
+                <b>至尊A/B级和菁英级</b>
               </u>合作伙伴（“合格会员”）。</td>
           </tr>
         </StanceTable>
@@ -47,26 +48,24 @@
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
               <StanceTable width="599">
                 <IconText title="活动日期">
-                  本活动有效期为2018年10月1日至2018年12月31日。
+                  本促销活动有效期为2019年6月10日至2019年6月30日（“促销活动期间”）。
                 </IconText>
                 <IconText title="促销产品">
-                  搭载KBL-H及CFL-H系列英特尔
-                  <Sup></Sup>酷睿™处理器的指定机型笔记本。
+                  搭载 英特尔<Sup></Sup>酷睿™i3、英特尔<Sup></Sup>酷睿™i5和英特尔<Sup></Sup>酷睿™i7系列处理器 的 联想小新青春版系列机型、小新14系列机型和ideapad 340C系列机型笔记本。
                 </IconText>
                 <IconText title="活动要求">
-                  参与本次促销销售奖励的渠道需具有参与本季度常规积分奖励计划的资格，且在2018年12月31日完成进货，并于2019年1月10日前提交渠道销售报告；
+                  参与本次促销销售奖励的渠道需具有参与本季度常规积分奖励计划的资格，且在2019年6月30日完成进货，并于2019年7月10日前提交渠道销售报告；
                 </IconText>
                 <IconText title="活动原则">
-                  英特尔将以OEM厂商报告为准进行积分核算;
+                  <ListTable listType="-" :dataSource="dataSource1" :tStyle="{ 'font-size': '12px', 'line-height': '20px' }" width="579"></ListTable>
                 </IconText>
                 <IconText title="积分说明">
-                  本次活动销售奖励积分将以电子邮件的形式通知到参与此次活动的渠道，收到通知后，各个渠道即可登录
+                  本次促销销售奖励积分将以电子邮件的形式通知到参与此次活动的渠道，收到通知后，各个渠道即可登录
                   <a href="http://prc-points.inteltechnologyprovider.com/" style="color: #071C5; text-decoration: underline" target="_blank">英特尔
                     <Sup></Sup>渠道积分网站</a>进行礼品兑换。
                 </IconText>
                 <IconText title="温馨提示">
-                  此活动仅对英特尔
-                  <Sup></Sup>渠道积分计划中品牌零售渠道的至尊及菁英会员开放，
+                  此活动仅对英特尔<Sup></Sup>渠道积分计划中品牌零售渠道的至尊A/B级和菁英级合作伙伴开放
                   <b>请大家确保参与活动前已激活英特尔
                     <Sup></Sup>渠道积分计划的会员账号，</b>以保障活动奖励的正常享有；如果还未完成账号激活，请尽快登陆
                   <a href="http://prc-points.inteltechnologyprovider.com/" style="color: #071C5; text-decoration: underline" target="_blank">英特尔
@@ -89,12 +88,14 @@
           </tr>
           <tr>
             <td width="35"></td>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">在促销活动期间，对合格会员从英特尔OEM厂商授权渠道购买的如下列表中的英特尔产品（“符合条件的英特尔
-              <Sup></Sup>产品”），英特尔将实行以下积分奖励：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
+              在促销活动期间，对合格会员从英特尔OEM厂商授权渠道购买搭载下表中英特尔产品（“符合条件的英特尔<Sup></Sup>产品”）的联想小新青春版系列机型、
+              小新14系列机型和ideapad 340C系列机型笔记本，英特尔将实行以下积分奖励：
+            </td>
           </tr>
         </StanceTable>
         <!-- 数据表格 -->
-        <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '60px', 'background-color': '#0070C0'}"></DataTable>
+        <DataTable :column="column" :dataSource="tableData" :headStyle="{ height: '60px', 'background-color': '#0070C0', color: '#ffffff'}"></DataTable>
 
         <StanceTable hasTop hasBottom>
           <tr>
@@ -103,13 +104,16 @@
         </StanceTable>
         <StanceTable hasBottom>
           <IconText>
+            只有在本季度下发的符合条件的英特尔产品列表（Eligible SKU List） 中列明的产品型号，方可参与本季度的常规奖励及特别机型奖励活动。
+          </IconText>
+          <IconText>
             本促销活动受以上条款和条件限制（“促销条款”），此外仍须遵守英特尔
             <Sup></Sup>技术合作伙伴（“ITP”）项目的条款和条件，包括附录A与积分补充条款和条件（“ITP项目条款”）。该ITP项目条款为本促销条款的一部分，其详情可在此网址查询：
             <a href="https://www.intel.com/content/www/us/en/technology-provider/legal/program-terms-and-conditions.html. 促销条款和ITP项目条款统称为“活动规则”。" target="_blank">https://www.intel.com/content/www/us/en/technology-provider/legal/program-terms-and-conditions.html. </a>
             促销条款和ITP项目条款统称为“活动规则”。
           </IconText>
           <IconText>
-            合格会员：
+            合格会员将享受：
             <ListTable listType="-" :dataSource="dataSource2" :tStyle="{ 'font-size': '12px', 'line-height': '20px' }" width="620"></ListTable>
           </IconText>
           <IconText>
@@ -117,7 +121,7 @@
             <ListTable listType="-" :dataSource="dataSource3" :tStyle="{ 'font-size': '12px', 'line-height': '20px' }" width="620"></ListTable>
           </IconText>
           <IconText>
-            若本促销活动条款和条件与ITP项目条款和条件存在冲突，应以本促销活动条款和条件为准。任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本促销活动条款和条件中涉及上述协议内容的条款。除非英特尔授权代表书面签署，英特尔的标准销售条款和条件将适用于任何合格会员与英特尔之间发生的英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议
+            若本促销活动条款和条件与ITP项目条款和条件存在冲突，应以本促销活动条款和条件为准。任何英特尔商标许可协议和/或英特尔标识许可协议的条款均应优先于本促销活动条款和条件中涉及上述协议内容的条款。除非英特尔授权代表书面签署，英特尔的标准销售条款和条件将适用于任何合格会员与英特尔之间发生的英特尔产品购买或积分兑换等交易，且在适用中优先于任何其他协议。
           </IconText>
           <IconText>
             本促销条款中未定义的术语与在ITP项目条款中的术语具有相同含义。
@@ -134,8 +138,10 @@
         <StanceTable>
           <tr height="20"></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;英特尔真诚邀请您参与“2018年度第四季度英特尔
-              <Sup></Sup>品牌零售渠道KBL-H及CFL-H系列酷睿™处理器特别促销积分奖励计划“，让我们在2018年携手共进，共创佳绩！</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              英特尔真诚邀请您参与“2019年度第二季度英特尔<Sup></Sup>品牌零售渠道 联想品牌笔记本特别机型促销积分奖励计划”，让我们在2019年携手共进，共创佳绩！
+            </td>
           </tr>
           <tr height="20"></tr>
 
@@ -156,6 +162,12 @@ import Sup from "@/components/edm/Sup.vue";
 import IconText from "@/components/edm/IconText.vue";
 import Footer from "@/components/edm/Footer1.vue";
 import DataTable from "@/components/edm/DataTable.vue";
+
+const dataSource1 = [
+  { text: '英特尔将以OEM厂商所提交销量报告为准进行积分核算；'},
+  { text: '英特尔保留对OEM厂商所提供销量报告进行核查权利，若核查结果与提报结果不符，英特尔将有权取消该渠道本季度联想品牌特别机型促销积分奖励活动参与资格；'},
+  { text: '积分核算过程中，您的英特尔-品牌零售渠道合作伙伴级别，以2019年第二季度末在英特尔<sup>®</sup>渠道积分网站中所录入级别为准；'},
+]
 
 const dataSource2 = [
   { text: "可将此次活动赚取积分与其他积分活动所得积分合并使用；" },
@@ -182,53 +194,33 @@ const dataSource3 = [
 
 const column = [
   {
-    title: "本促销活动合格英特尔产品",
-    dataIndex: "text1"
+    title: "特别奖励机型",
+    dataIndex: "text1",
   },
   {
-    title: "每台奖励积分",
+    title: "机型要求",
     dataIndex: "text2"
   },
   {
-    title: "积分上限 （分）",
+    title: "积分奖励<br/>（分/台）",
     dataIndex: "text3",
-    rowspan: 12,
+    width: 80,
+  },
+  {
+    title: "积分上限 （分）",
+    dataIndex: "text4",
+    rowspan: 9,
+    width: 100,
   }
 ];
 const tableData = [
-  {
-    text1: "Intel<sup>®</sup>CoreTMi3-7100H Processor-Laptop",
-    text2: "20",
-    text3: "至尊：10,000<br>菁英: 2,000"
-  },
-  { text1: 'Intel<sup>®</sup>Core""i5-7300HQ Processor-Laptop', text2: "20" },
-  { text1: 'Intel<sup>®</sup>Core""i5-7440HQ Processor-Laptop', text2: "20" },
-  {
-    text1:
-      'Intel<sup>®</sup>Core""i7-7700HQ Processor_Laptop(ExcludeAppledevices)',
-    text2: "20"
-  },
-  { text1: 'Intel<sup>®</sup>Core""i7-7820HKProcessor-Laptop', text2: "20" },
-  {
-    text1:
-      'Intel<sup>®</sup>Core""i7-7820HQ Processor_Laptop(ExcludeAppledevices)',
-    text2: "20"
-  },
-  {
-    text1:
-      'Intel<sup>®</sup>Core""i7-7920HQ Processor_Laptop(ExcludeAppledevices)',
-    text2: "20"
-  },
-  { text1: 'Intel<sup>®</sup>Core""i7-8850H Processor-Laptop', text2: "20" },
-  { text1: 'Intel<sup>®</sup>Core""i7-8750H Processor-Laptop', text2: "20" },
-  { text1: 'Intel<sup>®</sup>Core""i5-8400H Processor-Laptop', text2: "20" },
-  { text1: 'Intel<sup>®</sup>Core""i5-8300H Processor-Laptop', text2: "20" },
-  { text1: 'Intel<sup>®</sup>Core""i9-8950HK Processor-Laptop', text2: "20" }
+  {"text1":"搭载英特尔<sup>®</sup>酷睿™处理器的联想小新青春版笔记本","text2":"九代/八代/七代 酷睿 i7","text3":"40","text4":"菁英：2000<br/> 至尊A/B级:5000"},{"text1":"九代/八代/七代 酷睿 i5","text2":"21"},{"text1":"九代/八代/七代 酷睿 i3","text2":"14"},{"text1":"搭载英特尔<sup>®</sup>酷睿™处理器的联想小新14系列笔记本","text2":"九代/八代/七代 酷睿 i7","text3":"40"},{"text1":"九代/八代/七代 酷睿 i5","text2":"21"},{"text1":"九代/八代/七代 酷睿 i3","text2":"14"},{"text1":"搭载英特尔<sup>®</sup>酷睿™处理器的联想 ideapad 340C 系列笔记本","text2":"九代/八代/七代 酷睿 i7","text3":"40"},{"text1":"九代/八代/七代 酷睿 i5","text2":"21"},{"text1":"九代/八代/七代 酷睿 i3","text2":"14"}
 ];
 
 export default {
   data() {
     return {
+      dataSource1,
       dataSource2,
       dataSource3,
       column,

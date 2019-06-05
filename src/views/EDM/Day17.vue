@@ -3,11 +3,11 @@
     <tr>
       <td>
 
-        <!-- <StanceTable width="670">
+        <StanceTable width="670">
           <tr>
-            <TCell :ostyle="{ 'text-align': 'center', color: '#959595'}">升级存储和网络，充分释放英特尔<Sup></Sup>至强<Sup></Sup>可扩展平台的全部功能。</TCell>
+            <TCell :ostyle="{ 'text-align': 'center', color: '#959595'}">轻松帮助客户扩展 IT。</TCell>
           </tr>
-        </StanceTable> -->
+        </StanceTable>
         <Nav width="670"></Nav>
         <StanceTable hasTop></StanceTable>
         <StanceTable hasTop hasBottom bgcolor="#0071C5" width="670">
@@ -22,35 +22,38 @@
     <StanceTable>
       <tr height="30"></tr>
       <tr>
-        <TCell :ostyle="{ 'text-align': 'center', color: '#0071c5', 'font-size': '32px', 'font-weight': 700 }">以数据为中心的计算可加速洞察</TCell>
+        <TCell :ostyle="{ 'text-align': 'center', color: '#0071c5', 'font-size': '26px', 'font-weight': 700 }">借助下一代 IT 更新，打开机遇之门</TCell>
       </tr>
       <tr height="30"></tr>
       <tr>
-        <TCell :ostyle="{ 'text-align': 'center', color: '#555554', 'font-size': '16px', 'line-height': '24px' }">
-          英特尔推出了第二代英特尔<Sup></Sup> 至强<Sup></Sup> 可扩展处理器，<br>
-          其出色的性能可轻松处理要求最严苛的工作负载。该处理器具备多项全新功能，<br>
-          可提供一流的性能、安全性、灵活性和效率，将推动云计算、5G、物联网端设备、，<br>
-          人工智能等领域的发展，助力业务转型。<br>
+        <TCell :ostyle="{ 'text-align': 'center', color: '#959595', 'font-size': '18px', 'line-height': '26px' }">
+          全新第二代英特尔<Sup></Sup> 至强<Sup></Sup><br>
+          可扩展平台支持最新内存创新技术和以数据为中心的工作负载，<br>
+          可帮助您的客户加快实现 IT 现代化，获取更多可行洞察。<br>
 
         </TCell>
       </tr>
-      <tr height="30"></tr>
+      <tr height="20"></tr>
       <tr>
-        <TCell :ostyle="{ 'text-align': 'center', color: '#555554', 'font-size': '16px', 'line-height': '24px' }">
-          该处理器进行了全面的基础设施升级，采用了英特尔<Sup></Sup> 以太网 10GbE、英特尔<Sup></Sup><br>
-          傲腾™ DC 固态盘以及最新 Microsoft* 软件等先进技术，能够消除瓶颈，<br>
-          充分释放服务器的潜能。<br>
+        <TCell :ostyle="{ 'text-align': 'center', color: '#959595', 'font-size': '18px', 'line-height': '26px' }">
+          英特尔可帮助您轻松推介基于第二代全新英特尔<Sup></Sup> 至强<Sup></Sup> 可扩展平台、<br>
+          以数据为中心的革命性 IT 解决方案，并赢得更多奖励。<br>
         </TCell>
       </tr>
-      <tr height="30"></tr>
+      <tr height="20"></tr>
       <tr>
-        <TCell :ostyle="{ 'text-align': 'center', color: '#555554', 'font-size': '16px', 'line-height': '24px' }">
-          优化的<a href="https://www.intel.com/content/www/cn/zh/architecture-and-technology/intel-select-solutions-overview.html" target="_blank" style="color:#00AEEF;text-decoration:none">英特尔<Sup></Sup> Select 解决方案</a>是基于第二代英特尔<Sup></Sup> 至强<Sup></Sup><br>
-          可扩展平台而构建的，与英特尔<Sup></Sup> 傲腾™ DC 永久性内存搭配，<br>
-          可加速转型和部署。摆脱墨守成规，加速业务转型。，<br>
+        <td align="center">
+          <LinkBtn width="320" align="center" url="https://www.intel.com/content/www/cn/zh/technology-provider/products-and-solutions/xeon-scalable-family/2gen-data-centric-computing-article.html">开始营销</LinkBtn>
+        </td>
+      </tr>
+      <tr height="20"></tr>
+      <tr>
+        <TCell :ostyle="{ 'text-align': 'center', color: '#959595', 'font-size': '18px', 'line-height': '26px' }">
+          推销全新第二代英特尔<Sup></Sup> 至强<Sup></Sup> 可扩展处理器，赢取多达 450 个积分，<br>
+          并完成旨在帮助您提高销量的最新培训课程，赢取更多积分。<br>
         </TCell>
       </tr>
-      <tr height="30"></tr>
+      <tr height="20"></tr>
     </StanceTable>
 
     <StanceTable width="670">

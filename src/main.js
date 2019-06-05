@@ -3,8 +3,8 @@ import App from '@/views/App.vue'
 import router from './router'
 import iView from 'iview'
 import store from './store'
-import './assets/css/common.less'
 import 'iview/dist/styles/iview.css'
+import './assets/css/common.less'
 
 Vue.config.productionTip = false
 
