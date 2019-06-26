@@ -140,11 +140,11 @@
           </tr>
         </StanceTable>
         <!-- 数据 ----------------------------------------------------- -->
-        <DataTable :column="column" :dataSource="tableData" :headStyle="{'background-color': '#0070C0', color: '#ffffff'}"></DataTable>
+        <DataTable :column="column" :dataSource="tableData" :headStyle="{'background-color': '#0070C0', color: '#ffffff'}" width="400"></DataTable>
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">K，X型号以及i5+8400， i5+8500，i7+8700不设积分上限。</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">K，X型号不设积分上限。</td>
           </tr>
         </StanceTable>
 
@@ -198,7 +198,7 @@
         <StanceTable hasBottom>
           <tr height="20"></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎您加入“2019年第二季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎贵司加入“2019年第三季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -206,7 +206,7 @@
           </tr>
 
           <tr>
-            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2019年3月</td>
+            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2019年6月</td>
           </tr>
         </StanceTable>
         <Footer></Footer>
@@ -271,7 +271,7 @@ const dataSource4 = [
   { text: "2)菁英渠道升级、降级" },
   {
     text:
-      "优选级渠道如当季业绩和培训达到菁英级标准，区域英特尔®销售人员可以提名其升级为菁英渠道；"
+      "优选级渠道如当季业绩和培训达到菁英级标准，区域英特尔<sup>®</sup>销售人员可以提名其升级为菁英渠道；"
   },
   {
     text:
@@ -285,7 +285,7 @@ const dataSource4 = [
   { text: "3)优选渠道升级、降级" },
   {
     text:
-      "注册级渠道如当季业绩和培训达到优选级标准，区域英特尔®销售人员可以提名其升级为优选级渠道；"
+      "注册级渠道如当季业绩和培训达到优选级标准，区域英特尔<sup>®</sup>销售人员可以提名其升级为优选级渠道；"
   },
   {
     text:
@@ -298,7 +298,7 @@ const dataSource4 = [
   { text: "升降级的生效时间均为每一业绩考核季的下一季度第一个月月底;" },
   {
     text:
-      "优选级渠道降级为注册级渠道后，自降级生效日起，其账户中的英特尔®渠道积分在60天内仍可有效使用，逾期积分将自动清零"
+      "优选级渠道降级为注册级渠道后，自降级生效日起，其账户中的英特尔<sup>®</sup>渠道积分在60天内仍可有效使用，逾期积分将自动清零"
   },
   { text: "4)注册级渠道" },
   {
@@ -328,27 +328,27 @@ const column = [
     title: "积分/颗 ",
     dataIndex: "text4"
   },
-  {
-    title: "型号",
-    align: 'left',
-    dataIndex: "text5"
-  },
-  {
-    title: "积分/颗 ",
-    dataIndex: "text6"
-  },
-  {
-    title: "型号",
-    align: 'left',
-    dataIndex: "text7"
-  },
-  {
-    title: "积分/颗 ",
-    dataIndex: "text8"
-  }
+  // {
+  //   title: "型号",
+  //   align: 'left',
+  //   dataIndex: "text5"
+  // },
+  // {
+  //   title: "积分/颗 ",
+  //   dataIndex: "text6"
+  // },
+  // {
+  //   title: "型号",
+  //   align: 'left',
+  //   dataIndex: "text7"
+  // },
+  // {
+  //   title: "积分/颗 ",
+  //   dataIndex: "text8"
+  // }
 ];
 const tableData = [
-  {"text1":"G4400","text2":"10","text3":"i5-7400","text4":"21","text5":"i7-7700","text6":"28","text7":"i9-7900X","text8":"100"},{"text1":"G4560","text2":"12","text3":"i5-7400T","text4":"21","text5":"i7-7700K","text6":"28","text7":"i9-7920X","text8":"100"},{"text1":"G5400","text2":"10","text3":"i5-7500","text4":"21","text5":"i7-7700T","text6":"28","text7":"i9-7940X","text8":"100"},{"text1":"G5500","text2":"12","text3":"i5-7500T","text4":"21","text5":"i7-7740X","text6":"60","text7":"i9-7960X","text8":"100"},{"text1":"G5600","text2":"12","text3":"i5-7600","text4":"21","text5":"i7-7800X","text6":"60","text7":"i9-7980XE","text8":"100"},{"text1":"i3-7100","text2":"14","text3":"i5-7600K","text4":"21","text5":"i7-7820X","text6":"60","text7":"i9-9900K","text8":"60"},{"text1":"i3-7100T","text2":"14","text3":"i5-7600T","text4":"21","text5":"i7-8700","text6":"40","text7":"i9-9900KF","text8":"60"},{"text1":"i3-7300","text2":"14","text3":"i5-7640X","text4":"40","text5":"i7-8700K","text6":"45","text7":"i9-9820X","text8":"100"},{"text1":"i3-7300T","text2":"14","text3":"i5-8400","text4":"30","text5":"i7-8086K","text6":"45","text7":"i9-9900X","text8":"100"},{"text1":"i3-7320","text2":"14","text3":"i5-8500","text4":"30","text5":"i7-9700K","text6":"45","text7":"i9-9920X","text8":"100"},{"text1":"i3-7350K","text2":"14","text3":"i5-8600","text4":"30","text5":"i7-9700KF","text6":"45","text7":"i9-9940X","text8":"100"},{"text1":"i3-8100","text2":"20","text3":"i5-8600K","text4":"35","text5":"i7-9800X","text6":"60","text7":"i9-9960X","text8":"100"},{"text1":"i3-8300","text2":"20","text3":"i5-9400","text4":"30","text5":" ","text6":" ","text7":"i9-9980XE","text8":"100"},{"text1":"i3-8350K","text2":"25","text3":"i5-9400F","text4":"30","text5":" ","text6":" ","text7":" ","text8":" "},{"text1":"i3-9350KF","text2":"25","text3":"i5-9600K","text4":"35","text5":" ","text6":" ","text7":" ","text8":" "},{"text1":" ","text2":" ","text3":"i5-9600KF","text4":"35","text5":" ","text6":" ","text7":" ","text8":" "}
+  {"text1":"G4400","text2":"10","text3":"i5-9600KF","text4":"35"},{"text1":"G4560","text2":"12","text3":"i7-7700","text4":"28"},{"text1":"G5400","text2":"10","text3":"i7-7700K","text4":"28"},{"text1":"G5500","text2":"12","text3":"i7-7700T","text4":"28"},{"text1":"G5600","text2":"12","text3":"i7-7740X","text4":"60"},{"text1":"i3-8100","text2":"20","text3":"i7-7800X","text4":"60"},{"text1":"i3-8300","text2":"20","text3":"i7-7820X","text4":"60"},{"text1":"i3-8350K","text2":"25","text3":"i7-8086K","text4":"45"},{"text1":"i3-9100F","text2":"25","text3":"i7-8700","text4":"40"},{"text1":"i3-9100F","text2":"25","text3":"i7-8700K","text4":"45"},{"text1":"i3-9350KF","text2":"25","text3":"i7-9700K","text4":"45"},{"text1":"i5-7400","text2":"21","text3":"i7-9700KF","text4":"45"},{"text1":"i5-7400T","text2":"21","text3":"i7-9800X","text4":"60"},{"text1":"i5-7500","text2":"21","text3":"i9-7900X","text4":"100"},{"text1":"i5-7500T","text2":"21","text3":"i9-7920X","text4":"100"},{"text1":"i5-7600","text2":"21","text3":"i9-7940X","text4":"100"},{"text1":"i5-7600K","text2":"21","text3":"i9-7960X","text4":"100"},{"text1":"i5-7600T","text2":"21","text3":"i9-7980XE","text4":"100"},{"text1":"i5-7640X","text2":"40","text3":"i9-9820X","text4":"100"},{"text1":"i5-8400","text2":"30","text3":"i9-9900K","text4":"60"},{"text1":"i5-8500","text2":"30","text3":"i9-9900KF","text4":"60"},{"text1":"i5-8600","text2":"30","text3":"i9-9900X","text4":"100"},{"text1":"i5-8600K","text2":"35","text3":"i9-9920X","text4":"100"},{"text1":"i5-9400","text2":"30","text3":"i9-9940X","text4":"100"},{"text1":"i5-9400F","text2":"30","text3":"i9-9960X","text4":"100"},{"text1":"i5-9600K","text2":"35","text3":"i9-9980XE","text4":"100"}
 ]
 
 const dataSource5 = [

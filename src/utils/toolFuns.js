@@ -1,3 +1,4 @@
+import { request } from "https";
 
 
 // 一个节流函数、用于mosemove, resize 等函数
@@ -270,6 +271,55 @@ function applyMiddlware(...middlewares) {
 
 // 注入中间件
 applyMiddlware(logger)
+
+
+// 几个常规的排序算法
+
+const bubbleSort = (array) => {
+  const result = array.slice()
+  const len = result.length
+  for (let i = 0; i < len; i++) {
+    // 因为每次的最后一项已经是大的，可以不用比较，提升性能
+    for (let j = 0; j < len - i - 1; j++) {
+      if (result[j] > result[j+1]) {
+        [result[j], result[j+1]] = [result[j+1], result[j]]
+      }
+    } 
+  }
+  return result
+}
+
+
+const insertionSort = (array) => {
+  const len = array.length
+  const result = array.slice()
+  for (let i = 1; i < len; i++) {
+    const temp = result[i]
+    let j = i - 1
+    while(result[j] > temp && j >= 0) {
+      result[j+1] = result[j] // 将大的项移动到后一个位置
+      j--
+    }
+    // 插入动作
+    result[j+1] = temp
+  }
+  return result
+}
+
+const selectionSort = (array) => {
+  const len = array.length
+  const result = array.slice()
+  for (let i = 0; i < len; i++) {
+    let minIndex = i
+    for (let j = i + 1; j < len; j++) {
+      if (result[j] < result[minIndex]) { // 寻找最小的值
+        minIndex = j
+      }
+    }
+    [result[i], result[minIndex]] = [result[minIndex], result[i]]
+  }
+  return result
+}
 
 
 

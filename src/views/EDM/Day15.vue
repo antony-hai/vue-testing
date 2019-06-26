@@ -8,11 +8,14 @@
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">尊敬的英特尔<Sup></Sup>技术合作伙伴：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">尊敬的英特尔<Sup></Sup>发烧友PC专家{[CS-CompanyName]}：</td>
           </tr>
           <tr height='10'></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您好！非常感谢贵公司一直以来对英特尔的大力支持！在Q4'18NUC季度常规积分奖励计划及促销奖励计划基础上，中国区特进行搭载Windows<Sup></Sup>10的英特尔<Sup></Sup>NUC 迷你电脑特别促销奖励计划，如下：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              贵司好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知贵司2019年第三季度发烧友PC专家台式机常规奖励计划，如下：
+            </td>
           </tr>
         </StanceTable>
 
@@ -27,11 +30,11 @@
           </tr>
           <tr>
             <TCell width="25">2.</TCell>
-            <TCell>本促销活动有效期为2018年11月4日至2018年12月15日（“促销活动时间”），适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）的英特尔<Sup></Sup>技术合作伙伴中已激活的NUC产品至尊会员及菁英会员（“合格会员”）。</TCell>
+            <TCell>本奖励计划有效期为2019年7月1日至2019年9月30日（“活动期间”），适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）的英特尔<Sup></Sup>技术合作伙伴中已激活的至尊发烧友PC专家会员</TCell>
           </tr>
           <tr>
             <TCell width="25">3.</TCell>
-            <TCell>在促销活动期间，对合格会员从英特尔<Sup></Sup>授权总代理（“IAD”）、英特尔<Sup></Sup>授权集成供应商（“IACS”）或 <br/>英特尔<Sup></Sup>认可供应商（“IAS”） [视具体情况而定]购买如下列表中的英特尔产品（“符合条件的英特尔<Sup></Sup>产品”），英特尔将实行以下积分奖励：</TCell>
+            <TCell>在活动期间，对合格会员从英特尔<Sup></Sup>授权总代理（“IAD”）、英特尔<Sup></Sup>授权集成供应商（“IACS”）或英特尔<Sup></Sup>批准供应商（“IAS”）[视具体情况而定]购买的如下列表中的英特尔产品（“符合条件的英特尔<Sup></Sup>产品”），英特尔将实行以下积分奖励：</TCell>
           </tr>
         </StanceTable>
 
@@ -107,7 +110,7 @@
 import { TCell, Nav, StanceTable, ListTable, DataTable, Footer1, Sup, ImageRow } from '@/components/edm'
 
 const dataSource1 = [
-  { text: "在本次促销活动中可赚取无上限限制的积分；" },
+  { text: "在本次促销活动中最多可获取500,000积分；" },
   { text: "可同时参与本次促销活动和其他积分活动；" },
   { text: "不可同时参加针对本次促销活动中符合条件的英特尔产品所进行的其他英特尔通知的折扣或促销活动，不论折扣或促销活动是针对本促销活动的合格会员，或是代表合格会员的第三方；" },
   { text: "不可以转让此次促销活动中赚取的积分；且" },
@@ -144,45 +147,46 @@ const dataSource4 = [
 
 const column1 = [
   {
-    title: "符合条件的英特尔产品",
+    title: "产品型号",
     dataIndex: "text1",
     align: 'left',
   },
   {
-    title: "积分/单位",
+    title: "产品积分",
     dataIndex: "text2",
-    width: 120,
-  },
-
-];
-const column11 = [
-  {
-    title: "Volume tier (units) ",
-    dataIndex: "text1"
+    width: 100,
   },
   {
-    title: "Points per unit per Tier ",
-    dataIndex: "text2"
+    title: "额外积分",
+    dataIndex: "text3",
+    width: 100
+  },
+  {
+    title: "产品型号",
+    dataIndex: "text4",
+    align: 'left',
+  },
+  {
+    title: "产品积分",
+    dataIndex: "text5",
+    width: 100,
+  },
+  {
+    title: "额外积分",
+    dataIndex: "text6",
+    width: 100,
   },
 
+
 ];
+
 const tableData1 = [
-  {"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I3BNH","text2":"40"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I3BNHL","text2":"40"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7i3BNHR","text2":"40"},{"text1":"Intel<sup>®</sup> NUC Kit with Intel<sup>®</sup> Optane™ Memory - BOXNUC7I3BNHX1L","text2":"40"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – NUC7i3BNHXF","text2":"40"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – NUC7i3BNHXFL","text2":"40"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I3BNK","text2":"40"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I3BNKL","text2":"40"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7i3BNKR","text2":"40"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I5BNH","text2":"60"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I5BNHL","text2":"60"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7i5BNHR","text2":"60"},{"text1":"Intel<sup>®</sup> NUC Kit with Intel<sup>®</sup> Optane™ Memory - BOXNUC7I5BNHX1L","text2":"60"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i5BNHXF","text2":"60"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i5BNHXFL","text2":"60"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I5BNK","text2":"60"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I5BNKL","text2":"60"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows 10 - BOXNUC7i5BNKP","text2":"60"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows 10 - BOXNUC7i5BNKPL","text2":"60"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows 10 - BOXNUC7i5BNKPR","text2":"60"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7i5BNKR","text2":"60"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I7BNH","text2":"80"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7I7BNHL","text2":"80"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC7i7BNHR","text2":"80"},{"text1":"Intel<sup>®</sup> NUC Kit with Intel<sup>®</sup> Optane™ Memory - BOXNUC7I7BNHX1L","text2":"80"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i7BNHXG","text2":"80"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i7BNHXGL","text2":"80"},{"text1":"Intel<sup>®</sup> NUC Kit with 8th Gen Intel<sup>®</sup> Core™ Processors - BOXNUC8i3BEH","text2":"40"},{"text1":"Intel<sup>®</sup> NUC Kit with 8th Gen Intel<sup>®</sup> Core™ Processors - BOXNUC8i3BEK","text2":"40"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSM","text2":"40"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSN","text2":"40"},{"text1":"Intel<sup>®</sup> NUC Kit with 8th Gen Intel<sup>®</sup> Core™ Processors - BOXNUC8i5BEH","text2":"60"},{"text1":"Intel<sup>®</sup> NUC Kit with 8th Gen Intel<sup>®</sup> Core™ Processors - BOXNUC8i5BEK","text2":"60"},{"text1":"Intel<sup>®</sup> NUC Kit with 8th Gen Intel<sup>®</sup> Core™ Processors - BOXNUC8i7BEH","text2":"80"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC8i7HNK","text2":"80"},{"text1":"Intel<sup>®</sup> NUC 8 Business Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HNKQC","text2":"80"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC8I7HVK","text2":"80"},{"text1":"Boxed Intel<sup>®</sup> NUC Kit - BOXNUC8i7HVK6","text2":"80"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA","text2":"80"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA6","text2":"80"}
-]
-const tableData11 = [
-  {"text1":"1-5","text2":"30 pts per unit "},{"text1":"6-15","text2":"40 pts per unit "},{"text1":"16-30","text2":"50 pts per unit "},{"text1":"31-50","text2":"60 pts per unit "},{"text1":"51-100","text2":"70 pts per unit "},{"text1":"101+","text2":"80 pts per unit "}
-]
-const column2 = [
-  {
-    title: "符合条件的英特尔产品",
-    dataIndex: "text1"
-  },
-
+  {"text1":"G4400","text2":"10","text3":" ","text4":"i5-9500F","text5":"30","text6":" "},{"text1":"G4560","text2":"12","text3":" ","text4":"i5-9500T","text5":"30","text6":" "},{"text1":"G5400","text2":"10","text3":" ","text4":"i5-9600","text5":"30","text6":" "},{"text1":"G5500","text2":"12","text3":" ","text4":"i5-9600K","text5":"35","text6":"7"},{"text1":"G5600","text2":"12","text3":" ","text4":"i5-9600KF","text5":"35","text6":"7"},{"text1":"i3-8100","text2":"20","text3":" ","text4":"i5-9600T","text5":"30","text6":" "},{"text1":"i3-8100T","text2":"20","text3":" ","text4":"i7+8700","text5":"50","text6":" "},{"text1":"i3-8300","text2":"20","text3":" ","text4":"i7-7500U","text5":"28","text6":" "},{"text1":"i3-8300T","text2":"20","text3":" ","text4":"i7-7560U","text5":"28","text6":" "},{"text1":"i3-8350K","text2":"25","text3":"5","text4":"i7-7567U","text5":"28","text6":" "},{"text1":"i3-9100","text2":"25","text3":" ","text4":"i7-7600U","text5":"28","text6":" "},{"text1":"i3-9100F","text2":"25","text3":" ","text4":"i7-7660U","text5":"28","text6":" "},{"text1":"i3-9100T","text2":"25","text3":" ","text4":"i7-7700","text5":"28","text6":" "},{"text1":"i3-9300","text2":"25","text3":" ","text4":"i7-7700HQ","text5":"28","text6":" "},{"text1":"i3-9300T","text2":"25","text3":" ","text4":"i7-7700K","text5":"28","text6":"6"},{"text1":"i3-9320","text2":"25","text3":" ","text4":"i7-7700T","text5":"28","text6":" "},{"text1":"i3-9350K","text2":"25","text3":"5","text4":"i7-7740X","text5":"60","text6":"12"},{"text1":"i3-9350KF","text2":"25","text3":"5","text4":"i7-7800X","text5":"60","text6":"12"},{"text1":"i5+8400","text2":"40","text3":" ","text4":"i7-7820EQ","text5":"28","text6":" "},{"text1":"i5+8500","text2":"40","text3":" ","text4":"i7-7820HK","text5":"28","text6":"6"},{"text1":"i5-7200U","text2":"21","text3":" ","text4":"i7-7820HQ","text5":"28","text6":" "},{"text1":"i5-7260U","text2":"21","text3":" ","text4":"i7-7820X","text5":"60","text6":"12"},{"text1":"i5-7267U","text2":"21","text3":" ","text4":"i7-7920HQ","text5":"28","text6":" "},{"text1":"i5-7300HQ","text2":"21","text3":" ","text4":"i7-7Y75","text5":"28","text6":" "},{"text1":"i5-7300U","text2":"21","text3":" ","text4":"i7-8086K","text5":"45","text6":"9"},{"text1":"i5-7400","text2":"21","text3":" ","text4":"i7-8700","text5":"40","text6":" "},{"text1":"i5-7400T","text2":"21","text3":" ","text4":"i7-8700K","text5":"45","text6":"9"},{"text1":"i5-7440EQ","text2":"21","text3":" ","text4":"i7-8700T","text5":"40","text6":" "},{"text1":"i5-7440HQ","text2":"21","text3":" ","text4":"i7-9700","text5":"40","text6":" "},{"text1":"i5-7442EQ","text2":"21","text3":" ","text4":"i7-9700F","text5":"40","text6":" "},{"text1":"i5-7500","text2":"21","text3":" ","text4":"i7-9700F","text5":"45","text6":" "},{"text1":"i5-7500T","text2":"21","text3":" ","text4":"i7-9700K","text5":"45","text6":"9"},{"text1":"i5-7600","text2":"21","text3":" ","text4":"i7-9700KF","text5":"45","text6":"9"},{"text1":"i5-7600K","text2":"21","text3":"5","text4":"i7-9700T","text5":"40","text6":" "},{"text1":"i5-7600T","text2":"21","text3":" ","text4":"i7-9800X","text5":"60","text6":"12"},{"text1":"i5-7640X","text2":"40","text3":"8","text4":"i9-7900X","text5":"100","text6":"20"},{"text1":"i5-7Y54","text2":"21","text3":" ","text4":"i9-7920X","text5":"100","text6":"20"},{"text1":"i5-7Y57","text2":"21","text3":" ","text4":"i9-7940X","text5":"100","text6":"20"},{"text1":"i5-8400","text2":"30","text3":" ","text4":"i9-7960X","text5":"100","text6":"20"},{"text1":"i5-8400T","text2":"30","text3":" ","text4":"i9-7980XE","text5":"100","text6":"20"},{"text1":"i5-8500","text2":"30","text3":" ","text4":"i9-9820X","text5":"100","text6":"20"},{"text1":"i5-8500T","text2":"30","text3":" ","text4":"i9-9900","text5":"60","text6":" "},{"text1":"i5-8600","text2":"30","text3":" ","text4":"i9-9900K","text5":"60","text6":"12"},{"text1":"i5-8600K","text2":"35","text3":"7","text4":"i9-9900KF","text5":"60","text6":"12"},{"text1":"i5-8600T","text2":"30","text3":" ","text4":"i9-9900T","text5":"60","text6":" "},{"text1":"i5-9400","text2":"30","text3":" ","text4":"i9-9900X","text5":"100","text6":"20"},{"text1":"i5-9400F","text2":"30","text3":" ","text4":"i9-9920X","text5":"100","text6":"20"},{"text1":"i5-9400T","text2":"30","text3":" ","text4":"i9-9940X","text5":"100","text6":"20"},{"text1":"i5-9500","text2":"30","text3":" ","text4":"i9-9960X","text5":"100","text6":"20"},{"text1":" ","text2":" ","text3":" ","text4":"i9-9980XE","text5":"100","text6":"20"}
 ]
 
-const tableData2 = [
-  {"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I3DNHNC"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I3DNHNC1"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I3DNHNC2"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I3DNHNC3"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I3DNHNC4"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I3DNHNC5"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro BLKNUC7I3DNKTC"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro BLKNUC7I3DNKTC1"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro BLKNUC7I3DNKTC2"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro BLKNUC7I3DNKTC3"},{"text1":"Intel<sup>®</sup> NUC 7 Business Mini PC with Windows<sup>®</sup> 10 Pro BLKNUC7I3DNKTC4"},{"text1":"Intel<sup>®</sup> NUC 7 Business, a Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I5DNKPC"},{"text1":"Intel<sup>®</sup> NUC 7 Business, a Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I5DNKPC1"},{"text1":"Intel<sup>®</sup> NUC 7 Business, a Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I5DNKPC2"},{"text1":"Intel<sup>®</sup> NUC 7 Business, a Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I5DNKPC3"},{"text1":"Intel<sup>®</sup> NUC 7 Business, a Mini PC with Windows<sup>®</sup> 10 Pro - BLKNUC7I5DNKPC4"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – NUC7i3BNHXF"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – NUC7i3BNHXFL"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i5BNHXF"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i5BNHXFL"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows 10 - BOXNUC7i5BNKP"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows 10 - BOXNUC7i5BNKPL"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows 10 - BOXNUC7i5BNKPR"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i7BNHXG"},{"text1":"Intel<sup>®</sup> NUC 7 Home, a Mini PC with Windows<sup>®</sup> 10 – BOXNUC7i7BNHXGL"},{"text1":"Intel<sup>®</sup> NUC 7 Enthusiast, a Mini PC with Windows 10 - BOXNUC7i7BNKQ"},{"text1":"Intel<sup>®</sup> NUC 7 Enthusiast, a Mini PC with Windows 10 - BOXNUC7i7BNKQL"},{"text1":"Intel<sup>®</sup> NUC 7 Enthusiast, a Mini PC with Windows 10 - BOXNUC7i7BNKQR"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSM"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSM1"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSM2"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSM3"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSM4"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSN"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSN1"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSN2"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSN3"},{"text1":"Intel<sup>®</sup> NUC 8 Home, a Mini PC with Windows<sup>®</sup> 10 - BOXNUC8I3CYSN4"},{"text1":"Intel<sup>®</sup> NUC 8 Business Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HNKQC"},{"text1":"Intel<sup>®</sup> NUC 8 Business Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HNKQC1"},{"text1":"Intel<sup>®</sup> NUC 8 Business Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HNKQC2"},{"text1":"Intel<sup>®</sup> NUC 8 Business Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HNKQC3"},{"text1":"Intel<sup>®</sup> NUC 8 Business Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HNKQC4"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA1"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA2"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA3"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA4"},{"text1":"Intel<sup>®</sup> NUC 8 Enthusiast Mini PC with Windows<sup>®</sup> 10 - BOXNUC8i7HVKVA6"}
-]
+
+
+
 
 
 export default {
@@ -193,11 +197,8 @@ export default {
       dataSource3,
       dataSource4,
       column1,
-      column11,
-      column2,
-      tableData11,
       tableData1,
-      tableData2,
+
     };
   },
   components: {
