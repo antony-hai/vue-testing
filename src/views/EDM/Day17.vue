@@ -3,11 +3,11 @@
     <tr>
       <td>
 
-        <StanceTable width="670">
+        <!-- <StanceTable width="670">
           <tr>
             <TCell :ostyle="{ 'text-align': 'center', color: '#959595'}">轻松帮助客户扩展 IT。</TCell>
           </tr>
-        </StanceTable>
+        </StanceTable> -->
         <Nav width="670"></Nav>
         <StanceTable hasTop></StanceTable>
         <StanceTable hasTop hasBottom bgcolor="#0071C5" width="670">
