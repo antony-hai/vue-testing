@@ -4,17 +4,17 @@
       <td>
         <Nav></Nav>
 
-        <ImageRow imgUrl="http://show.easeye.com.cn/fckattach/2018-12-13/e3b9e77152a2095d72521d1898764e2d/image/359d8326db866babedd853726d79ff11.png"></ImageRow>
+        <ImageRow imgUrl="http://show.easeye.com.cn/fckattach/2019-09-20/e3b9e77152a2095d72521d1898764e2d/image/cc34460ecd6256967870d9d2f86f74eb_easeyethumbnail.png"></ImageRow>
 
         <StanceTable hasTop hasBottom>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">尊敬的英特爾<Sup></Sup>技術合作夥伴：</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">尊敬的Intel<Sup></Sup>技術合作夥伴：</td>
           </tr>
           <tr height='10'></tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              您好！非常感謝貴公司一直以來對英特爾的大力支持！特此告知您2019年第三季度Intel<Sup></Sup>香港澳門地區常規積分獎勵計劃，如下：
+              您好！非常感謝貴公司一直以來對英特爾的大力支持！特此告知您2019年第四季度Intel<Sup></Sup>香港澳門地區常規積分獎勵計劃，如下：
             </td>
           </tr>
         </StanceTable>
@@ -30,7 +30,7 @@
           </tr>
           <tr>
             <TCell width="25">2.</TCell>
-            <TCell>本獎勵計劃有效期為2019年07月01日至2019年09月30日（“活動期間”），適用對象為中華人民共和國香港特別行政區、澳門特別行政區的Intel<Sup></Sup>技術合作夥伴中已激活的至尊會員、菁英會員（“合格會員”）。</TCell>
+            <TCell>本獎勵計劃有效期為2019年10月01日至2019年12月31日（“活動期間”），適用對象為中華人民共和國香港特別行政區、澳門特別行政區的Intel<Sup></Sup>技術合作夥伴中已激活的至尊會員、菁英會員（“合格會員”）。</TCell>
           </tr>
           <tr>
             <TCell width="25">3.</TCell>
@@ -132,7 +132,7 @@
           <tr height="10"></tr>
           <tr>
             <TCell :ostyle="{ 'font-size': '13px', 'font-weight': '600'}">
-              2019 3rd Quarter Regular Points Program for Intel® Technology Providers in HK and Macao
+              2019 4rd Quarter Regular Points Program for Intel® Technology Providers in HK and Macao
             </TCell>
           </tr>
           <tr height="10"></tr>
@@ -151,7 +151,7 @@
           <tr>
             <TCell width="25">2.</TCell>
             <TCell>
-              This Promotion is effective from Jul 1st, 2019 until Sep 30th, 2019 (the “Promotion Period”) and available to active Platinum and Gold level partners of Intel<Sup></Sup> Technology Provider in Hong Kong Special Administrative Region of the People’s Republic of China, 
+              This Promotion is effective from Oct 1<sup>st</sup>, 2019 until Dec 31<sup>st</sup>, 2019 (the “Promotion Period”) and available to active Platinum and Gold level partners of Intel<Sup></Sup> Technology Provider in Hong Kong Special Administrative Region of the People’s Republic of China, 
               and Macau Special Administrative Region of the People’s Republic of China (“Eligible Partners”). 
             </TCell>
           </tr>
@@ -196,7 +196,7 @@
           <tr>
             <TCell width="25">4.</TCell>
             <TCell>
-              4.Intel will award Eligible Partners the following Points per unit for purchases of the Intel products listed below (“Qualifying Intel Products”) from an Intel® Authorized Distributor (“IAD”), Intel Authorized Component Supplier (“IACS”), or Intel<Sup></Sup> Approved Supplier (“IAS”) during the Promotion Period:
+              Intel will award Eligible Partners the following Points per unit for purchases of the Intel products listed below (“Qualifying Intel Products”) from an Intel<Sup></Sup> Authorized Distributor (“IAD”), Intel Authorized Component Supplier (“IACS”), or Intel<Sup></Sup> Approved Supplier (“IAS”) during the Promotion Period:
             </TCell>
           </tr>
         </StanceTable>
@@ -260,7 +260,7 @@
           <tr height="10"></tr>
         </StanceTable>
 
-        <Footer isHongKong></Footer>
+        <Footer type="HongKong"></Footer>
       </td>
     </tr>
   </table>
@@ -369,7 +369,7 @@ const column22 = [
 ]
 
 const tableData2 = [
- {"text1":"Intel<sup>®</sup> Pentium<sup>®</sup> Processor G4400 - BX80662G4400","text2":"10"},{"text1":"Intel<sup>®</sup> Core™ i7-7800X X-series Processor - BX80673I77800X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i7-7820X X-series Processor - BX80673I77820X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i7-9800X X-series Processor - BX80673I79800X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i9-7900X X-series Processor - BX80673I97900X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7920X X-series Processor - BX80673I97920X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7940X X-series Processor - BX80673I97940X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7960X X-series Processor - BX80673I97960X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7980XE X-series Processor - BX80673I97980X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9820X X-series Processor - BX80673I99820X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9900X X-series Processor - BX80673I99900X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9920X X-series Processor - BX80673I99920X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9940X X-series Processor - BX80673I99940X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9960X X-series Processor - BX80673I99960X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9980XE Extreme Edition Processor - BX80673I99980X","text2":"100"},{"text1":"Intel<sup>®</sup> Pentium<sup>®</sup> Processor G4560 - BX80677G4560","text2":"12"},{"text1":"Intel<sup>®</sup> Core™ i5-7400 Processor - BX80677I57400","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7400T Processor - BX80677I57400T","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7500 Processor - BX80677I57500","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7500T Processor - BX80677I57500T","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7600 Processor - BX80677I57600","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7600K Processor - BX80677I57600K","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7600T Processor - BX80677I57600T","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7640X X-series Processor - BX80677I57640X","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-7700 Processor - BX80677I77700","text2":"28"},{"text1":"Intel<sup>®</sup> Core™ i7-7700K Processor - BX80677I77700K","text2":"28"},{"text1":"Intel<sup>®</sup> Core™ i7-7700T Processor - BX80677I77700T","text2":"28"},{"text1":"Intel<sup>®</sup> Core™ i7-7740X X-series Processor - BX80677I77740X","text2":"60"},{"text1":"Intel<sup>®</sup> Pentium<sup>®</sup> Gold Processor G5400 - BX80684G5400","text2":"10"},{"text1":"Intel<sup>®</sup> Pentium<sup>®</sup> Gold Processor G5500 - BX80684G5500","text2":"12"},{"text1":"Intel<sup>®</sup> Pentium<sup>®</sup> Gold Processor G5600 - BX80684G5600","text2":"12"},{"text1":"Intel<sup>®</sup> Core™ i3-8100 Processor - BX80684I38100","text2":"20"},{"text1":"Intel<sup>®</sup> Core™ i3-8300 Processor - BX80684I38300","text2":"20"},{"text1":"Intel<sup>®</sup> Core™ i3-8350K Processor - BX80684I38350K","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9100 Processor - BX80684I39100","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9100F Processor - BX80684I39100F","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9300 Processor - BX80684I39300","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9320 Processor - BX80684I39320","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9350K Processor - BX80684I39350K","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9350KF Processor - BX80684I39350KF","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i5-8400 Processor - BX80684I58400","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-8500 Processor - BX80684I58500","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-8600 Processor - BX80684I58600","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-8600K Processor - BX80684I58600K","text2":"35"},{"text1":"Intel<sup>®</sup> Core™ i5-9400 Processor - BX80684I59400","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9500 Processor - BX80684I59500","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9500F Processor - BX80684I59500F","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9600 Processor - BX80684I59600","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9600K Processor - BX80684I59600K","text2":"35"},{"text1":"Intel<sup>®</sup> Core™ i5-9600KF Processor - BX80684I59600KF","text2":"35"},{"text1":"Intel<sup>®</sup> Core™ i7-8086K Processor - BX80684I78086K","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-8700 Processor - BX80684I78700","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-8700K Processor - BX80684I78700K","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-9700 Processor - BX80684I79700","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-9700F Processor - BX80684I79700F","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-9700K Processor - BX80684I79700K","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-9700KF Processor - BX80684I79700KF","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i9-9900 Processor - BX80684I99900","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i9-9900K Processor - BX80684I99900K","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i9-9900KF Processor - BX80684I99900KF","text2":"60"}
+ {"text1":"Intel<sup>®</sup> Core™ i7-7800X Processor - BX80673I77800X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i7-7820X Processor - BX80673I77820X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i7-9800X Processor - BX80673I79800X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i9-7900X Processor - BX80673I97900X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7920X Processor - BX80673I97920X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7940X Processor - BX80673I97940X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7960X Processor - BX80673I97960X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-7980XE Processor - BX80673I97980X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9820X Processor - BX80673I99820X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9900X Processor - BX80673I99900X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9920X Processor - BX80673I99920X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9940X Processor - BX80673I99940X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9960X Processor - BX80673I99960X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i9-9980XE Processor - BX80673I99980X","text2":"100"},{"text1":"Intel<sup>®</sup> Core™ i5-7400 Processor - BX80677I57400","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7400T Processor - BX80677I57400T","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7500 Processor - BX80677I57500","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7500T Processor - BX80677I57500T","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7600 Processor - BX80677I57600","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7600K Processor - BX80677I57600K","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7600T Processor - BX80677I57600T","text2":"21"},{"text1":"Intel<sup>®</sup> Core™ i5-7640X Processor - BX80677I57640X","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-7700 Processor - BX80677I77700","text2":"28"},{"text1":"Intel<sup>®</sup> Core™ i7-7700K Processor - BX80677I77700K","text2":"28"},{"text1":"Intel<sup>®</sup> Core™ i7-7700T Processor - BX80677I77700T","text2":"28"},{"text1":"Intel<sup>®</sup> Core™ i7-7740X Processor - BX80677I77740X","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i3-8100 Processor - BX80684I38100","text2":"20"},{"text1":"Intel<sup>®</sup> Core™ i3-8300 Processor - BX80684I38300","text2":"20"},{"text1":"Intel<sup>®</sup> Core™ i3-8350K Processor - BX80684I38350K","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9100 Processor - BX80684I39100","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9100F Processor - BX80684I39100F","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9300 Processor - BX80684I39300","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9320 Processor - BX80684I39320","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i3-9350KF Processor - BX80684I39350KF","text2":"25"},{"text1":"Intel<sup>®</sup> Core™ i5-8400 Processor - BX80684I58400","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-8500 Processor - BX80684I58500","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-8600 Processor - BX80684I58600","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-8600K Processor - BX80684I58600K","text2":"35"},{"text1":"Intel<sup>®</sup> Core™ i5-9400F Processor - BX80684I59400F","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9500 Processor - BX80684I59500","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9600 Processor - BX80684I59600","text2":"30"},{"text1":"Intel<sup>®</sup> Core™ i5-9600KF Processor - BX80684I59600KF","text2":"35"},{"text1":"Intel<sup>®</sup> Core™ i7-8086K Processor - BX80684I78086K","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-8700 Processor - BX80684I78700","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-8700K Processor - BX80684I78700K","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-9700 Processor - BX80684I79700","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-9700F Processor - BX80684I79700F","text2":"40"},{"text1":"Intel<sup>®</sup> Core™ i7-9700K Processor - BX80684I79700K","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i7-9700KF Processor - BX80684I79700KF","text2":"45"},{"text1":"Intel<sup>®</sup> Core™ i9-9900 Processor - BX80684I99900","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i9-9900K Processor - BX80684I99900K","text2":"60"},{"text1":"Intel<sup>®</sup> Core™ i9-9900KF Processor - BX80684I99900KF","text2":"60"}
 ]
 
 

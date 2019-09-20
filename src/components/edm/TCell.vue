@@ -16,9 +16,21 @@ export default {
   data() {
     const finallyStyle = Object.assign({}, dstyle, this.ostyle);
     return {
-      finallyStyle
+      finallyStyle,
     };
+
   },
+  watch: {
+    ostyle: function(newValue, oldValue) {
+      this.finallyStyle =  Object.assign({}, dstyle, newValue);
+    },
+  },
+  // computed: {
+  //   finallyStyle: function () {
+  //     return this.ostyle      
+  //   }
+    
+  // },
   props: {
     width: {
       type: String,

@@ -68,7 +68,7 @@
           <tr height="20"></tr>
         </StanceTable>
         
-        <Footer isHongKong></Footer>
+        <Footer type="HongKong"></Footer>
 
       </td>
     </tr>

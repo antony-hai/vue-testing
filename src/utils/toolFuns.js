@@ -1,4 +1,3 @@
-import { request } from "https";
 
 
 // 一个节流函数、用于mosemove, resize 等函数
@@ -319,6 +318,30 @@ const selectionSort = (array) => {
     [result[i], result[minIndex]] = [result[minIndex], result[i]]
   }
   return result
+}
+
+const quickSort = (array) => {
+  const len = array.length
+  const result = array.slice()
+  if (len <= 1) {
+    return array
+  }
+
+  const pivotIndex = Math.floor(len/2)
+  const pivot = result.splice(pivotIndex, 1)[0]
+  let left = []
+  let right = []
+
+  for (let i = 0; i< len - 1; i++) {
+    if (pivot > result[i]) {
+      left.push(result[i])
+    } else {
+      right.push(result[i])
+    }
+  }
+
+  return [].concat(quickSort(left), pivot, quickSort(right))
+
 }
 
 
