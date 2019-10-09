@@ -50,7 +50,7 @@ export default new Router({
           {
             path: 'option14',
             component: () =>
-              import('@/views/EDM/Day5.vue'),
+              import('@/views/EDM/Retail.vue'),
             name: 'option1-4'
           },
           {
@@ -115,7 +115,7 @@ export default new Router({
             {
               path: 'option31',
               component: () =>
-                import('@/views/EDM/Day14.vue'),
+                import('@/views/EDM/CN13.vue'),
               name: 'option3-1'
             },
             {
@@ -130,6 +130,11 @@ export default new Router({
                 import('@/views/EDM/Day4.vue'),
               name: 'option3-3'
             },
+            {
+              path: 'option34',
+              component: () => import('@/views/EDM/ShanDong.vue'),
+              name: 'option3-4',
+            }
           ],
         },
       ]
@@ -171,7 +176,7 @@ export default new Router({
           {
             path: 'option13',
             component: () =>
-              import('@/views/EDM/Day5.vue'),
+              import('@/views/EDM/SEvent.vue'),
             name: 'option1-3'
           },
           ],
@@ -190,7 +195,7 @@ export default new Router({
           {
             path: 'option22',
             component: () =>
-              import('@/views/EDM/Day22.vue'),
+              import('@/views/EDM/CN-Cantonese.vue'),
             name: 'option2-2'
           },
           {
@@ -198,6 +203,12 @@ export default new Router({
             component: () =>
               import('@/views/EDM/Day23.vue'),
             name: 'option2-3'
+          },
+          {
+            path: 'option24',
+            component: () =>
+              import('@/views/EDM/CN11.vue'),
+            name: 'option2-4'
           },
           ],
         },

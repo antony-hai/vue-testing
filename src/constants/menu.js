@@ -27,7 +27,7 @@ export default [
           },
           { 
             name: 'option14',
-            title: '标题一4',
+            title: 'Retail-coop',
             url: '/menu1/item1/option14'
           },
           { 
@@ -81,7 +81,7 @@ export default [
         children: [
           { 
             name: 'option31',
-            title: '标题三一',
+            title: 'CN13',
             url: '/menu1/item3/option31'
           },
           { 
@@ -93,6 +93,11 @@ export default [
             name: 'option33',
             title: '标题三三',
             url: '/menu1/item3/option33'
+          },
+          { 
+            name: 'option34',
+            title: '标题三4',
+            url: '/menu1/item3/option34'
           },
         ],
       },
@@ -142,13 +147,18 @@ export default [
           },
           { 
             name: 'option22',
-            title: '标题er',
+            title: 'CN-Cantonese',
             url: '/menu3/item2/option22'
           },
           { 
             name: 'option23',
             title: '标题san',
             url: '/menu3/item2/option23'
+          },
+          { 
+            name: 'option24',
+            title: 'CN11',
+            url: '/menu3/item2/option24'
           },
         ],
       },

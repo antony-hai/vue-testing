@@ -12,10 +12,10 @@
           </tr>
           <tr height='10'></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大家好！感谢您一直以来对英特尔公司的支持。您的合作和信任是我们的动力和基础。我们将共同把握机遇，迎接新的挑战。</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大家好！感谢贵司一直以来对英特尔公司的支持。贵司的合作和信任是我们的动力和基础。我们将共同把握机遇，迎接新的挑战。</td>
           </tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新季度新目标，英特尔将继续深入推进“英特尔中小企业解决方案”，支持合作伙伴搭建“英特尔中小企业解决方案平台”。我们将与您携手，依托平台，联合SI (系统集成商)， 持续推出以英特尔解决方案为基础的新产品和新技术。</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新季度新目标，英特尔将继续深入推进“英特尔中小企业解决方案”，支持合作伙伴搭建“英特尔中小企业解决方案平台”。我们将与贵司携手，依托平台，联合SI (系统集成商)， 持续推出以英特尔解决方案为基础的新产品和新技术。</td>
           </tr>
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现公布合作伙伴招募计划如下： </td>
@@ -198,7 +198,7 @@
         <StanceTable hasBottom>
           <tr height="20"></tr>
           <tr>
-            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎贵司加入“2019年第三季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
+            <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 20px;">&nbsp;&nbsp;英特尔真诚地欢迎贵司加入“2019年第四季度英特尔中小企业渠道合作计划”。让我们携手并进，共创辉煌！</td>
           </tr>
           <tr height="10"></tr>
           <tr>
@@ -206,10 +206,10 @@
           </tr>
 
           <tr>
-            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2019年6月</td>
+            <td style="font-size:12px;text-align: right; font-family: 微软雅黑; line-height: 20px;">2019年9月</td>
           </tr>
         </StanceTable>
-        <Footer></Footer>
+        <Footer hasExplain></Footer>
       </td>
     </tr>
   </table>
@@ -233,7 +233,7 @@ const dataSource1 = [
   { text: "与平台建立连接的会员渠道给予积分支持（与原渠道奖励计划不可兼得）" }
 ];
 const dataSource2 = [
-  { text: "1）考核时间：2019年1月1日至2019年3月31日" },
+  { text: "1）考核时间：2019年10月1日至2019年12月31日" },
   {
     text: "2）考核指标："
   },
@@ -348,7 +348,7 @@ const column = [
   // }
 ];
 const tableData = [
-  {"text1":"G4400","text2":"10","text3":"i5-9600KF","text4":"35"},{"text1":"G4560","text2":"12","text3":"i7-7700","text4":"28"},{"text1":"G5400","text2":"10","text3":"i7-7700K","text4":"28"},{"text1":"G5500","text2":"12","text3":"i7-7700T","text4":"28"},{"text1":"G5600","text2":"12","text3":"i7-7740X","text4":"60"},{"text1":"i3-8100","text2":"20","text3":"i7-7800X","text4":"60"},{"text1":"i3-8300","text2":"20","text3":"i7-7820X","text4":"60"},{"text1":"i3-8350K","text2":"25","text3":"i7-8086K","text4":"45"},{"text1":"i3-9100F","text2":"25","text3":"i7-8700","text4":"40"},{"text1":"i3-9100F","text2":"25","text3":"i7-8700K","text4":"45"},{"text1":"i3-9350KF","text2":"25","text3":"i7-9700K","text4":"45"},{"text1":"i5-7400","text2":"21","text3":"i7-9700KF","text4":"45"},{"text1":"i5-7400T","text2":"21","text3":"i7-9800X","text4":"60"},{"text1":"i5-7500","text2":"21","text3":"i9-7900X","text4":"100"},{"text1":"i5-7500T","text2":"21","text3":"i9-7920X","text4":"100"},{"text1":"i5-7600","text2":"21","text3":"i9-7940X","text4":"100"},{"text1":"i5-7600K","text2":"21","text3":"i9-7960X","text4":"100"},{"text1":"i5-7600T","text2":"21","text3":"i9-7980XE","text4":"100"},{"text1":"i5-7640X","text2":"40","text3":"i9-9820X","text4":"100"},{"text1":"i5-8400","text2":"30","text3":"i9-9900K","text4":"60"},{"text1":"i5-8500","text2":"30","text3":"i9-9900KF","text4":"60"},{"text1":"i5-8600","text2":"30","text3":"i9-9900X","text4":"100"},{"text1":"i5-8600K","text2":"35","text3":"i9-9920X","text4":"100"},{"text1":"i5-9400","text2":"30","text3":"i9-9940X","text4":"100"},{"text1":"i5-9400F","text2":"30","text3":"i9-9960X","text4":"100"},{"text1":"i5-9600K","text2":"35","text3":"i9-9980XE","text4":"100"}
+  {"text1":"G5400","text2":"10","text3":"i5-9600K","text4":"35"},{"text1":"G5420","text2":"10","text3":"i5-9600KF","text4":"35"},{"text1":"i3-8100","text2":"20","text3":"i5-9600T","text4":"30"},{"text1":"i3-8100T","text2":"20","text3":"i7-7700","text4":"28"},{"text1":"i3-8300","text2":"20","text3":"i7-7700K","text4":"28"},{"text1":"i3-8300T","text2":"20","text3":"i7-7700T","text4":"28"},{"text1":"i3-8350K","text2":"25","text3":"i7-7740X","text4":"60"},{"text1":"i3-9100","text2":"25","text3":"i7-7800X","text4":"60"},{"text1":"i3-9100T","text2":"25","text3":"i7-7820X","text4":"60"},{"text1":"i3-9100F","text2":"25","text3":"i7-8700","text4":"40"},{"text1":"i3-9300","text2":"25","text3":"i7-8700T","text4":"40"},{"text1":"i3-9300T","text2":"25","text3":"i7-8700K","text4":"45"},{"text1":"i3-9320","text2":"25","text3":"i7-8086K","text4":"45"},{"text1":"i3-9350KF","text2":"25","text3":"i7-9700","text4":"40"},{"text1":"i5-7400","text2":"21","text3":"i7-9700F","text4":"40"},{"text1":"i5-7400T","text2":"21","text3":"i7-9700K","text4":"45"},{"text1":"i5-7500","text2":"21","text3":"i7-9700KF","text4":"45"},{"text1":"i5-7500T","text2":"21","text3":"i7-9800X","text4":"60"},{"text1":"i5-7600","text2":"21","text3":"i9-7900X","text4":"100"},{"text1":"i5-7600K","text2":"21","text3":"i9-7920X","text4":"100"},{"text1":"i5-7600T","text2":"21","text3":"i9-7940X","text4":"100"},{"text1":"i5-7640X","text2":"40","text3":"i9-7960X","text4":"100"},{"text1":"i5-8400","text2":"30","text3":"i9-7980XE","text4":"100"},{"text1":"i5-8400T","text2":"30","text3":"i9-9900","text4":"60"},{"text1":"i5-8500","text2":"30","text3":"i9-9900T","text4":"60"},{"text1":"i5-8600","text2":"30","text3":"i9-9900K","text4":"60"},{"text1":"i5-8600T","text2":"30","text3":"i9-9900KF","text4":"60"},{"text1":"i5-8600K","text2":"35","text3":"i9-9900KS","text4":"60"},{"text1":"i5-9400T","text2":"30","text3":"i9-9820X","text4":"100"},{"text1":"i5-9400F","text2":"30","text3":"i9-9900X","text4":"100"},{"text1":"i5-9500","text2":"30","text3":"i9-9920X","text4":"100"},{"text1":"i5-9500T","text2":"30","text3":"i9-9940X","text4":"100"},{"text1":"i5-9600","text2":"30","text3":"i9-9960X","text4":"100"},{"text1":" ","text2":" ","text3":"i9-9980XE","text4":"100"}
 ]
 
 const dataSource5 = [

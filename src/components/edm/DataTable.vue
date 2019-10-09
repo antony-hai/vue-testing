@@ -6,8 +6,8 @@
 
     <tr v-for="(data, index) in dataSource" :key="index">
       <td v-for="(item, num) in column" v-if="hasRow(data[item.dataIndex])" :key="num" :rowspan="item.rowspan && item.rowspan" :style="{ 'text-align': item.align || 'center', 'font-family': '微软雅黑', 'font-size': '12px', 'line-height': '24px', 'padding-left': '3px', 'padding-right': '3px' }">
-        <p v-if="data.link && num === 0" style="margin: 0; padding: 0">
-          <a :href="data.link" v-html="data[item.dataIndex]" style="color: #071C5; text-decoration: underline" target="_blank"></a>
+        <p v-if="data.link && item.linkTarget" style="margin: 0; padding: 0">
+          <a :href="data.link" v-html="data[item.dataIndex]" style="color: #071C5; text-decoration: underline; word-wrap:break-word" target="_blank"></a>
         </p>
         <p v-else v-html="data[item.dataIndex]" style="margin: 0; padding: 0"></p>
       </td>

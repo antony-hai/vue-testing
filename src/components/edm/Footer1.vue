@@ -139,6 +139,30 @@
     :width="width"
     style="padding-left: 5px;padding-right: 5px;font-size: 12px;font-family: 微软雅黑;margin: 0 auto;text-align: left;line-height: 24px;color: #fff;background-color: #00427F;"
   >
+    <tr v-if="hasExplain">
+      <td>如您扫描以上英特尔合作伙伴集结号微信号二维码，您将同意英特尔通过本微信号向您发送有关产品推广、市场调研、业务培训和其他市场活动的信息。您可在任何时候取消关注本微信号。英特尔的微信号、网站、所发送信息及其对个人信息的使用，均遵循英特尔的隐私条款和使用条款。</td>
+    </tr>
+    <tr v-if="hasExplain" height="5"></tr>
+    <tr v-if="hasExplain">
+      <td>
+        隐私条款访问：
+        <br />
+        <a
+          href="https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html "
+          target="_blank"
+          style="color: #FE9712; text-decoration: underline"
+        >https://www.intel.com/content/www/us/en/privacy/intel-privacy-notice.html</a>
+        <br />使用条款访问：
+        <br />
+        <a
+          href="https://www.intel.com/content/www/us/en/legal/terms-of-use.html"
+          target="_blank"
+          style="color: #FE9712; text-decoration: underline"
+        >https://www.intel.com/content/www/us/en/legal/terms-of-use.html</a>
+      </td>
+    </tr>
+    <tr v-if="hasExplain" height="5"></tr>
+
     <tr>
       <td style="font-family: 微软雅黑;">
         欲了解关于英特尔
@@ -153,7 +177,7 @@
         <a
           href="https://www.intel.com/technologyprovider"
           target="_blank"
-          style="color: #FE9712;"
+          style="color: #FE9712; text-decoration: underline"
         >www.intel.com/technologyprovider</a>
       </td>
     </tr>
@@ -206,6 +230,10 @@ export default {
     type: {
       default: "default",
       type: String
+    },
+    hasExplain: {
+      default: false,
+      type: Boolean
     }
   }
 };
