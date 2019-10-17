@@ -8,6 +8,7 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "iview": "^3.0.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",

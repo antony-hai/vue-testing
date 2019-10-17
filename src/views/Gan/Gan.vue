@@ -19,7 +19,6 @@ export default {
   },
   created() {
     const path = this.$route.path;
-    console.log(this.$route);
     if (path) {
       const menuObj = menu.find(item => path.includes(item.path)) || {};
       this.secondMenu = menuObj.children || [];
