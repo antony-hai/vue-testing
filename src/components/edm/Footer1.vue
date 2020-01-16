@@ -54,7 +54,7 @@
           href="https://www.intel.cn/content/www/cn/zh/privacy/intel-privacy-notice.html"
           target="_blank"
           style="color: #fff; text-decoration: underline"
-        >隱私條款</a>©2019英特爾公司。
+        >隱私條款</a>©2020英特爾公司。
       </td>
     </tr>
     <tr>
@@ -210,7 +210,7 @@
           href="https://www.intel.cn/content/www/cn/zh/privacy/intel-privacy-notice.html"
           target="_blank"
           style="color: #fff; text-decoration: underline"
-        >隐私条款</a>©2019英特尔公司。
+        >隐私条款</a>©2020英特尔公司。
       </td>
     </tr>
     <tr>

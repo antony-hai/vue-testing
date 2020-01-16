@@ -38,7 +38,7 @@ export default new Router({
           {
             path: 'option12',
             component: () =>
-              import('@/views/EDM/Day1.vue'),
+              import('@/views/EDM/Day2.vue'),
             name: 'option1-2'
           },
           {
@@ -134,6 +134,11 @@ export default new Router({
               path: 'option34',
               component: () => import('@/views/EDM/ShanDong.vue'),
               name: 'option3-4',
+            },
+            {
+              path: 'option35',
+              component: () => import('@/views/EDM/Subdivide.vue'),
+              name: 'option3-5',
             }
           ],
         },
@@ -170,7 +175,7 @@ export default new Router({
           {
             path: 'option12',
             component: () =>
-              import('@/views/EDM/Day21.vue'),
+              import('@/views/EDM/Event.vue'),
             name: 'option1-2'
           },
           {

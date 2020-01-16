@@ -1,0 +1,103 @@
+:global body,
+:global div,
+:global p,
+:global h1,
+:global h2,
+:global h3,
+:global h4,
+:global h5,
+:global span,
+:global section,
+:global aside,
+:global header,
+:global main,
+:global footer,
+:global nav,
+:global details,
+:global summary,
+:global caption,
+:global table,
+:global address,
+:global cite,
+:global code,
+:global dl,
+:global dd,
+:global dt,
+:global form,
+:global fieldset,
+:global legend,
+:global input,
+:global textarea,
+:global blockquote,
+:global th,
+:global td,
+:global hr,
+:global button,
+:global article,
+:global figure,
+:global figcaption,
+:global ul,
+:global ol,
+:global li {
+  margin: 0;
+  padding: 0;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", -apple-system-font, "Helvetica Neue", sans-serif;
+}
+:global a,
+:global div,
+:global span,
+:global label,
+:global button,
+:global a:hover,
+:global div:hover,
+:global span:hover,
+:global label:hover,
+:global button:hover,
+:global a:active,
+:global div:active,
+:global span:active,
+:global label:active,
+:global button:active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+:global html,
+:global body,
+:global #app {
+  box-sizing: border-box;
+  width: 100%;
+}
+:global html,
+:global body {
+  height: 100%;
+  background: #ffffff;
+}
+:global ul,
+:global ol {
+  list-style: none;
+}
+:global li {
+  list-style-type: none;
+}
+:global button,
+:global input,
+:global select,
+:global button:focus,
+:global input:focus,
+:global select:focus,
+:global button:visited,
+:global input:visited,
+:global select:visited,
+:global button:hover,
+:global input:hover,
+:global select:hover,
+:global button:active,
+:global input:active,
+:global select:active {
+  outline: none;
+}
+:global .hide {
+  display: none !important;
+}
+:global .show {
+  display: block !important;
+}

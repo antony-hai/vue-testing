@@ -14,7 +14,7 @@
           <tr>
             <td style="font-size:12px;text-align: left; font-family: 微软雅黑; line-height: 22px;">
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              贵司好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知贵司2019年第三季度发烧友PC专家台式机常规奖励计划，如下：
+              贵司好！非常感谢贵公司一直以来对英特尔的大力支持！特此告知贵司2020年第三季度发烧友PC专家台式机常规奖励计划，如下：
             </td>
           </tr>
         </StanceTable>
@@ -30,7 +30,7 @@
           </tr>
           <tr>
             <TCell width="25">2.</TCell>
-            <TCell>本奖励计划有效期为2019年7月1日至2019年9月30日（“活动期间”），适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）的英特尔<Sup></Sup>技术合作伙伴中已激活的至尊发烧友PC专家会员</TCell>
+            <TCell>本奖励计划有效期为2020年1月1日至2020年3月31日（“活动期间”），适用对象为中华人民共和国（仅为本促销条款的目的，系指不包括香港、澳门和台湾的境内地区）的英特尔<Sup></Sup>技术合作伙伴中已激活的至尊发烧友PC专家会员</TCell>
           </tr>
           <tr>
             <TCell width="25">3.</TCell>
@@ -99,7 +99,7 @@
         <!-- ------------------------------------ english part -->
 
 
-        <Footer></Footer>
+        <Footer hasExplain></Footer>
       </td>
     </tr>
   </table>
@@ -147,41 +147,43 @@ const dataSource4 = [
 
 const column1 = [
   {
-    title: "产品型号",
+    title: "产品类型",
     dataIndex: "text1",
     align: 'left',
-  },
-  {
-    title: "产品积分",
-    dataIndex: "text2",
     width: 100,
   },
   {
-    title: "额外积分",
+    title: "产品型号",
+    dataIndex: "text2",
+
+  },
+  {
+    title: "产品积分",
     dataIndex: "text3",
     width: 100
   },
   {
-    title: "产品型号",
-    dataIndex: "text4",
-    align: 'left',
-  },
-  {
-    title: "产品积分",
-    dataIndex: "text5",
-    width: 100,
-  },
-  {
     title: "额外积分",
-    dataIndex: "text6",
+    dataIndex: "text4",
     width: 100,
+    // align: 'left',
   },
+  // {
+  //   title: "产品积分",
+  //   dataIndex: "text5",
+  //   width: 100,
+  // },
+  // {
+  //   title: "额外积分",
+  //   dataIndex: "text6",
+  //   width: 100,
+  // },
 
 
 ];
 
 const tableData1 = [
-  {"text1":"G4400","text2":"10","text3":" ","text4":"i5-9500F","text5":"30","text6":" "},{"text1":"G4560","text2":"12","text3":" ","text4":"i5-9500T","text5":"30","text6":" "},{"text1":"G5400","text2":"10","text3":" ","text4":"i5-9600","text5":"30","text6":" "},{"text1":"G5500","text2":"12","text3":" ","text4":"i5-9600K","text5":"35","text6":"7"},{"text1":"G5600","text2":"12","text3":" ","text4":"i5-9600KF","text5":"35","text6":"7"},{"text1":"i3-8100","text2":"20","text3":" ","text4":"i5-9600T","text5":"30","text6":" "},{"text1":"i3-8100T","text2":"20","text3":" ","text4":"i7+8700","text5":"50","text6":" "},{"text1":"i3-8300","text2":"20","text3":" ","text4":"i7-7500U","text5":"28","text6":" "},{"text1":"i3-8300T","text2":"20","text3":" ","text4":"i7-7560U","text5":"28","text6":" "},{"text1":"i3-8350K","text2":"25","text3":"5","text4":"i7-7567U","text5":"28","text6":" "},{"text1":"i3-9100","text2":"25","text3":" ","text4":"i7-7600U","text5":"28","text6":" "},{"text1":"i3-9100F","text2":"25","text3":" ","text4":"i7-7660U","text5":"28","text6":" "},{"text1":"i3-9100T","text2":"25","text3":" ","text4":"i7-7700","text5":"28","text6":" "},{"text1":"i3-9300","text2":"25","text3":" ","text4":"i7-7700HQ","text5":"28","text6":" "},{"text1":"i3-9300T","text2":"25","text3":" ","text4":"i7-7700K","text5":"28","text6":"6"},{"text1":"i3-9320","text2":"25","text3":" ","text4":"i7-7700T","text5":"28","text6":" "},{"text1":"i3-9350K","text2":"25","text3":"5","text4":"i7-7740X","text5":"60","text6":"12"},{"text1":"i3-9350KF","text2":"25","text3":"5","text4":"i7-7800X","text5":"60","text6":"12"},{"text1":"i5+8400","text2":"40","text3":" ","text4":"i7-7820EQ","text5":"28","text6":" "},{"text1":"i5+8500","text2":"40","text3":" ","text4":"i7-7820HK","text5":"28","text6":"6"},{"text1":"i5-7200U","text2":"21","text3":" ","text4":"i7-7820HQ","text5":"28","text6":" "},{"text1":"i5-7260U","text2":"21","text3":" ","text4":"i7-7820X","text5":"60","text6":"12"},{"text1":"i5-7267U","text2":"21","text3":" ","text4":"i7-7920HQ","text5":"28","text6":" "},{"text1":"i5-7300HQ","text2":"21","text3":" ","text4":"i7-7Y75","text5":"28","text6":" "},{"text1":"i5-7300U","text2":"21","text3":" ","text4":"i7-8086K","text5":"45","text6":"9"},{"text1":"i5-7400","text2":"21","text3":" ","text4":"i7-8700","text5":"40","text6":" "},{"text1":"i5-7400T","text2":"21","text3":" ","text4":"i7-8700K","text5":"45","text6":"9"},{"text1":"i5-7440EQ","text2":"21","text3":" ","text4":"i7-8700T","text5":"40","text6":" "},{"text1":"i5-7440HQ","text2":"21","text3":" ","text4":"i7-9700","text5":"40","text6":" "},{"text1":"i5-7442EQ","text2":"21","text3":" ","text4":"i7-9700F","text5":"40","text6":" "},{"text1":"i5-7500","text2":"21","text3":" ","text4":"i7-9700F","text5":"45","text6":" "},{"text1":"i5-7500T","text2":"21","text3":" ","text4":"i7-9700K","text5":"45","text6":"9"},{"text1":"i5-7600","text2":"21","text3":" ","text4":"i7-9700KF","text5":"45","text6":"9"},{"text1":"i5-7600K","text2":"21","text3":"5","text4":"i7-9700T","text5":"40","text6":" "},{"text1":"i5-7600T","text2":"21","text3":" ","text4":"i7-9800X","text5":"60","text6":"12"},{"text1":"i5-7640X","text2":"40","text3":"8","text4":"i9-7900X","text5":"100","text6":"20"},{"text1":"i5-7Y54","text2":"21","text3":" ","text4":"i9-7920X","text5":"100","text6":"20"},{"text1":"i5-7Y57","text2":"21","text3":" ","text4":"i9-7940X","text5":"100","text6":"20"},{"text1":"i5-8400","text2":"30","text3":" ","text4":"i9-7960X","text5":"100","text6":"20"},{"text1":"i5-8400T","text2":"30","text3":" ","text4":"i9-7980XE","text5":"100","text6":"20"},{"text1":"i5-8500","text2":"30","text3":" ","text4":"i9-9820X","text5":"100","text6":"20"},{"text1":"i5-8500T","text2":"30","text3":" ","text4":"i9-9900","text5":"60","text6":" "},{"text1":"i5-8600","text2":"30","text3":" ","text4":"i9-9900K","text5":"60","text6":"12"},{"text1":"i5-8600K","text2":"35","text3":"7","text4":"i9-9900KF","text5":"60","text6":"12"},{"text1":"i5-8600T","text2":"30","text3":" ","text4":"i9-9900T","text5":"60","text6":" "},{"text1":"i5-9400","text2":"30","text3":" ","text4":"i9-9900X","text5":"100","text6":"20"},{"text1":"i5-9400F","text2":"30","text3":" ","text4":"i9-9920X","text5":"100","text6":"20"},{"text1":"i5-9400T","text2":"30","text3":" ","text4":"i9-9940X","text5":"100","text6":"20"},{"text1":"i5-9500","text2":"30","text3":" ","text4":"i9-9960X","text5":"100","text6":"20"},{"text1":" ","text2":" ","text3":" ","text4":"i9-9980XE","text5":"100","text6":"20"}
+  {"text1":"Core i3","text2":"Intel<sup>®</sup>\n    Core™ i3-8100 Processor","text3":"20","text4":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-8100T Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-8300 Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-8300T Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-8350K Processor","text2":"25","text3":"5"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9100 Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9100F Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9100T Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9300 Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9300T Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9320 Processor","text2":"20","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9350K Processor","text2":"25","text3":"5"},{"text1":"Intel<sup>®</sup>\n    Core™ i3-9350KF Processor","text2":"25","text3":"5"},{"text1":"Core i5","text2":"Intel<sup>®</sup>\n    Core™ i5-7400 Processor","text3":"21","text4":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-7400T Processor","text2":"21","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-7500 Processor","text2":"21","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-7500T Processor","text2":"21","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-7600 Processor","text2":"21","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-7600K Processor","text2":"21","text3":"5"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-7600T Processor","text2":"21","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8400 Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8400T Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8500 Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8500T Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8600 Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8600K Processor","text2":"35","text3":"7"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-8600T Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9400 Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9400F Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9400T Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9500 Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9500F Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9500T Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9600 Processor","text2":"30","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9600K Processor","text2":"35","text3":"7"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9600KF Processor","text2":"35","text3":"7"},{"text1":"Intel<sup>®</sup>\n    Core™ i5-9600T Processor","text2":"30","text3":"　"},{"text1":"Core i7","text2":"Intel<sup>®</sup>\n    Core™ i7-7700 Processor","text3":"28","text4":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-7700K Processor","text2":"28","text3":"6"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-7700T Processor","text2":"28","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-7800X Processor","text2":"60","text3":"12"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-7820X Processor","text2":"60","text3":"12"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-8086K Processor","text2":"45","text3":"9"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-8700 Processor","text2":"40","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-8700K Processor","text2":"45","text3":"9"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-8700T Processor","text2":"40","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-9700 Processor","text2":"40","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-9700F Processor","text2":"40","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-9700K Processor","text2":"45","text3":"9"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-9700KF Processor","text2":"45","text3":"9"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-9700T Processor","text2":"40","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i7-9800X Processor","text2":"60","text3":"12"},{"text1":"Core i9","text2":"Intel<sup>®</sup>\n    Core™ i9-10900X Processor","text3":"100","text4":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-10920X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-10940X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-10980XE Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-7900X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup> Core™\n    i9-7920X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-7940X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-7960X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-7980XE Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9820X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9900 Processor","text2":"60","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9900K Processor","text2":"60","text3":"12"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9900KF Processor","text2":"60","text3":"12"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9900T Processor","text2":"60","text3":"　"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9900X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9920X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9940X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9960X Processor","text2":"100","text3":"20"},{"text1":"Intel<sup>®</sup>\n    Core™ i9-9980XE Processor","text2":"100","text3":"20"}
 ]
 
 
